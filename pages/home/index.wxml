@@ -1,0 +1,121 @@
+<!-- 轮播图 -->
+
+<swiper indicator-dots autoplay circular interval="{{2500}}">
+  <swiper-item>
+    <image src='http://p1.music.126.net/3D-maAhk2_vjCb5O42pTXw==/109951165239255117.jpg?imageView&quality=89'></image>
+  </swiper-item>
+  <swiper-item>
+  <image src='http://p1.music.126.net/3ldNcUY1UF6ehSjSW5bf7Q==/109951165239520626.jpg?imageView&quality=89'></image>
+  </swiper-item>
+  <swiper-item>
+    <image src='http://p1.music.126.net/gF5RxBpwFZv3Z8TsxTl3tQ==/109951165240038256.jpg?imageView&quality=89'></image>
+  </swiper-item>
+</swiper>
+
+<!-- icon图标区域 -->
+
+<view class="container">
+  <view class="iconButton">
+    <navigator url='/pages/components/jiadianweixiu/index'>
+      <image src='/assets/img/qingxi.png'></image>
+      <view>家电维修</view>
+    </navigator>
+  </view>
+   <view class="iconButton">
+    <navigator url='/pages/components/jiadianqingxi/index'>
+      <image src='/assets/img/anzhuang.png'></image>
+      <view>家电清洗</view>
+    </navigator>
+  </view>
+   <view class="iconButton">
+    <image src='/assets/img/jiadian.png'></image>
+    <view>家电安装</view>
+  </view>
+   <view class="iconButton">
+    <image src='/assets/img/qingxi.png'></image>
+    <view>管道疏通</view>
+  </view>
+   <view class="iconButton">
+    <image src='/assets/img/shuilu.png'></image>
+    <view>水路维修</view>
+  </view>
+   <view class="iconButton">
+    <image src='/assets/img/shutong.png'></image>
+    <view>电路维修</view>
+  </view>
+</view>
+
+<!-- 家电维修模块 -->
+<view class="jiadianweixiu">
+  <view class='text'>家电维修</view>
+ <view class="jiadian">
+    <view class="jiadianweixiu-item">
+      <view class="item">
+      <image></image>
+      <view>空调加氟</view>
+      </view>
+    </view>
+    <view class="jiadianweixiu-item">
+      <view class="item">
+      <image></image>
+      <view>空调维修</view>
+      </view>
+    </view>
+    <view class="jiadianweixiu-item">
+      <view class="item">
+      <image></image>
+      <view>热水器维修</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 家电安装 -->
+<view class="jiadianweixiu">
+  <view class='text'>家电安装</view>
+ <view class="jiadian">
+    <view class="jiadianweixiu-item">
+      <view class="item">
+      <image></image>
+      <view>空调安装移机</view>
+      </view>
+    </view>
+    <view class="jiadianweixiu-item">
+      <view class="item">
+      <image></image>
+      <view>电视安装</view>
+      </view>
+    </view>
+    <view class="jiadianweixiu-item">
+      <view class="item">
+      <image></image>
+      <view>热水器安装</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 管道疏通 -->
+<view class="jiadianweixiu">
+  <view class='text'>管道疏通</view>
+ <view class="jiadian">
+    <view class="jiadianweixiu-item">
+      <view class="item">
+      <image></image>
+      <view>马桶疏通</view>
+      </view>
+    </view>
+    <view class="jiadianweixiu-item">
+      <view class="item">
+      <image></image>
+      <view>地漏疏通</view>
+      </view>
+    </view>
+    <view class="jiadianweixiu-item">
+      <view class="item">
+      <image></image>
+      <view>浴缸疏通</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/order/index",
+    "pages/mine/index",
+    "pages/components/jiadianweixiu/index",
+    "pages/components/jiadianqingxi/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "Weixin",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "/assets/img/home.png",
+        "selectedIconPath": "/assets/img/home-1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/order/index",
+        "iconPath": "/assets/img/order.png",
+        "selectedIconPath": "/assets/img/order-1.png",
+        "text": "订单"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "/assets/img/mine.png",
+        "selectedIconPath": "/assets/img/mine-1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
