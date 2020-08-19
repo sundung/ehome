@@ -16,37 +16,37 @@
 
 <view class="container">
   <view class="iconButton">
-    <navigator url='/pages/components/jiadianweixiu/index'>
+    <navigator url='/pages/components/jiadianweixiu/index' class="jump">
       <image src='/assets/img/qingxi.png'></image>
       <view>家电维修</view>
     </navigator>
   </view>
    <view class="iconButton">
-    <navigator url='/pages/components/jiadianqingxi/index'>
+    <navigator url='/pages/components/jiadianqingxi/index' class="jump">
       <image src='/assets/img/anzhuang.png'></image>
       <view>家电清洗</view>
     </navigator>
   </view>
    <view class="iconButton">
-    <navigator>
+    <navigator class="jump">
       <image src='/assets/img/jiadian.png'></image>
       <view>家电安装</view>
     </navigator>
   </view>
    <view class="iconButton">
-      <navigator>
+      <navigator class="jump">
         <image src='/assets/img/qingxi.png'></image>
         <view>管道疏通</view>
       </navigator>
   </view>
    <view class="iconButton">
-    <navigator>
+    <navigator class="jump">
       <image src='/assets/img/shuilu.png'></image>
       <view>水路维修</view>
     </navigator>
   </view>
    <view class="iconButton">
-    <navigator>
+    <navigator class="jump">
       <image src='/assets/img/shutong.png'></image>
       <view>电路维修</view>
     </navigator>
