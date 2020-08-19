@@ -28,20 +28,28 @@
     </navigator>
   </view>
    <view class="iconButton">
-    <image src='/assets/img/jiadian.png'></image>
-    <view>家电安装</view>
+    <navigator>
+      <image src='/assets/img/jiadian.png'></image>
+      <view>家电安装</view>
+    </navigator>
   </view>
    <view class="iconButton">
-    <image src='/assets/img/qingxi.png'></image>
-    <view>管道疏通</view>
+      <navigator>
+        <image src='/assets/img/qingxi.png'></image>
+        <view>管道疏通</view>
+      </navigator>
   </view>
    <view class="iconButton">
-    <image src='/assets/img/shuilu.png'></image>
-    <view>水路维修</view>
+    <navigator>
+      <image src='/assets/img/shuilu.png'></image>
+      <view>水路维修</view>
+    </navigator>
   </view>
    <view class="iconButton">
-    <image src='/assets/img/shutong.png'></image>
-    <view>电路维修</view>
+    <navigator>
+      <image src='/assets/img/shutong.png'></image>
+      <view>电路维修</view>
+    </navigator>
   </view>
 </view>
 

@@ -1,2 +1,140 @@
 <!--pages/components/jiadianweixiu/index.wxml-->
-<view>家电维修</view>
+
+<!-- 头部背景图片区域 ------------------------------------------------------------->
+<view class="bgc">
+  背景图
+</view>
+<!-- 压住背景图的区域 ------------------------------------------------------------->
+
+<view class="block">
+  <view class="block-flex">
+    <view class="block-item">空调加氟</view>
+    <view class="block-item">空调维修</view>
+    <view class="block-item">冰箱维修</view>
+  </view>
+</view>
+
+<!-- 服务保障 ------------------------------------------------------------->
+<view class="serviceP">
+  <text>服务保障</text>
+  <view class="service">
+    <view class="service-item">
+      <image src="/assets/img/mine-1.png"></image>
+      <view class="word">无前期费用</view>
+    </view>
+    <view class="service-item">
+      <image src="/assets/img/mine-1.png"></image>
+      <view class="word">品质有保障</view>
+    </view>
+    <view class="service-item">
+      <image src="/assets/img/mine-1.png"></image>
+      <view class="word">超长售后</view>
+    </view>
+  </view>
+</view>
+
+<!-- 收费说明 ------------------------------------------------------------->
+
+<view class="charge-notes">
+  <view>收费说明</view>
+  <text decode="{{true}}">
+     &emsp;&emsp;空调维修免费上门、免费检测，根据维修项目收费标准和配件收费标准进行费用收取，费用透明，拒绝乱收费。如遇师傅私自乱收费，可向平台进行举报，不满意可重新服务！<br />
+    维修总价=维修费+配件费（如有）+高空作业费（如有）
+  </text>
+  <button class="buttonAll" plain="true"  >点击查看全部说明 </button>
+</view>
+
+<!-- 收费标准  表格----------------------------------------------------------- -->
+
+<scroll-view scroll-x='true' class="scroll-class">
+  <view class="table">
+  <view class="table-tr">
+    <view class="table-th"></view>
+    <view class="table-th">空调维修收费项目指导价</view>
+    <view class="table-th"></view>
+    <view class="table-th"></view>
+    <view class="table-th"></view>
+  </view>
+    <view class="table-tr">
+      <view class="table-th">类型</view>
+      <view class="table-th">维修项目</view>
+      <view class="table-th">1p-2p</view>
+      <view class="table-th">1p-2p</view>
+      <view class="table-th">1p-2p</view>
+    </view>
+    <view class="table-tr">
+      <view class="table-td">简修</view>
+      <view class="table-td">
+        1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
+        2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
+      </view>
+      <view class="table-td">50</view>
+      <view class="table-td"></view>
+      <view class="table-td"></view>
+    </view>
+    <view class="table-tr">
+      <view class="table-td">小修</view>
+      <view class="table-td">
+        1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
+        2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
+      </view>
+      <view class="table-td">50</view>
+      <view class="table-td"></view>
+      <view class="table-td"></view>
+    </view>
+    <view class="table-tr">
+      <view class="table-td">中修</view>
+      <view class="table-td">
+        1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
+        2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
+      </view>
+      <view class="table-td">50</view>
+      <view class="table-td"></view>
+      <view class="table-td"></view>
+    </view>
+    <view class="table-tr">
+      <view class="table-td">大修</view>
+      <view class="table-td">
+        1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
+        2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
+      </view>
+      <view class="table-td">50</view>
+      <view class="table-td"></view>
+      <view class="table-td"></view>
+    </view>
+  </view>
+
+</scroll-view>
+
+<!-- 服务流程 ------------------------------------------------------------->
+
+<view class="service-process">
+  <text>服务流程</text>
+ <view class="serviceItem">
+   <!-- 在线预约 -->
+  <view class="online service-item">
+    <image src="/assets/img/order-1.png"></image>
+    <view>在线预约</view>
+    <view>保修问题</view>
+    <view>免费下单</view>
+  </view>
+  <!-- 确认维修 -->
+  <view class="confirm service-item">
+    <image src="/assets/img/order-1.png"></image>
+    <view>确认维修</view>
+    <view>确认故障</view>
+    <view>提交维修清单</view>
+  </view>
+  <!-- 验收 -->
+  <view class="checked service-item">
+    <image src="/assets/img/order-1.png"></image>
+    <view>验收</view>
+    <view>服务验收</view>
+    <view>售后有保障</view>
+  </view>
+ </view>
+</view>
+
+<!-- 在线预约按钮 ------------------------------------------------------------->
+
+<button style="width:100%" class="button">在线预约</button>

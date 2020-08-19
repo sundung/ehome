@@ -1,1 +1,206 @@
 /* pages/components/jiadianweixiu/index.wxss */
+/* 设置家电维修整体背景色  -----------------------------------------------------------*/
+page {
+  background: #F3F3F3;
+  padding: 0 14rpx;
+}
+/* 背景图区域 ----------------------------------------------------------- */
+
+.bgc {
+  background-color: pink;
+  height: 230rpx;
+  width: 100vw;
+  text-align: center;
+}
+
+/* 压住背景图片的区域  -----------------------------------------------------------*/
+
+.block {
+  background-color: #fff;
+  height: 200rpx;
+  width: 80vw;
+  border-radius: 14rpx;
+  border: 1px solid #000;
+  /* 定位 */
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  top: -20px;
+}
+ .block .block-flex {
+   display: flex;
+   justify-content: space-around;
+ }
+.block .block-item {
+  color: #666;
+  background-color: #fff;
+  border: 1px solid #000;
+  width: 170rpx;
+  height: 120rpx;
+  text-align: center;
+  line-height: 120rpx;
+  border-radius: 14rpx;
+  margin-top: 40rpx;
+}
+
+/* 服务保障区域开始 -----------------------------------------------------------*/
+.serviceP {
+  height:420rpx;
+  background-color: #fff;
+  position: relative;
+  top: -200rpx;
+  left: 0;
+  z-index: -1;
+}
+/* 控制 服务保障文字 */
+.serviceP text {
+  display: block;
+  padding-top: 200rpx;
+  font-weight: 700;
+  margin-left: 16rpx;
+}
+.serviceP .service {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40rpx;
+}
+.serviceP .service .service-item {
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+}
+.serviceP .service image {
+  width:60rpx;
+  height: 60rpx;
+  margin-bottom: 20rpx;
+}
+.serviceP .service .word {
+  color: #1993fc;
+  font-size: 28rpx;
+}
+
+/* 收费说明区域开始 ----------------------------------------------------------- */
+.charge-notes {
+  background-color: #fff;
+  height: 380rpx;
+  /* 控制服务保障与收费说明之间的距离 */
+  margin-top: -190rpx;
+  padding:0 18rpx;
+}
+.charge-notes text {
+  color: red;
+  text-indent: 400px;
+  font-size: 24rpx;
+}
+/* 控制 收费说明文字 */
+.charge-notes view {
+  padding-top: 14rpx;
+  font-weight: 700;
+}
+/* 收费说明模块 button 按钮样式 */
+.buttonAll {
+  font-size: 24rpx;
+  border-radius: 50rpx;
+  margin-top: 25rpx;
+}
+/* 去掉button 默认的边框 */
+.buttonAll::after {
+  border: none;
+}
+/* 修改默认button的边框样式,背景色,字体颜色 */
+.buttonAll[plain][type="plain"], wx-button[plain]:not([type]) {
+  color: #1c94fc;
+  background-color: white;
+  border-color: #1c94fc;
+}
+/* 收费标准 表格 区域开始 -----------------------------------------------------------*/
+.scroll-class {
+  height:600rpx;
+  background-color:#fff;
+  margin-top: 16rpx;
+}
+.table, .table div {
+  margin: 0 auto;
+}
+.table {
+    display: table;
+    width: 2000rpx;
+    /* 合并边框 */
+    border-collapse: collapse;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 15rpx 0;
+  }
+  .table-tr {
+     /* 此元素会作为一个表格行显示（类似 <tr>） */
+    display: table-row; 
+    height: 92rpx;
+  }
+  .table-th {
+      /* 此元素会作为一个表格单元格显示（类似 <td> 和 <th>） */
+    display: table-cell; 
+    font-weight: bold;
+    border: 1rpx solid gray;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .table-td {
+    display: table-cell;
+    border: 1rpx solid gray;
+    text-align: center;
+    vertical-align: middle;
+  }
+/* 控制收费表格的 表头 */
+.table .table-tr view:nth-child(1) {
+  width:140rpx;
+}
+.table .table-tr view:nth-child(2) {
+  width:1200rpx;
+}
+
+/* 服务流程模块开始  -----------------------------------------------------------*/
+
+.service-process {
+  height: 450rpx;
+  background-color: #fff;
+  margin-top: 15rpx;
+}
+/* 控制服务流程 文字 */
+.service-process text:nth-child(1) {
+  display: block;
+  padding: 20rpx;
+}
+
+/* 控制图标大小 */
+.service-process image {
+  height: 60rpx;
+  width: 60rpx;
+  margin-bottom: 16rpx;
+}
+/* 使用flex布局控制 */
+.serviceItem {
+  display: flex;
+  justify-content: space-around;
+}
+.serviceItem .service-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* 控制二三行的文字大小 */
+.serviceItem .service-item view:nth-child(3){
+  font-size: 24rpx;
+  margin-top: 16rpx;
+}
+.serviceItem .service-item view:nth-child(4){
+  font-size: 24rpx;
+}
+/* 在线预约按钮开始  -----------------------------------------------------------*/
+.button {
+  height: 100rpx;
+  line-height: 80rpx;
+  color: #fff;
+  position:fixed;
+  bottom: 0;
+  background-color: #1c94fc;
+}
