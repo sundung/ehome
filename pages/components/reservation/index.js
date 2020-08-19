@@ -1,13 +1,29 @@
-// pages/components/jiadianweixiu/index.js
+// pages/components/reservation/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-
+    showModal: false
+  },
+  // 外面的弹窗
+  alertChange: function () {
+    this.setData({
+      showModal: true
+    })
   },
 
+  // 禁止屏幕滚动
+  preventTouchMove: function () {
+  },
+
+  // 弹出层里面的弹窗
+  ok: function () {
+    this.setData({
+      showModal: false
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
@@ -62,12 +78,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-
-  // 自定义事件
-  goToReservation () {
-    wx.navigateTo({
-      url: '/pages/components/reservation/index',
-    })
   }
 })

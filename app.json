@@ -4,7 +4,8 @@
     "pages/order/index",
     "pages/mine/index",
     "pages/components/jiadianweixiu/index",
-    "pages/components/jiadianqingxi/index"
+    "pages/components/jiadianqingxi/index",
+    "pages/components/reservation/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

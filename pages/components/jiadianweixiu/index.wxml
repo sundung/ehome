@@ -137,4 +137,4 @@
 
 <!-- 在线预约按钮 ------------------------------------------------------------->
 
-<button style="width:100%" class="button">在线预约</button>
+<button style="width:100%" class="button" bindtap="goToReservation">在线预约</button>

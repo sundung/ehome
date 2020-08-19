@@ -1,0 +1,37 @@
+<!--pages/components/reservation/index.wxml-->
+
+<!-- 报修项目模块开始 --------------------------------------------------------- -->
+
+<view class="repairs">
+  <view class="repairs-item">
+  <image src="/assets/img/order-1.png"></image>
+  <text>报修项目</text>
+  </view>
+  <view class="repairs-item">空调维修</view>
+  <view class="repairs-item changButton" bindtap="alertChange">更换 > </view>
+</view>
+<view class="line-1" ></view>
+
+
+<!-- 遮罩层 -->
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+<!-- 弹出层 -->
+<view class="modalDlg" wx:if="{{showModal}}">
+  <view class="modalDlgTop">
+    <view class="modalDlgTop-item">X</view>
+    <view class="modalDlgTop-item">选择服务项目</view>
+    <view class="modalDlgTop-item">✔️</view>
+  </view>
+  <view class="serviceProject">
+    <view class="serviceProject-item">空调加氟</view>
+    <view class="serviceProject-item">空调维修</view>
+    <view class="serviceProject-item">冰箱维修</view>
+    <view class="serviceProject-item">点事维修</view>
+    <view class="serviceProject-item">洗衣机维修</view>
+    <view class="serviceProject-item">燃气灶维修</view>
+    <view class="serviceProject-item public">燃气热水器维修</view>
+    <view class="serviceProject-item public">电热水器维修</view>
+    <view class="serviceProject-item public">电热水器维修</view>
+  </view>
+</view>
+
