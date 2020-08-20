@@ -73,9 +73,10 @@
 					"scene": null
 				},
 				{
-					"id": -1,
+					"id": 1,
 					"name": "pages/components/reservation/index",
 					"pathName": "pages/components/reservation/index",
+					"query": "",
 					"scene": null
 				}
 			]

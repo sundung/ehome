@@ -5,7 +5,30 @@ Page({
    * 页面的初始数据
    */
   data: {
-    showModal: false
+    // 控制弹出层
+    showModal: false,
+    // 报修项目
+    msg:"空调维修",
+    // 控制服务项点击时高亮
+    num1:1,
+    // icon图标
+    typeList: ['success', 'success_no_circle', 'info', 'warn', 'waiting', 'cancel', 'download', 'search', 'clear'],
+    // 控制input框默认值
+    num:1,
+    // input的控制状态 disable 禁止输入
+    minusStatus:'disable',
+   // 控制空调机型弹出框的
+    showAirModalDlg:false,
+  //  控制空调机型的高亮
+    num2:1,
+    //点击空调机型,页面上渲染的值
+    AirModalDlgValue:'定频挂机',
+    // 控制空调功率弹出框的
+    showAirPowerModalDlg:false,
+    // 点击空调功率渲染到页面的初始值
+    AirPowerModalDlgValue:'1P',
+    //控制选择空调功率高亮的
+    num3:1
   },
   // 外面的弹窗
   alertChange: function () {
@@ -17,13 +40,81 @@ Page({
   // 禁止屏幕滚动
   preventTouchMove: function () {
   },
-
-  // 弹出层里面的弹窗
-  ok: function () {
+  // 点击差号关闭弹出层
+  closeModalDlg() {
     this.setData({
-      showModal: false
+      showModal: false,
+      showAirModalDlg:false,
+      showAirPowerModalDlg:false
     })
   },
+  // 点击服务项目获取其值付给报修项目
+  getValue(e) {
+    this.setData({
+      msg:e.currentTarget.dataset.value,
+      num1:e.currentTarget.dataset.num1
+    })
+  },
+  // 点击空调机型获取其值,显示页面上
+  getAirModalDlgValue(e){
+    this.setData({
+      AirModalDlgValue:e.currentTarget.dataset.value,
+      num2:e.currentTarget.dataset.num2
+    })
+  },
+  // 点击空调功率获取其值,显示页面上
+  getAirPowerModalDlgValue(e){
+    this.setData({
+      AirPowerModalDlgValue:e.currentTarget.dataset.value,
+      num3:e.currentTarget.dataset.num3
+    })
+  },
+   // 弹出空调机型的弹出框
+   airModalDlg() {
+    this.setData({
+      showAirModalDlg:true
+    })
+  },
+  // 弹出空调功率的弹出框
+  airPowerModalDlg() {
+    this.setData({
+      showAirPowerModalDlg:true
+    })
+  },
+  //事件处理函数
+  /*点击减号*/
+  bindMinus: function() {
+    var num = this.data.num;
+    if (num>1) {
+      num--;
+    }
+    var minusStatus = num>1 ? 'normal':'disable';
+    this.setData({
+      num:num,
+      minusStatus:minusStatus
+    })
+  },
+  /*点击加号*/
+  bindPlus: function() {
+    var num = this.data.num;
+    num++;
+    var minusStatus = num > 1 ? 'normal' : 'disable';
+    this.setData({
+      num:num,
+      minusStatus: minusStatus
+    })
+  },
+  /*输入框事件*/
+  bindManual: function(e) {
+    var num = e.detail.value;
+    var minusStatus = num > 1 ? 'normal' : 'disable';
+    // 页面实时渲染
+    this.setData({
+      num:num,
+      minusStatus: minusStatus
+    })
+  },
+ 
   /**
    * 生命周期函数--监听页面加载
    */

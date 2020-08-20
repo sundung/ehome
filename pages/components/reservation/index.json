@@ -1,4 +1,6 @@
 {
   "usingComponents": {},
-  "navigationBarTitleText": "在线预约"
+  "navigationBarTitleText": "在线预约",
+  "navigationBarBackgroundColor":"#1993fc",
+  "navigationBarTextStyle":"white"
 }

@@ -7,31 +7,156 @@
   <image src="/assets/img/order-1.png"></image>
   <text>报修项目</text>
   </view>
-  <view class="repairs-item">空调维修</view>
+  <view class="repairs-item">{{msg}}</view>
   <view class="repairs-item changButton" bindtap="alertChange">更换 > </view>
 </view>
+<!-- 横线 -->
 <view class="line-1" ></view>
-
 
 <!-- 遮罩层 -->
 <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
-<!-- 弹出层 -->
-<view class="modalDlg" wx:if="{{showModal}}">
+<!-- 点击报修项目弹出层------------------------------------------------------------------ -->
+<!-- wx:if="{{showModal}}" -->
+<view class="modalDlg" wx:if="{{showModal}}" >
   <view class="modalDlgTop">
-    <view class="modalDlgTop-item">X</view>
+    <view class="modalDlgTop-item" bindtap="closeModalDlg">X</view>
     <view class="modalDlgTop-item">选择服务项目</view>
-    <view class="modalDlgTop-item">✔️</view>
+    <view class="modalDlgTop-item" bindtap="closeModalDlg">✔️</view>
   </view>
   <view class="serviceProject">
-    <view class="serviceProject-item">空调加氟</view>
-    <view class="serviceProject-item">空调维修</view>
-    <view class="serviceProject-item">冰箱维修</view>
-    <view class="serviceProject-item">点事维修</view>
-    <view class="serviceProject-item">洗衣机维修</view>
-    <view class="serviceProject-item">燃气灶维修</view>
-    <view class="serviceProject-item public">燃气热水器维修</view>
-    <view class="serviceProject-item public">电热水器维修</view>
-    <view class="serviceProject-item public">电热水器维修</view>
+    <view class="serviceProject-item {{num1==1?'active':''}}" data-num1='1' data-value="空调加氟" bindtap="getValue">空调加氟</view>
+    <view class="serviceProject-item {{num1==2?'active':''}}" data-num1='2'  data-value="空调维修" bindtap="getValue">空调维修</view>
+    <view class="serviceProject-item {{num1==3?'active':''}}" data-num1='3'  data-value="空调维修" bindtap="getValue">冰箱维修</view>
+    <view class="serviceProject-item {{num1==4?'active':''}}" data-num1='4' data-value="电视维修" bindtap="getValue">电视维修</view>
+    <view class="serviceProject-item {{num1==5?'active':''}}" data-num1='5' data-value="洗衣机维修" bindtap="getValue">洗衣机维修</view>
+    <view class="serviceProject-item {{num1==6?'active':''}}" data-num1='6' data-value="燃气灶维修" bindtap="getValue">燃气灶维修</view>
+    <view class="serviceProject-item public {{num1==7?'active':''}}" data-num1='7' data-value="燃气热水器维修" bindtap="getValue">燃气热水器维修</view>
+    <view class="serviceProject-item public {{num1==8?'active':''}}" data-num1='8' data-value="电热水器维修" bindtap="getValue">电热水器维修</view>
+    <view class="serviceProject-item public {{num1==9?'active':''}}" data-num1='9' data-value="电热水器维修" bindtap="getValue">电热水器维修</view>
   </view>
 </view>
 
+<!-- 报修项目的icon区域 ----------------------------------------------------->
+<view class="icon-group">
+  <view class="icon-group-item">
+    <icon type="{{typeList[0]}}" size="18"></icon>免费修上门
+  </view>
+  <view class="icon-group-item">
+    <icon type="{{typeList[0]}}" size="18"></icon>免费修上门
+  </view>
+  <view class="icon-group-item">
+    <icon type="{{typeList[0]}}" size="18"></icon>免费修上门
+  </view>
+</view>
+
+<!-- 空调机型选择区域----------------------------------------------------------->
+<view class="air-conditioner">
+  <view class="air-conditioner-item">
+    <view><image src="/assets/img/home-1.png"></image>空调机型</view>
+    <view>{{AirModalDlgValue}}</view>
+    <view bindtap="airModalDlg">请选择 > </view>
+  </view>
+  <!-- 线段 -->
+  <view class="line"></view>
+  <view class="air-conditioner-item">
+    <view><image src="/assets/img/home-1.png"></image>空调功率</view>
+    <view>{{AirPowerModalDlgValue}}</view>
+    <view bindtap="airPowerModalDlg">请选择 > </view>
+  </view>
+   <!-- 线段 -->
+  <view class="line"></view>
+  <view class="air-conditioner-item">
+    <view><image src="/assets/img/home-1.png"></image>报修数量</view>
+    <view class="input">
+      <view class="subtract public" bindtap="bindMinus">-</view>
+      <input bindinput='bindManual' value='{{num}}'></input>
+      <view class="add public" bindtap="bindPlus">+</view>
+    </view>
+  </view>
+</view>
+
+<!-- 点击空调机型弹出弹出层--------------------------------------------- -->
+<!-- 遮罩层 -->
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showAirModalDlg}}"></view>
+<!-- wx:if="{{showAirModalDlg}}" -->
+<view class="modalDlg" wx:if="{{showAirModalDlg}}">
+<!-- 弹出层上部 -->
+  <view class="modalDlgTop">
+    <view class="modalDlgTop-item" bindtap="closeModalDlg">X</view>
+    <view class="modalDlgTop-item">选择空调机型</view>
+    <view class="modalDlgTop-item" bindtap="closeModalDlg">✔️</view>
+  </view>
+  <!-- 弹出层选项 -->
+  <view class="air-modalDlg">
+    <view class="air-modalDlg-item {{num2==1?'active':''}}" data-num2='1' bindtap="getAirModalDlgValue" data-value="定频挂机">定频挂机</view>
+    <view class="air-modalDlg-item {{num2==2?'active':''}}" data-num2='2' bindtap="getAirModalDlgValue" data-value="定频柜机">定频柜机</view>
+    <view class="air-modalDlg-item {{num2==3?'active':''}}" data-num2='3' bindtap="getAirModalDlgValue" data-value="变频挂机">变频挂机</view>
+    <view class="air-modalDlg-item {{num2==4?'active':''}}" data-num2='4' bindtap="getAirModalDlgValue" data-value="变频柜机">变频柜机</view>
+    <view class="air-modalDlg-item {{num2==5?'active':''}}" data-num2='5' bindtap="getAirModalDlgValue" data-value="风管.天井机">风管.天井机</view>
+  </view> 
+</view>
+
+<!-- 点击空调功率弹出弹出层--------------------------------------------- -->
+<!-- 遮罩层 -->
+<view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showAirPowerModalDlg}}"></view>
+<!-- wx:if="{{showAirModalDlg}}" -->
+<view class="modalDlg" wx:if="{{showAirPowerModalDlg}}">
+<!-- 弹出层上部 -->
+  <view class="modalDlgTop">
+    <view class="modalDlgTop-item" bindtap="closeModalDlg">X</view>
+    <view class="modalDlgTop-item">选择空调功率</view>
+    <view class="modalDlgTop-item" bindtap="closeModalDlg">✔️</view>
+  </view>
+  <!-- 弹出层选项 -->
+  <view class="air-modalDlg">
+    <view class="air-modalDlg-item {{num3==1?'active':''}}" data-num3='1' bindtap="getAirPowerModalDlgValue" data-value="1P">1P</view>
+    <view class="air-modalDlg-item {{num3==2?'active':''}}" data-num3='2' bindtap="getAirPowerModalDlgValue" data-value="1.5P">1.5P</view>
+    <view class="air-modalDlg-item {{num3==3?'active':''}}" data-num3='3' bindtap="getAirPowerModalDlgValue" data-value="2P">2P</view>
+    <view class="air-modalDlg-item {{num3==4?'active':''}}" data-num3='4' bindtap="getAirPowerModalDlgValue" data-value="3P">3P</view>
+    <view class="air-modalDlg-item {{num3==5?'active':''}}" data-num3='5' bindtap="getAirPowerModalDlgValue" data-value="4P">4P</view>
+    <view class="air-modalDlg-item {{num3==6?'active':''}}" data-num3='6' bindtap="getAirPowerModalDlgValue" data-value="5P">5P</view>
+  </view> 
+</view>
+<!-- 服务地址模块开始------------------------------------------------------- -->
+
+<view class="address">
+  <view class="address-item">
+    <view><image src="/assets/img/home-1.png"></image>服务地址</view>
+    <!-- <view>{{AirModalDlgValue}}</view> -->
+    <view bindtap="airModalDlg">请选择服务地址 > </view>
+  </view>
+  <!-- 线段 -->
+  <view class="line"></view>
+  <view class="address-item">
+    <view><image src="/assets/img/home-1.png"></image>上门服务时间</view>
+    <!-- <view>{{AirPowerModalDlgValue}}</view> -->
+    <view bindtap="airPowerModalDlg">请选择 > </view>
+  </view>
+   <!-- 线段 -->
+  <view class="line"></view>
+
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 补充问题描述区域------------------------------------------------------ -->
+<!-- 
+<view class="question">
+  <view class="title">
+    <image src="/assets/img/home-1.png"></image>问题描述
+  </view>
+</view> -->

@@ -10,13 +10,14 @@ page {
 
 .repairs {
   background-color: #fff;
-  height: 300rpx;
+  height: 200rpx;
   padding: 0 14rpx;
   display: flex;
+  justify-content: space-between;
 }
 
 .repairs .repairs-item {
-  margin-top: 40rpx;
+  margin-top: 50rpx;
 }
 
 .repairs .repairs-item image {
@@ -26,22 +27,21 @@ page {
 }
 .repairs view:nth-child(1) {
   display: flex;
-}
-.repairs view:nth-child(2) {
-  margin: 40rpx 80rpx 0;
-}
-.repairs view:nth-child(3) {
-  margin-left: 100rpx;
-  color: #666;
+  margin-left: 30rpx;
 }
 
+.repairs view:nth-child(3) {
+  margin-right: 20rpx;
+  color: #666;
+}
+/* 维修项目横线样式--------------------------------------------------------- */
  .line-1 {
   margin: 0 auto;
   width:94vw;
   height:2rpx;
   background:#aaa;
   position: relative;
-  top:-200rpx;
+  top:-90rpx;
   left: 0;
 }
 /* 更换按钮 */
@@ -52,7 +52,7 @@ page {
 }
 
 
-/* 遮罩层 */
+/* 遮罩层 ---------------------------------------------------------*/
 .mask {
     width: 100%;
     height: 100%;
@@ -64,7 +64,7 @@ page {
     opacity: 0.5;
 }
 
-/* 弹出层 */
+/* 弹出层 ------------------------------------------------------*/
 .modalDlg {
   width: 100%;
   height: 480rpx;
@@ -88,7 +88,7 @@ page {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
+/* 弹出层中的报修项目具体的按钮区域 */
 .modalDlg .serviceProject .serviceProject-item {
   margin-top: 24rpx;
   width: 30%;
@@ -102,7 +102,7 @@ page {
 .modalDlg .serviceProject view:nth-child(-n+3) {
   margin: 28rpx 0;
 }
-
+/* 控制服务项目 3,4,5行的样式 */
 .modalDlg .serviceProject .public {
   margin-top: 48rpx;
   height: 100rpx;
@@ -112,3 +112,128 @@ page {
 .modalDlg .serviceProject view:nth-child(7) {
   width: 33%;
 }
+
+/* 点击服务项目时高亮-------------------------------------------------------------- */
+.active {
+  color:#1993fc !important;
+  border-color:#1993fc !important;
+}
+
+/* 报修项目的icon区域开始------------------------------------------------------------------- */
+.icon-group {
+  display: flex;
+  justify-content: space-around;
+  font-size: 26rpx;
+  position: relative;
+  top: -70rpx;
+  left: 0;
+}
+.icon-group .icon-group-item {
+  display: flex;
+}
+.icon-group .icon-group-item icon {
+  margin-right: 10rpx;
+}
+
+/* <!-- 空调机型选择区域-----------------------------------------------------------> */
+/* 整个外包的大盒子样式 */
+.air-conditioner {
+  height: 300rpx;
+  background-color: #fff;
+  padding: 0 24rpx;
+  margin-top: -24rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 28rpx;
+}
+/* 盒子里边的每个item样式 */
+.air-conditioner .air-conditioner-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* 点击空调机型弹出一个弹出层 */
+
+/* 空调机型选择区域里的那两条线段------------------------------------------------------------------- */
+.air-conditioner .line {
+  margin: 0 auto;
+  width:94vw;
+  height:2rpx;
+  background:#aaa;
+}
+.air-conditioner .air-conditioner-item image {
+  height: 40rpx;
+  width: 40rpx;
+  vertical-align:middle;
+  margin:-10rpx 20rpx 0 0;
+}
+
+
+/* <!-- 点击空调机型弹出弹出层--------------------------------------------- --> */
+.modalDlg .air-modalDlg {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.modalDlg .air-modalDlg .air-modalDlg-item {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #666;
+  margin-top: 40rpx;
+}
+
+/* 报修数量样式开始--------------------------------------------------------------------- */
+.air-conditioner .air-conditioner-item .input {
+  display: flex;
+}
+
+.air-conditioner .air-conditioner-item .input .public {
+  height: 45rpx;
+  width: 45rpx;
+  background-color: #666;
+  text-align: center;
+  line-height: 40rpx;
+  border-radius: 50%;
+  margin: 0 40rpx;
+}
+/* 控制报修数量的input框 */
+.air-conditioner .air-conditioner-item .input input {
+  width: 20rpx;
+}
+
+/* 服务地址模块------------------------------------------------------------------------ */
+.address {
+  height: 300rpx;
+  background-color: #fff;
+  padding: 0 24rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 28rpx;
+  margin-top: 20rpx;
+}
+.address .address-item {
+  display: flex;
+  justify-content: space-between;
+}
+.address .address-item image {
+  height: 40rpx;
+  width: 40rpx;
+  vertical-align:middle;
+  margin:-10rpx 20rpx 0 0;
+}
+.address .line {
+  margin: 0 auto;
+  width:94vw;
+  height:2rpx;
+  background:#aaa;
+}
+/* 补充问题描述区域------------------------------------------------------ */
+/* .question {
+
+} */
