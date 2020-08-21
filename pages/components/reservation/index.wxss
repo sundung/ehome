@@ -206,16 +206,22 @@ page {
 }
 
 /* 服务地址模块------------------------------------------------------------------------ */
-.address {
-  height: 300rpx;
+/* 使用scroll-view包裹服务模块让其背景色占剩余的全部空间 */
+.scrollView {
   background-color: #fff;
+  margin-top: 20rpx;
+}
+/* 选择服务地址的样式 */
+.address {
+  height: 260rpx;
   padding: 0 24rpx;
+  padding-top: 20rpx;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
   font-size: 28rpx;
-  margin-top: 20rpx;
+ 
 }
 .address .address-item {
   display: flex;
@@ -234,6 +240,21 @@ page {
   background:#aaa;
 }
 /* 补充问题描述区域------------------------------------------------------ */
-/* .question {
 
-} */
+.question .content textarea {
+  /* background-color: pink; */
+  width: 100vw;
+  position: fixed;
+  bottom: 100rpx;
+  left: 0;
+}
+
+/* 立即预约按钮---------------------------------------------------- */
+.button {
+  height: 100rpx;
+  line-height: 80rpx;
+  color: #fff;
+  position:fixed;
+  bottom: 0;
+  background-color: #1c94fc;
+}

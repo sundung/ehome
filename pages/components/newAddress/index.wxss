@@ -1,0 +1,39 @@
+/* pages/components/newAddress/index.wxss */
+
+/* 立即预约模块样式开始------------------------------------------------- */
+.new-address {
+  padding: 24rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.new-address .new-address-item {
+  display: flex;
+  margin-top: 40rpx;
+}
+/* 控制左侧标题与input框的距离 */
+.new-address .new-address-item view {
+  margin-right: 60rpx;
+}
+
+/* 控制地址选择器不让其掉落 */
+.new-address .address addressPicker{
+  font-size: 24rpx;
+  margin-right: -200rpx;
+}
+/* 线段 */
+.new-address .line {
+  margin: 0 auto;
+  width:94vw;
+  height:2rpx;
+  background:#aaa;
+  margin-top: 20rpx;
+}
+
+.btn {
+  height: 80rpx;
+  margin-top: 70rpx;
+  text-align: center;
+  color: #fff;
+  background-color: #1c94fc;
+}

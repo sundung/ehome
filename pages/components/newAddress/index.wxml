@@ -1,0 +1,27 @@
+<!--pages/components/newAddress/index.wxml-->
+
+<view class="new-address">
+  <view class="new-address-item">
+    <view>联系人</view>
+    <input placeholder="请输入联系人"></input>
+  </view>
+  <view class="line"></view>
+  <view class="new-address-item">
+    <view>手机号</view>
+    <input placeholder="请输入手机号" type="number"></input>
+  </view>
+  <view class="line"></view>
+  <view class="new-address-item address">
+    <view>服务地址</view>
+    <!-- <input placeholder="请输入服务地址"></input> -->
+    <addressPicker></addressPicker>
+  </view>
+  <view class="line"></view>
+  <view class="new-address-item">
+    <view>详细地址</view>
+    <input placeholder="如6号楼6单元1606室"></input>
+  </view>
+  <view class="line"></view>
+</view>
+
+<button style="width:80%" class="btn">保存</button>

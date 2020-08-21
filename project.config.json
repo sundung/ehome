@@ -78,6 +78,27 @@
 					"pathName": "pages/components/reservation/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/components/component/timePicker/index",
+					"pathName": "pages/components/component/timePicker/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/components/newAddress/index",
+					"pathName": "pages/components/newAddress/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/components/newAddress/index",
+					"pathName": "pages/components/component/addressPicker/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

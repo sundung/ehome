@@ -1,5 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "timePicker":"/pages/components/component/timePicker/index"
+  },
   "navigationBarTitleText": "在线预约",
   "navigationBarBackgroundColor":"#1993fc",
   "navigationBarTextStyle":"white"

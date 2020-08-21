@@ -28,7 +28,15 @@ Page({
     // 点击空调功率渲染到页面的初始值
     AirPowerModalDlgValue:'1P',
     //控制选择空调功率高亮的
-    num3:1
+    num3:1,
+    // 页面总高度将会放在这里
+    windowHeight: 0,
+    // navbar的高度
+    navbarHeight: 0,
+    // header的高度
+    headerHeight: 0,
+    // scroll-view的高度
+    scrollViewHeight: 0
   },
   // 外面的弹窗
   alertChange: function () {
@@ -114,12 +122,42 @@ Page({
       minusStatus: minusStatus
     })
   },
- 
+  
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+    var that = this
+        // 先取出页面高度 windowHeight
+        wx.getSystemInfo({
+          success: function(res) {
+              that.setData({
+                  windowHeight: res.windowHeight
+              });
+          }
+      });
 
+      // 然后取出navbar和header的高度
+      // 根据文档，先创建一个SelectorQuery对象实例
+      let query = wx.createSelectorQuery().in(this);
+      // 然后逐个取出上边木块的高度和底部按钮的高度的节点信息
+      // 选择器的语法与jQuery语法相同
+      query.select('.air-conditioner').boundingClientRect();
+      query.select('.button').boundingClientRect();
+
+      // 执行上面所指定的请求，结果会按照顺序存放于一个数组中，在callback的第一个参数中返回
+      query.exec((res) => {
+          // 分别取出navbar和header的高度
+          let navbarHeight = res[0].height;
+          let headerHeight = res[1].height;
+          // 然后就是做个减法
+          let scrollViewHeight = this.data.windowHeight - navbarHeight - headerHeight;
+
+          // 算出来之后存到data对象里面
+          this.setData({
+              scrollViewHeight: scrollViewHeight
+          });
+      });
   },
 
   /**
