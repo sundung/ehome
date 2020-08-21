@@ -6,7 +6,8 @@
     "pages/components/jiadianweixiu/index",
     "pages/components/jiadianqingxi/index",
     "pages/components/reservation/index",
-    "pages/components/newAddress/index"
+    "pages/components/newAddress/index",
+    "pages/components/selectAddress/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

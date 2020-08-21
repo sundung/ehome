@@ -42,6 +42,8 @@
 		"hidedInDevtools": []
 	},
 	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
@@ -66,13 +68,6 @@
 			"current": -1,
 			"list": [
 				{
-					"id": -1,
-					"name": "pages/components/jiadianweixiu/index",
-					"pathName": "pages/components/jiadianweixiu/index",
-					"query": "",
-					"scene": null
-				},
-				{
 					"id": 1,
 					"name": "pages/components/reservation/index",
 					"pathName": "pages/components/reservation/index",
@@ -81,22 +76,8 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/components/component/timePicker/index",
-					"pathName": "pages/components/component/timePicker/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/components/newAddress/index",
-					"pathName": "pages/components/newAddress/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/components/newAddress/index",
-					"pathName": "pages/components/component/addressPicker/index",
+					"name": "pages/components/selectAddress/index",
+					"pathName": "pages/components/selectAddress/index",
 					"query": "",
 					"scene": null
 				}
