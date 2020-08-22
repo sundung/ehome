@@ -1,1 +1,41 @@
 /* pages/mine/index.wxss */
+page {
+  background-color: #ccc;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  padding: 0 24rpx;
+  height: 300rpx;
+  background-color: #fff;
+}
+.title image {
+  height: 140rpx;
+  width: 140rpx;
+  margin-right: 40rpx;
+}
+
+
+.content {
+  margin-top: 20rpx;
+  height: 300rpx;
+  background-color: #fff;
+}
+.content .content-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 24rpx;
+}
+
+.content .line {
+  margin: 0 auto;
+  width:94vw;
+  height:2rpx;
+  background:#aaa;
+}
+
+
+.btn {
+  margin-top: 140rpx;
+}

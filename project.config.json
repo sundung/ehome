@@ -76,8 +76,22 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/components/selectAddress/index",
-					"pathName": "pages/components/selectAddress/index",
+					"name": "pages/components/jiadianqingxi/index",
+					"pathName": "pages/components/jiadianqingxi/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/order/index",
+					"pathName": "pages/order/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/mine/index",
+					"pathName": "pages/mine/index",
 					"query": "",
 					"scene": null
 				}

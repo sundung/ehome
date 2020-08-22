@@ -147,11 +147,21 @@
     </view>
   </view>
 </scroll-view>
-
 <!-- 立即预约按钮---------------------------------------------------- -->
+<button style="width:100%" class="button" bindtap="alertOrder">
+立即预约
+</button>
 
-<button style="width:100%" class="button">立即预约</button>
 
+<!-- 点击立即预约按钮弹出已经提交订单的弹出框------------------------------ -->
+
+<view class="float {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
+  <view class='floatContent'>
+    <view class="title">订单已提交</view>
+    <view>请耐心等待师傅接单上门服务</view>
+    <button bindtap="goToOrder">知道了</button>
+  </view>
+</view>
 
 
 

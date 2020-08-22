@@ -1,0 +1,9 @@
+<!--pages/components/component/goToOrder/index.wxml-->
+<!-- {{isRuleTrue?'isRuleShow':'isRuleHide'}} -->
+<view class="float" >
+  <view class='floatContent'>
+    <view class="title">订单已提交</view>
+    <view>请耐心等待师傅接单上门服务</view>
+    <button bindtap="goToOrder">知道了</button>
+  </view>
+</view>

@@ -1,4 +1,28 @@
 <!--pages/mine/index.wxml-->
-<view>
-  我的页面
+
+<!-- 我的页面头部开始----------------------------------- -->
+
+<view class="title">
+  <image src="/assets/img/home-1.png"></image>
+  <view>1234342324234</view>
 </view>
+
+<view class="content">
+  <view class="content-item" bindtap="goToNewAddress">
+    <view class="address">我的地址</view>
+    <view> > </view>
+  </view>
+  <view class="line"></view>
+  <view class="content-item">
+    <view class="help">帮助</view>
+    <view> > </view>
+  </view>
+  <view class="line"></view>
+  <view class="content-item">
+    <view class="protocol">用户协议</view>
+    <view> > </view>
+  </view>
+</view>
+
+<!-- 退出登录按钮------------------------------ -->
+<button class="btn">退出登录</button>

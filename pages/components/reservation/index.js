@@ -12,7 +12,7 @@ Page({
     // 控制服务项点击时高亮
     num1:1,
     // icon图标
-    typeList: ['success', 'success_no_circle', 'info', 'warn', 'waiting', 'cancel', 'download', 'search', 'clear'],
+    typeList: ['success'],
     // 控制input框默认值
     num:1,
     // input的控制状态 disable 禁止输入
@@ -38,7 +38,7 @@ Page({
     // scroll-view的高度
     scrollViewHeight: 0
   },
-  // 外面的弹窗
+  // 外面的弹窗 报修项目的
   alertChange: function () {
     this.setData({
       showModal: true
@@ -122,7 +122,20 @@ Page({
       minusStatus: minusStatus
     })
   },
-  
+  // 点击立即预约按钮弹出订单已提交的弹出框
+    //打开透明层
+    alertOrder: function () {
+      this.setData({
+        isRuleTrue: true
+      })
+    },
+    // 点击知道了跳转到订单页面
+    goToOrder() {
+      // wx.switchTab 可以跳转到tabr页面
+      wx.switchTab({
+        url: '/pages/order/index',
+      })
+    },
   /**
    * 生命周期函数--监听页面加载
    */

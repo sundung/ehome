@@ -1,1 +1,48 @@
 /* pages/order/index.wxss */
+
+/* 订单页面的最顶部的tab栏 */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+}
+.header .header-item {
+  background-color: #1993fc;
+}
+
+/* 待接单开始---------------------------------------------------------- */
+.take-orders {
+  margin-top: 20rpx;
+  padding: 0 20rpx;
+}
+.take-orders .top {
+  display: flex;
+  justify-content: space-between;
+}
+.take-orders .top .left {
+  display: flex;
+  font-size: 24rpx;
+  align-items: center;
+}
+.take-orders .top .right {
+  color: green;
+}
+.take-orders .top image {
+  height: 40rpx;
+  width: 40rpx;
+  margin-right: 14rpx;
+}
+
+/* 待接单服务的下半部分开始---------------------------------------- */
+.take-orders .content {
+  margin-top: 20rpx;
+}
+.take-orders .content .top .left {
+  height: 120rpx;
+  width: 120rpx;
+  background-color: red;
+}
+
+.take-orders .content .content .top{
+  display: flex;
+}

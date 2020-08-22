@@ -1,4 +1,43 @@
 <!--pages/order/index.wxml-->
-<view>
-  订单页面
+<!-- 订单页面的头部开始------------------------------------------------- -->
+<view class="header">
+  <view class="header-item">待服务</view>
+  <view class="header-item">服务中</view>
+  <view class="header-item">已结束</view>
+  <view class="header-item">全部</view>
 </view>
+
+<!-- 待接单开始---------------------------------------------------------- -->
+<view class="take-orders">
+  <view class="top">
+    <view class="left">
+      <image src="/assets/img/home-1.png"></image>
+      <view>张师傅</view>
+    </view>
+    <view class="right">待接单</view>
+  </view>
+  <view class="content">
+    <view class="top">
+      <view class="left">
+      </view>
+      <view class="right">
+        <view class="title">家电维修服务直约</view>
+        <view class="content">
+          <view class="top">
+            <view class="type">空调维修</view>
+            <view class="air-type">空调机型</view>
+            <view class="air-type-item">定频挂机</view>
+          </view>
+          <view class="bottom">
+            <view>空调功率</view>
+            <view>2P</view>
+            <view>报修数量</view>
+            <view>1</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="bottom"></view>
+  </view>
+</view>
+

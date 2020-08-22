@@ -7,7 +7,12 @@ Page({
   data: {
 
   },
-
+  // 跳转到新增地址
+  goToNewAddress() {
+    wx.navigateTo({
+      url: '/pages/components/selectAddress/index'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
