@@ -1,14 +1,10 @@
 <!--pages/order/index.wxml-->
 <!-- 订单页面的头部开始------------------------------------------------- -->
-<view class="header">
-  <view class="header-item">待服务</view>
-  <view class="header-item">服务中</view>
-  <view class="header-item">已结束</view>
-  <view class="header-item">全部</view>
-</view>
+<Tabs tabs="{{tabs}}" binditemChange='handleItemChange'></Tabs>
 
+<!-- <Tabs tabs="{{tabs}}"></Tabs> -->
 <!-- 待接单开始---------------------------------------------------------- -->
-<view class="take-orders">
+<!-- <view class="take-orders">
   <view class="top">
     <view class="left">
       <image src="/assets/img/home-1.png"></image>
@@ -39,5 +35,5 @@
     </view>
     <view class="bottom"></view>
   </view>
-</view>
+</view> -->
 

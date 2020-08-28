@@ -68,20 +68,6 @@
 			"current": -1,
 			"list": [
 				{
-					"id": 1,
-					"name": "pages/components/reservation/index",
-					"pathName": "pages/components/reservation/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/components/jiadianqingxi/index",
-					"pathName": "pages/components/jiadianqingxi/index",
-					"query": "",
-					"scene": null
-				},
-				{
 					"id": -1,
 					"name": "pages/order/index",
 					"pathName": "pages/order/index",
@@ -90,8 +76,8 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/mine/index",
-					"pathName": "pages/mine/index",
+					"name": "pages/components/component/tabs/index",
+					"pathName": "pages/components/component/tabs/index",
 					"query": "",
 					"scene": null
 				}

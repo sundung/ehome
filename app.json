@@ -8,7 +8,8 @@
     "pages/components/reservation/index",
     "pages/components/newAddress/index",
     "pages/components/selectAddress/index",
-    "pages/components/component/goToOrder/index"
+    "pages/components/component/goToOrder/index",
+    "pages/components/component/tabs/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

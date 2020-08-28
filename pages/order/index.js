@@ -5,9 +5,41 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    tabs: [
+      {
+        id:0,
+        name:'待服务',
+        isActive:true
+      },
+      {
+        id:1,
+        name:'服务中',
+        isActive:false
+      },
+      {
+        id:2,
+        name:'已结束',
+        isActive:false
+      },
+      {
+        id:3,
+        name:'全部',
+        isActive:false
+      }
+    ]
   },
-
+  // 自定义事件
+  handleItemChange(e){
+    // 接受组件传递过来的数据
+    const {index} = e.detail
+    let tabs = JSON.parse(JSON.stringify(this.data.tabs))
+    tabs.forEach((v,i) => {
+      i === index?v.isActive=true : v.isActive=false 
+      this.setData({
+        tabs
+      })
+     })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
