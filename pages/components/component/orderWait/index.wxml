@@ -1,0 +1,49 @@
+<!--pages/components/component/orderWait/index.wxml-->
+<view class='task-orders'>
+    <view class='top'>
+      <view class='left'>
+        <image class="" src="/assets/img/home-1.png"  />
+        <view>
+          e到家
+        </view>  
+      </view>
+      <view class="right">
+        待接单
+      </view>  
+    </view>
+    <view class="content">
+      <view class="left">
+        <image class="" src="/assets/img/home-1.png"  /> 
+      </view>
+      <view class="right">
+        <view class="top">家电维修服务直约</view>
+        <view class="content">
+          <view class="left">
+            <view>
+              空调维修
+            </view>
+            <view>
+              空调功率:2P
+            </view>     
+          </view>
+          <view class="right">
+            <view>
+              空调机型:定频挂机
+            </view>
+            <view>
+              报修数量:1
+            </view>    
+          </view>
+        </view>
+      </view>
+    </view>  
+    <view class="bottom">
+      <view class="top">
+        <view class="week">2020-07-17</view>
+        <view class="time">18 : 30</view>
+      </view>
+      <view class='address'>
+        北京市朝阳区松江路20号马泉营一区
+      </view>  
+    </view>
+  </view>

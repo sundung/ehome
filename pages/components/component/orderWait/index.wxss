@@ -1,7 +1,5 @@
-page {
-  background: #f3f3f3;
-  /* padding: 0 14rpx; */
-}
+/* pages/components/component/orderWait/index.wxss */
+
 .task-orders {
   padding: 20rpx;
   background-color: #fff;

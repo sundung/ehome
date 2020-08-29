@@ -9,7 +9,14 @@
     "pages/components/newAddress/index",
     "pages/components/selectAddress/index",
     "pages/components/component/goToOrder/index",
-    "pages/components/component/tabs/index"
+    "pages/components/component/tabs/index",
+    "pages/components/component/orderWait/index",
+    "pages/components/component/orderInService/index",
+    "pages/components/component/orderEnd/index",
+    "pages/components/orderDetail/index",
+    "pages/components/component/orderDetail/waitHeader/index",
+    "pages/components/component/orderDetail/chargesNotes/index",
+    "pages/components/component/orderDetail/iconBlock/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

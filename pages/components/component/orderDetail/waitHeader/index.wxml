@@ -1,0 +1,10 @@
+<!--pages/components/component/orderDetail/waitHeader/index.wxml-->
+<view class='header'>
+  <view class="left">
+    <view class="top">待接单</view>
+    <view class="bottom">等待师傅接单...</view>
+  </view>
+  <view class="right">
+    计时器
+  </view>
+</view>

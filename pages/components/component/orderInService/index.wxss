@@ -52,3 +52,14 @@ page {
 .task-orders .bottom .top .time {
   margin-left: 40rpx;
 }
+.task-orders .bottom .btn {
+  margin-top: 20rpx;
+  display: grid;
+  justify-content: right;
+}
+.task-orders .bottom .btn .buttonAll[plain][type='plain'],
+.task-orders .bottom .btn wx-button[plain]:not([type]) {
+  color: #1c94fc;
+  background-color: white;
+  border-color: #1c94fc;
+}

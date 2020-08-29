@@ -1,6 +1,9 @@
 {
   "usingComponents": {
-    "Tabs":"/pages/components/component/tabs/index"
+    "Tabs":"/pages/components/component/tabs/index",
+    "orderWait":"/pages/components/component/orderWait/index",
+    "orderEnd":"/pages/components/component/orderEnd/index",
+    "orderInService":"/pages/components/component/orderInService/index"
   },
   "navigationBarTitleText": "订单",
   "navigationBarBackgroundColor":"#1993fc",

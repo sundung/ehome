@@ -1,39 +1,26 @@
 <!--pages/order/index.wxml-->
 <!-- 订单页面的头部开始------------------------------------------------- -->
-<Tabs tabs="{{tabs}}" binditemChange='handleItemChange'></Tabs>
+<Tabs tabs="{{tabs}}" binditemChange='handleItemChange'>
+  <!-- 待接单开始---------------------------------------------------------- -->
+<block wx:if="{{tabs[0].isActive}}">
+  <orderWait></orderWait>
+</block>
+<!-- 服务中开始------------------------ -->
+<block wx:elif="{{tabs[1].isActive}}">
+  <orderInService></orderInService>
+</block> 
+<block wx:elif="{{tabs[2].isActive}}">
+    <orderEnd></orderEnd>
+  </block>
+    
+<block wx:else>
+  <orderWait></orderWait>
+  <orderInService></orderInService>
+  <orderEnd></orderEnd>
+</block>
+  
 
-<!-- <Tabs tabs="{{tabs}}"></Tabs> -->
-<!-- 待接单开始---------------------------------------------------------- -->
-<!-- <view class="take-orders">
-  <view class="top">
-    <view class="left">
-      <image src="/assets/img/home-1.png"></image>
-      <view>张师傅</view>
-    </view>
-    <view class="right">待接单</view>
-  </view>
-  <view class="content">
-    <view class="top">
-      <view class="left">
-      </view>
-      <view class="right">
-        <view class="title">家电维修服务直约</view>
-        <view class="content">
-          <view class="top">
-            <view class="type">空调维修</view>
-            <view class="air-type">空调机型</view>
-            <view class="air-type-item">定频挂机</view>
-          </view>
-          <view class="bottom">
-            <view>空调功率</view>
-            <view>2P</view>
-            <view>报修数量</view>
-            <view>1</view>
-          </view>
-        </view>
-      </view>
-    </view>
-    <view class="bottom"></view>
-  </view>
-</view> -->
+</Tabs>
 
+
+  

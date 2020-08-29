@@ -8,3 +8,6 @@
            data-index="{{index}}">{{item.name}}</view>
   </view>
 </view>
+<view class="tabs-content">
+  <slot></slot>
+</view>

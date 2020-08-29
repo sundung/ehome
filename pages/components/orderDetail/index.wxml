@@ -1,0 +1,9 @@
+<!--pages/components/orderDetail/index.wxml-->
+<!-- 头部 -->
+<waitHeader></waitHeader>
+<!-- 订单信息 -->
+
+<!-- icon区域 -->
+
+<!-- 收费说明 -->
+<chargesNotes></chargesNotes>
