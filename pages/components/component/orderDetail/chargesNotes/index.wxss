@@ -1,17 +1,15 @@
 .charge-notes {
   background-color: #fff;
   height: 380rpx;
-  /* 控制服务保障与收费说明之间的距离 */
-  margin: 20rpx 0;
   padding: 0 18rpx;
   /* 控制 收费说明文字 */
   /* 收费说明模块 button 按钮样式 */
 }
-.charge-notes view {
+.charge-notes .title {
   padding-top: 14rpx;
   font-weight: 700;
 }
-.charge-notes text {
+.charge-notes .text {
   text-indent: 400px;
   font-size: 24rpx;
 }

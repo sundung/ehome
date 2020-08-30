@@ -4,6 +4,6 @@
 <!-- 订单信息 -->
 
 <!-- icon区域 -->
-
+<iconBlock></iconBlock>
 <!-- 收费说明 -->
 <chargesNotes></chargesNotes>

@@ -83,20 +83,6 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/components/component/orderDetail/waitHeader/index",
-					"pathName": "pages/components/component/orderDetail/waitHeader/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/components/component/orderDetail/ChargesNotes/index",
-					"pathName": "pages/components/component/orderDetail/chargesNotes/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
 					"name": "pages/components/component/orderDetail/iconBlock/index",
 					"pathName": "pages/components/component/orderDetail/iconBlock/index",
 					"query": "",

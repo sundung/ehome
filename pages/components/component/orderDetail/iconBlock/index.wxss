@@ -1,8 +1,9 @@
 .icon {
   display: flex;
   justify-content: space-around;
-  margin: 14rpx 0;
+  margin: 10rpx 0;
   height: 80rpx;
+  background-color: #fff;
   align-items: center;
   color: #1993fc;
   font-size: 24rpx;

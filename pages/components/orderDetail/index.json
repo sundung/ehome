@@ -1,7 +1,8 @@
 {
   "usingComponents": {
     "waitHeader":"/pages/components/component/orderDetail/waitHeader/index",
-    "chargesNotes":"/pages/components/component/orderDetail/chargesNotes/index"
+    "chargesNotes":"/pages/components/component/orderDetail/chargesNotes/index",
+    "iconBlock":"/pages/components/component/orderDetail/iconBlock/index"
   },
   "navigationBarTitleText": "订单详情",
   "navigationBarBackgroundColor":"#1993fc",

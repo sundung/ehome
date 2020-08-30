@@ -1,4 +1,4 @@
-// pages/components/component/orderDetail/waitHeader/index.js
+// pages/components/component/orderDetail/chargeStandard/index.js
 Component({
   /**
    * 组件的属性列表
