@@ -20,7 +20,8 @@
     "pages/components/component/orderDetail/chargeStandard/index",
     "pages/components/component/orderDetail/orderForm/index",
     "pages/components/component/orderDetail/orderInfo/index",
-    "pages/components/component/serviceAssurance/index"
+    "pages/components/component/serviceAssurance/index",
+    "pages/components/cancelOrder/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

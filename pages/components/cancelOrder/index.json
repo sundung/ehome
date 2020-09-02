@@ -1,7 +1,6 @@
 {
-  "component": true,
   "usingComponents": {},
-  "navigationBarTitleText": "服务保障",
+  "navigationBarTitleText": "取消订单",
   "navigationBarBackgroundColor":"#1993fc",
   "navigationBarTextStyle":"white"
 }

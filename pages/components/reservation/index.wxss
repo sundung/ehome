@@ -260,7 +260,7 @@ page {
 }
 
 
-.up {
+/* .up {
   display: block;
   border: 1px solid #b7b8b5;
   width: 200rpx;
@@ -270,7 +270,7 @@ page {
   font-size: 30rpx;
   border-radius: 30rpx;
   margin-top: 20rpx;
-}
+} */
 
 .isRuleShow {
   display: block;

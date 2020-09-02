@@ -101,6 +101,20 @@
 					"pathName": "pages/components/component/orderDetail/orderInfo/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "服务保障",
+					"pathName": "pages/components/component/serviceAssurance/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "取消订单页面",
+					"pathName": "pages/components/cancelOrder/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

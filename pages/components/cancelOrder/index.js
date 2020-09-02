@@ -1,35 +1,48 @@
-// pages/components/Orderdetail/index.js
+// pages/components/cancelOrder/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    // isRuleTrue:false
+
   },
-    // 点击icon区域跳转服务保障页面
-    goToServiceAssurance (){
-      wx.navigateTo({
-        url: '/pages/components/component/serviceAssurance/index',
-      })
-    },
-    // 点击取消订单按钮弹出一个弹出框
+   // 点击取消订单按钮弹出一个弹出框
     //打开透明层
     cancelOrderMask: function () {
       this.setData({
         isRuleTrue: true
       })
     },
-    // 点击暂不取消按钮关闭弹出层
+    // 点击取消订单并重新预约按钮弹出一个弹出框
+    //打开透明层
+    cancelOrderMask1: function () {
+      this.setData({
+        isRuleTrue1: true
+      })
+    },
+    // 点击再想想钮关闭弹出层
     closeMask(){
       this.setData({
         isRuleTrue: false
       })
     },
-    // 点击确定取消按钮跳转到取消订单页面
-    goToCancelOrder(){
+    // 取消订单并重新预约的按钮弹出层的关闭开关
+    closeMask1() {
+      this.setData({
+        isRuleTrue1: false
+      })
+    },
+    // 点击确定跳转到订单页面
+    goToOrder() {
+      wx.switchTab({
+        url: '/pages/order/index'
+      })
+    },
+    // 取消订单并重新预约按钮弹出的弹出框,点击确定跳转到家电维修页面
+    goToJiaDianWeiXiu(){
       wx.navigateTo({
-        url: '/pages/components/cancelOrder/index',
+        url: '/pages/components/jiadianweixiu/index'
       })
     },
   /**

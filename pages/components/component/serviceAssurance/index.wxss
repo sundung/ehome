@@ -1,1 +1,24 @@
-/* pages/components/component/serviceAssurance/index.wxss */
+.main {
+  padding: 0 40rpx;
+}
+.main .item {
+  margin-top: 40rpx;
+}
+.main .item .title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14rpx;
+}
+.main .item .title .image {
+  height: 40rpx;
+  width: 40rpx;
+  background-color: #1993fc;
+}
+.main .item .title .word {
+  margin-left: 20rpx;
+  font-size: 40rpx;
+  color: #1993fc;
+}
+.main .item .title .content {
+  font-size: 30rpx;
+}

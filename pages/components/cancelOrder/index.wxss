@@ -1,5 +1,27 @@
-page {
-  background-color: #f2f2f2;
+.container .title {
+  color: red;
+  font-size: 24rpx;
+  background-color: #fceaeb;
+  height: 80rpx;
+  padding: 0 20rpx;
+}
+.container .item {
+  display: flex;
+  justify-content: space-between;
+  margin: 20rpx;
+}
+.container .item .text {
+  text-align: center;
+}
+.container .line {
+  border: 1rpx solid #ccc;
+  width: 95%;
+  margin: 0 auto;
+}
+.container .textarea {
+  color: #717171;
+  font-size: 26rpx;
+  padding: 0 20rpx;
 }
 .btn {
   display: flex;
@@ -36,22 +58,18 @@ page {
 .floatContent {
   padding: 20rpx;
   width: 80%;
-  height: 400rpx;
+  height: 280rpx;
   background: #fff;
   margin: 40% auto;
   border-radius: 20rpx;
 }
 .floatContent .title {
-  font-size: 40rpx;
-  font-weight: 700;
   text-align: center;
-}
-.floatContent .content .item {
-  text-align: center;
+  margin-top: 40rpx;
 }
 .floatContent .line {
   border: 1rpx solid #ccc;
-  margin-top: 20rpx;
+  margin-top: 80rpx;
 }
 .floatContent .btn1 {
   display: flex;
@@ -61,6 +79,9 @@ page {
   text-align: center;
   line-height: 100rpx;
   color: red;
+}
+.floatContent .btn1 .shortLine {
+  border-right: 1px solid #ccc;
 }
 .ruleHide {
   height: 60rpx !important;
