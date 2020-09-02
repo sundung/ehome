@@ -2,7 +2,7 @@
 <view class='task-orders'>
     <view class='top'>
       <view class='left'>
-        <image class="" src="/assets/img/home-1.png"  />
+        <view class="image"></view>
         <view>
           e到家
         </view>  

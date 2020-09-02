@@ -2,7 +2,7 @@
 <view class='task-orders'>
     <view class='top'>
       <view class='left'>
-        <image class="" src="/assets/img/home-1.png"  />
+        <view class="image"></view>
         <view>
           e到家
         </view>  
@@ -13,24 +13,24 @@
     </view>
     <view class="content">
       <view class="left">
-        <image class="" src="/assets/img/home-1.png"  /> 
+        <view class='image'></view>   
       </view>
       <view class="right">
-        <view class="top">家电维修服务直约</view>
+        <view class="title">家电维修服务直约</view>
         <view class="content">
           <view class="left">
-            <view>
+            <view class='item'>
               空调维修
             </view>
-            <view>
+            <view class='item'>
               空调功率:2P
             </view>     
           </view>
           <view class="right">
-            <view>
+            <view class='item'>
               空调机型:定频挂机
             </view>
-            <view>
+            <view class='item'>
               报修数量:1
             </view>    
           </view>

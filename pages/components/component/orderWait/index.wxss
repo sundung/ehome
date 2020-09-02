@@ -11,10 +11,11 @@
   display: flex;
   color: #1993fc;
 }
-.task-orders .top .left image {
+.task-orders .top .left .image {
   height: 40rpx;
   width: 40rpx;
   margin-right: 15rpx;
+  background-color: #1993fc;
 }
 .task-orders .top .right {
   color: green;

@@ -11,10 +11,11 @@
   display: flex;
   color: #1993fc;
 }
-.task-orders .top .left image {
+.task-orders .top .left .image {
   height: 40rpx;
   width: 40rpx;
   margin-right: 15rpx;
+  background-color: #1993fc;
 }
 .task-orders .top .right {
   color: green;
@@ -25,21 +26,37 @@
   justify-content: space-between;
   font-size: 30rpx;
 }
-.task-orders .content .left image {
-  height: 160rpx;
-  width: 160rpx;
+.task-orders .content .left .image {
+  height: 140rpx;
+  width: 140rpx;
+  border: 1px solid #ccc;
+  border-radius: 8rpx;
 }
-.task-orders .content .right .top {
-  display: flex;
-  justify-content: center;
+.task-orders .content .right {
+  margin-left: 20rpx;
+}
+.task-orders .content .right .content {
+  font-size: 24rpx;
+  color: #717171;
 }
 .task-orders .content .right .content .left {
   display: flex;
   flex-wrap: wrap;
 }
+.task-orders .content .right .content .left .item:nth-child(1) {
+  margin-bottom: 12rpx;
+}
 .task-orders .content .right .content .right {
   display: flex;
   flex-wrap: wrap;
+}
+.task-orders .content .right .content .right .item:nth-child(1) {
+  margin-bottom: 12rpx;
+}
+.task-orders .bottom {
+  margin-top: 14rpx;
+  font-size: 24rpx;
+  color: #717171;
 }
 .task-orders .bottom .top {
   display: flex;

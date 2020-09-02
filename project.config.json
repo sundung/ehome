@@ -80,6 +80,13 @@
 					"pathName": "pages/components/orderDetail/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/components/component/orderInService/index",
+					"pathName": "pages/components/component/orderInService/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}
