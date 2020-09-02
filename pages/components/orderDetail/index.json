@@ -4,7 +4,8 @@
     "chargesNotes":"/pages/components/component/orderDetail/chargesNotes/index",
     "iconBlock":"/pages/components/component/orderDetail/iconBlock/index",
     "chargeStandard":"/pages/components/component/orderDetail/chargeStandard/index",
-    "orderForm":"/pages/components/component/orderDetail/orderForm/index"
+    "orderForm":"/pages/components/component/orderDetail/orderForm/index",
+    "orderInfo":"/pages/components/component/orderDetail/orderInfo/index"
   },
   "navigationBarTitleText": "订单详情",
   "navigationBarBackgroundColor":"#1993fc",

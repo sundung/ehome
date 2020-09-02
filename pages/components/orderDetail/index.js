@@ -7,7 +7,12 @@ Page({
   data: {
 
   },
-
+    // 点击icon区域跳转服务保障页面
+    goToServiceAssurance (){
+      wx.navigateTo({
+        url: '/pages/components/component/serviceAssurance/index',
+      })
+    },
   /**
    * 生命周期函数--监听页面加载
    */

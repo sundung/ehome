@@ -1,1 +1,52 @@
-/* pages/components/component/orderDetail/orderInfo/index.wxss */
+.main {
+  height: 340rpx;
+  background-color: #fff;
+  padding: 24rpx;
+}
+.main .title {
+  display: flex;
+}
+.main .title .image {
+  width: 40rpx;
+  height: 40rpx;
+}
+.main .title .word {
+  margin-left: 20rpx;
+}
+.main .content {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+}
+.main .content .left .image {
+  height: 140rpx;
+  width: 140rpx;
+  border: 1px solid #ccc;
+  border-radius: 8rpx;
+}
+.main .content .right {
+  margin-left: 20rpx;
+}
+.main .content .right .content {
+  font-size: 24rpx;
+  color: #717171;
+}
+.main .content .right .content .left {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .content .right .content .right {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main .content .right .content .right .item:nth-child(1) {
+  margin: 12rpx 0;
+}
+.main .bottom {
+  margin-top: 20rpx;
+}
+.main .bottom .content {
+  font-size: 24rpx;
+  color: #717171;
+}

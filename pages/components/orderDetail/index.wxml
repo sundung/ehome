@@ -2,9 +2,9 @@
 <!-- 头部 -->
 <waitHeader></waitHeader>
 <!-- 订单信息 -->
-
+<orderInfo></orderInfo>
 <!-- icon区域 -->
-<iconBlock></iconBlock>
+<iconBlock bindtap='goToServiceAssurance'></iconBlock>
 <!-- 收费说明 -->
 <chargesNotes></chargesNotes>
 

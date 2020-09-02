@@ -19,7 +19,8 @@
     "pages/components/component/orderDetail/iconBlock/index",
     "pages/components/component/orderDetail/chargeStandard/index",
     "pages/components/component/orderDetail/orderForm/index",
-    "pages/components/component/orderDetail/orderInfo/index"
+    "pages/components/component/orderDetail/orderInfo/index",
+    "pages/components/component/serviceAssurance/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
