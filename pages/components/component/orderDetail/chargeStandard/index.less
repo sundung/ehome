@@ -1,0 +1,50 @@
+.table-standard {
+  margin-top: 10rpx;
+  // box-sizing: border-box;
+  background-color: #fff;
+  .text {
+    font-size: 32rpx;
+    font-weight: 700;
+    padding: 14rpx 0 0 14rpx;
+  }
+}
+.scroll-class {
+  height: 600rpx;
+  background-color: #fff;
+  margin-top: 16rpx;
+  .table {
+    display: table;
+    width: 2000rpx;
+    /* 合并边框 */
+    border-collapse: collapse;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin: 15rpx 0;
+    .table-tr {
+      /* 此元素会作为一个表格行显示（类似 <tr>） */
+      display: table-row;
+      height: 92rpx;
+      /* 控制收费表格的 表头 */
+      .tableTh {
+        width: 140rpx;
+      }
+      .public {
+        width: 1200rpx;
+      }
+      .table-th {
+        /* 此元素会作为一个表格单元格显示（类似 <td> 和 <th>） */
+        display: table-cell;
+        font-weight: bold;
+        border: 1rpx solid gray;
+        text-align: center;
+        vertical-align: middle;
+      }
+      .table-td {
+        display: table-cell;
+        border: 1rpx solid gray;
+        text-align: center;
+        vertical-align: middle;
+      }
+    }
+  }
+}

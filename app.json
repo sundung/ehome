@@ -16,7 +16,10 @@
     "pages/components/orderDetail/index",
     "pages/components/component/orderDetail/waitHeader/index",
     "pages/components/component/orderDetail/chargesNotes/index",
-    "pages/components/component/orderDetail/iconBlock/index"
+    "pages/components/component/orderDetail/iconBlock/index",
+    "pages/components/component/orderDetail/chargeStandard/index",
+    "pages/components/component/orderDetail/orderForm/index",
+    "pages/components/component/orderDetail/orderInfo/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

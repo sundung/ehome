@@ -75,16 +75,30 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "pages/components/orderDetail/index",
+					"id": 1,
+					"name": "订单详情主页面",
 					"pathName": "pages/components/orderDetail/index",
 					"query": "",
 					"scene": null
 				},
 				{
 					"id": -1,
-					"name": "pages/components/component/orderDetail/iconBlock/index",
-					"pathName": "pages/components/component/orderDetail/iconBlock/index",
+					"name": "收费标准",
+					"pathName": "pages/components/component/orderDetail/chargeStandard/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "联系人订单",
+					"pathName": "pages/components/component/orderDetail/orderForm/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "订单详情模块",
+					"pathName": "pages/components/component/orderDetail/orderInfo/index",
 					"query": "",
 					"scene": null
 				}

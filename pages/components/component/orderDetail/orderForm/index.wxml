@@ -1,0 +1,29 @@
+<!--pages/components/component/orderDetail/orderForm/index.wxml-->
+<view class='list'>
+  <view class="list-item">
+    <view class="title">联系人</view>
+    <view class="name">张三</view>
+    <view class="phone">13567890112</view> 
+  </view>
+  <view class="list-item">
+    <view class="title">服务地址</view>
+    <view class="address">北京市朝阳区香江北路20号马泉营一区</view>
+  </view>
+  <view class="list-item">
+    <view class="title">下单时间</view>
+     <view class="order-time">2020-07-17   15:30</view>
+  </view>
+  <view class="list-item">
+    <view class="title">上门服务时间</view>
+    <view class="home-time">
+      2020-07-17   15:30
+    </view>
+  </view>
+  <view class="list-item">
+      <view class="title">订单编号</view> 
+     <view class="number">
+      xxxxxxxxxxxxxxxxxxxxx
+      </view>
+  </view>
+</view>
+  

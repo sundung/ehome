@@ -1,2 +1,63 @@
 <!--pages/components/component/orderDetail/chargeStandard/index.wxml-->
-<text>pages/components/component/orderDetail/chargeStandard/index.wxml</text>
+  <view class='table-standard'>
+    <view class="text">收费标准</view>
+  <scroll-view scroll-x='true' class="scroll-class">
+    <view class="table">
+      <view class="table-tr">
+        <view class="table-th"></view>
+        <view class="table-th public">空调维修收费项目指导价</view>
+        <view class="table-th"></view>
+        <view class="table-th"></view>
+        <view class="table-th"></view>
+      </view>
+      <view class="table-tr">
+        <view class="table-th tableTh">类型</view>
+        <view class="table-th public">维修项目</view>
+        <view class="table-th">1p-2p</view>
+        <view class="table-th">1p-2p</view>
+        <view class="table-th">1p-2p</view>
+      </view>
+      <view class="table-tr">
+        <view class="table-td tableTh">简修</view>
+        <view class="table-td public">
+          1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
+          2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
+        </view>
+        <view class="table-td">50</view>
+        <view class="table-td"></view>
+        <view class="table-td"></view>
+      </view>
+      <view class="table-tr">
+        <view class="table-td tableTh">小修</view>
+        <view class="table-td public">
+          1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
+          2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
+        </view>
+        <view class="table-td">50</view>
+        <view class="table-td"></view>
+        <view class="table-td"></view>
+      </view>
+      <view class="table-tr">
+        <view class="table-td tableTh">中修</view>
+        <view class="table-td public">
+          1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
+          2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
+        </view>
+        <view class="table-td">50</view>
+        <view class="table-td"></view>
+        <view class="table-td"></view>
+      </view>
+      <view class="table-tr">
+        <view class="table-td tableTh">大修</view>
+        <view class="table-td public">
+          1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
+          2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
+        </view>
+        <view class="table-td">50</view>
+        <view class="table-td"></view>
+        <view class="table-td"></view>
+      </view>
+    </view>
+  </scroll-view>
+  </view>
+    

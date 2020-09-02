@@ -7,3 +7,15 @@
 <iconBlock></iconBlock>
 <!-- 收费说明 -->
 <chargesNotes></chargesNotes>
+
+<!-- 收费标准 -- 表格 -->
+<chargeStandard></chargeStandard>
+
+<!-- 订单联系人信息 -->
+<orderForm></orderForm>
+
+<!-- 底部按钮区域 -->
+<view class="btn">
+  <view class="item">取消订单时间</view>
+  <view class="item">修改服务时间</view>
+</view>

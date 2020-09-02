@@ -1,1 +1,49 @@
-/* pages/components/component/orderDetail/chargeStandard/index.wxss */
+.table-standard {
+  margin-top: 10rpx;
+  background-color: #fff;
+}
+.table-standard .text {
+  font-size: 32rpx;
+  font-weight: 700;
+  padding: 14rpx 0 0 14rpx;
+}
+.scroll-class {
+  height: 600rpx;
+  background-color: #fff;
+  margin-top: 16rpx;
+}
+.scroll-class .table {
+  display: table;
+  width: 2000rpx;
+  /* 合并边框 */
+  border-collapse: collapse;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 15rpx 0;
+}
+.scroll-class .table .table-tr {
+  /* 此元素会作为一个表格行显示（类似 <tr>） */
+  display: table-row;
+  height: 92rpx;
+  /* 控制收费表格的 表头 */
+}
+.scroll-class .table .table-tr .tableTh {
+  width: 140rpx;
+}
+.scroll-class .table .table-tr .public {
+  width: 1200rpx;
+}
+.scroll-class .table .table-tr .table-th {
+  /* 此元素会作为一个表格单元格显示（类似 <td> 和 <th>） */
+  display: table-cell;
+  font-weight: bold;
+  border: 1rpx solid gray;
+  text-align: center;
+  vertical-align: middle;
+}
+.scroll-class .table .table-tr .table-td {
+  display: table-cell;
+  border: 1rpx solid gray;
+  text-align: center;
+  vertical-align: middle;
+}
