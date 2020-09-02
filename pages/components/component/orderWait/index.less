@@ -1,4 +1,3 @@
-
 // 待服务订单模块样式
 .task-orders {
   padding: 20rpx;
@@ -26,30 +25,39 @@
     justify-content: space-between;
     font-size: 30rpx;
     .left {
-      image {
-        height: 160rpx;
-        width: 160rpx;
+      .image {
+        height: 140rpx;
+        width: 140rpx;
+        border: 1px solid #ccc;
+        border-radius: 8rpx;
       }
     }
     .right {
-      // border: 1px solid #ccc;
-      .top {
-        display: flex;
-        justify-content: center;
-      }
+      margin-left: 20rpx;
       .content {
+        font-size: 24rpx;
+        color: #717171;
         .left {
           display: flex;
           flex-wrap: wrap;
+          .item:nth-child(1) {
+            margin-bottom: 12rpx;
+          }
         }
         .right {
           display: flex;
           flex-wrap: wrap;
+          .item:nth-child(1) {
+            margin-bottom: 12rpx;
+          }
         }
       }
     }
   }
   .bottom {
+    margin-top: 14rpx;
+    font-size: 24rpx;
+    color: #717171;
     .top {
       display: flex;
       justify-content: flex-start;

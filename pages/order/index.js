@@ -40,6 +40,13 @@ Page({
       })
      })
   },
+  // 点击订单列表的待接单跳转到订单详情页面
+  goToOrderDetail(){
+    console.log('123')
+    wx.navigateTo({
+      url: '/pages/components/orderDetail/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

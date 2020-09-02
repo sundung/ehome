@@ -1,11 +1,11 @@
 {
   "usingComponents": {
-    "waitHeader":"/pages/components/component/orderDetail/waitHeader/index",
-    "chargesNotes":"/pages/components/component/orderDetail/chargesNotes/index",
-    "iconBlock":"/pages/components/component/orderDetail/iconBlock/index",
-    "chargeStandard":"/pages/components/component/orderDetail/chargeStandard/index",
-    "orderForm":"/pages/components/component/orderDetail/orderForm/index",
-    "orderInfo":"/pages/components/component/orderDetail/orderInfo/index"
+    "waitHeader":"/pages/components/component/orderDetailComponents/waitHeader/index",
+    "chargesNotes":"/pages/components/component/orderDetailComponents/chargesNotes/index",
+    "iconBlock":"/pages/components/component/orderDetailComponents/iconBlock/index",
+    "chargeStandard":"/pages/components/component/orderDetailComponents/chargeStandard/index",
+    "orderForm":"/pages/components/component/orderDetailComponents/orderForm/index",
+    "orderInfo":"/pages/components/component/orderDetailComponents/orderInfo/index"
   },
   "navigationBarTitleText": "订单详情",
   "navigationBarBackgroundColor":"#1993fc",
