@@ -73,6 +73,12 @@
 					"pathName": "pages/order/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "待上门订单详情",
+					"pathName": "pages/components/allOrderDetail/orderWaitHomeDetail/index",
+					"scene": null
 				}
 			]
 		}

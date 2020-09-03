@@ -40,10 +40,15 @@ Page({
     })
   },
   // 点击订单列表的待接单跳转到订单详情页面
-  goToOrderDetail() {
-    console.log('123')
+  goToOrderWaitDetail() {
     wx.navigateTo({
       url: '/pages/components/allOrderDetail/orderWaitDetail/index',
+    })
+  },
+  // 点击订单列表中的待上门跳转到待上门订单详情
+  goToOrderWaitHomeDetail() {
+    wx.navigateTo({
+      url: '/pages/components/allOrderDetail/orderWaitHomeDetail/index',
     })
   },
   // 点击服务中跳转到维修清单页面

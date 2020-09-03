@@ -3,8 +3,8 @@
 <Tabs tabs="{{tabs}}" binditemChange='handleItemChange'>
   <!-- 待服务订单模块开始---------------------------------------------------------- -->
 <block wx:if="{{tabs[0].isActive}}">
-  <orderWait bindtap='goToOrderDetail'></orderWait>
-  <orderWaitHome></orderWaitHome>
+  <orderWait bindtap='goToOrderWaitDetail'></orderWait>
+  <orderWaitHome bindtap='goToOrderWaitHomeDetail'></orderWaitHome>
 </block>
 <!-- 服务中订单模块开始-------------------------------------- -->
 <block wx:elif="{{tabs[1].isActive}}">
