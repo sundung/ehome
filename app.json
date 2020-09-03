@@ -23,7 +23,8 @@
     "pages/components/component/serviceAssurance/index",
     "pages/components/cancelOrder/index",
     "pages/components/component/orderDetailComponents/maintainList/index",
-    "pages/components/component/orderHeader/waitHomeHeader/index"
+    "pages/components/component/orderHeader/waitHomeHeader/index",
+    "pages/components/component/orderHeader/orderInServiceHeader/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

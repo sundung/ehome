@@ -1,0 +1,7 @@
+<!--pages/components/component/orderHeader/orderInServiceHeader/index.wxml-->
+<view class='header'>
+  <view class="left">
+    <view class="top">服务中</view>
+    <view class="bottom">服务中，待师傅确认故障原因!</view>
+  </view>
+</view>
