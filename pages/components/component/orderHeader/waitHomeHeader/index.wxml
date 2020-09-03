@@ -1,0 +1,7 @@
+<!--pages/components/component/orderHeader/waitHomeHeader/index.wxml-->
+<view class='header'>
+  <view class="left">
+    <view class="top">待上门</view>
+    <view class="bottom">已接单,待师傅上门服务</view>
+  </view>
+</view>

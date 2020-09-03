@@ -83,15 +83,8 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/components/component/orderInService/index",
-					"pathName": "pages/components/component/orderInService/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "维修清单",
-					"pathName": "pages/components/component/orderDetailComponents/maintainList/index",
+					"name": "等待上门接单的头部",
+					"pathName": "pages/components/component/orderHeader/waitHomeHeader/index",
 					"query": "",
 					"scene": null
 				}
