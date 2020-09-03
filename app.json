@@ -26,7 +26,10 @@
     "pages/components/component/orderHeader/waitHomeHeader/index",
     "pages/components/component/orderHeader/orderInServiceHeader/index",
     "pages/components/component/orderHeader/orderPayHeader/index",
-    "pages/components/component/orderHeader/orderPaidHeader/index"
+    "pages/components/component/orderHeader/orderPaidHeader/index",
+    "pages/components/component/orderHeader/orderFinshedHeader/index",
+    "pages/components/component/orderHeader/orderCanceledHeader/index",
+    "pages/components/component/orderHeader/orderPayHeader/index.wxml"
   ],
   "window": {
     "backgroundTextStyle": "light",

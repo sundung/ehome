@@ -1,0 +1,7 @@
+<!--pages/components/component/orderHeader/orderFinshedHeader/index.wxml-->
+<view class='header'>
+  <view class="left">
+    <view class="top">已结束</view>
+    <view class="bottom">取消维修服务!</view>
+  </view>
+</view>

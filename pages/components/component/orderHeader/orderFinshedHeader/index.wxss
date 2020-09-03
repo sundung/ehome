@@ -1,0 +1,22 @@
+.header {
+  background-color: #1993fc;
+  height: 200rpx;
+  padding: 0 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .left {
+  display: flex;
+  flex-direction: column;
+}
+.header .left .top {
+  font-size: 40rpx;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 20rpx;
+}
+.header .left .bottom {
+  font-size: 24rpx;
+  color: #fff;
+}
