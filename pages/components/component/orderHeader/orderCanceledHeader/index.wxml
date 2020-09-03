@@ -1,0 +1,7 @@
+<!--pages/components/component/orderHeader/orderCanceledHeader/index.wxml-->
+<view class='header'>
+  <view class="left">
+    <view class="top">已取消</view>
+    <view class="bottom">取消原因:超时未接单</view>
+  </view>
+</view>
