@@ -73,27 +73,6 @@
 					"pathName": "pages/order/index",
 					"query": "",
 					"scene": null
-				},
-				{
-					"id": 1,
-					"name": "订单详情主页面",
-					"pathName": "pages/components/orderDetail/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "等待上门接单的头部",
-					"pathName": "pages/components/component/orderHeader/waitHomeHeader/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "待支付头部",
-					"pathName": "pages/components/component/orderHeader/orderPayHeader/index",
-					"query": "",
-					"scene": null
 				}
 			]
 		}

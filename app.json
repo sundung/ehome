@@ -13,7 +13,7 @@
     "pages/components/component/orderWait/index",
     "pages/components/component/orderInService/index",
     "pages/components/component/orderEnd/index",
-    "pages/components/allOrderDetail/orderDetail/index",
+    "pages/components/allOrderDetail/orderWaitDetail/index",
     "pages/components/component/orderHeader/waitHeader/index",
     "pages/components/component/orderDetailComponents/chargesNotes/index",
     "pages/components/component/orderDetailComponents/iconBlock/index",
@@ -29,7 +29,8 @@
     "pages/components/component/orderHeader/orderPaidHeader/index",
     "pages/components/component/orderHeader/orderFinshedHeader/index",
     "pages/components/component/orderHeader/orderCanceledHeader/index",
-    "pages/components/component/orderHeader/orderPayHeader/index.wxml"
+    "pages/components/component/orderHeader/orderPayHeader/index.wxml",
+    "pages/components/component/orderWaitHome/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
