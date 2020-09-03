@@ -43,7 +43,7 @@ Page({
   goToOrderDetail() {
     console.log('123')
     wx.navigateTo({
-      url: '/pages/components/orderDetail/index',
+      url: '/pages/components/allOrderDetail/orderDetail/index',
     })
   },
   // 点击服务中跳转到维修清单页面
