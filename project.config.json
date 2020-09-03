@@ -87,6 +87,13 @@
 					"pathName": "pages/components/component/orderInService/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "维修清单",
+					"pathName": "pages/components/component/orderDetailComponents/maintainList/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

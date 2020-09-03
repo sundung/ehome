@@ -1,0 +1,95 @@
+page {
+  background-color: #f2f2f2;
+}
+.main .list {
+  height: 500rpx;
+  padding: 24rpx;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.main .list .line {
+  border: 1rpx solid #ccc;
+}
+.main .list .content {
+  display: flex;
+  justify-content: space-between;
+}
+.main .list .info .con {
+  color: #666;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+}
+.main .list .materials .content {
+  margin-top: 14rpx;
+}
+.main .list .materials .content .content1 {
+  display: flex;
+  justify-content: space-between;
+}
+.main .list .allButton {
+  font-size: 24rpx;
+  font-weight: 400;
+}
+.main .charging-standards {
+  margin-top: 10rpx;
+  background-color: #fff;
+}
+.main .charging-standards .text {
+  font-size: 32rpx;
+  font-weight: 700;
+  padding: 14rpx 0 0 14rpx;
+}
+.main .charging-standards .scroll-class {
+  height: 440rpx;
+  background-color: #fff;
+  margin-top: 10rpx;
+}
+.main .charging-standards .scroll-class .table {
+  display: table;
+  width: 2000rpx;
+  /* 合并边框 */
+  border-collapse: collapse;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 15rpx 0;
+  /* 控制前二行的背景色 */
+  /* 控制第二行的行高 */
+}
+.main .charging-standards .scroll-class .table .bgc {
+  background-color: #f2f2f2;
+}
+.main .charging-standards .scroll-class .table .second {
+  height: 200rpx;
+}
+.main .charging-standards .scroll-class .table .table-tr {
+  /* 此元素会作为一个表格行显示（类似 <tr>） */
+  display: table-row;
+  height: 92rpx;
+  /* 控制收费表格的 表头 */
+}
+.main .charging-standards .scroll-class .table .table-tr .tableTh {
+  width: 140rpx;
+}
+.main .charging-standards .scroll-class .table .table-tr .public {
+  width: 1200rpx;
+}
+.main .charging-standards .scroll-class .table .table-tr .table-th {
+  /* 此元素会作为一个表格单元格显示（类似 <td> 和 <th>） */
+  display: table-cell;
+  font-weight: bold;
+  border: 1rpx solid gray;
+  text-align: center;
+  vertical-align: middle;
+}
+.main .charging-standards .scroll-class .table .table-tr .table-td {
+  display: table-cell;
+  border: 1rpx solid gray;
+  text-align: center;
+  vertical-align: middle;
+}
+.main .confirm {
+  margin-top: 20rpx;
+  background-color: #fff;
+}

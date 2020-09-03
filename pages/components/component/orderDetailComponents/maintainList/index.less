@@ -1,0 +1,107 @@
+page {
+  background-color: #f2f2f2;
+}
+
+.main {
+  // 维修清单开始
+  .list {
+    height: 500rpx;
+    padding: 24rpx;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    // 线段
+    .line {
+      border: 1rpx solid #ccc;
+    }
+    .content {
+      display: flex;
+      justify-content: space-between;
+    }
+    .info {
+      .con {
+        color: #666;
+        font-size: 24rpx;
+        margin-top: 10rpx;
+      }
+    }
+    .materials {
+      .content {
+        margin-top: 14rpx;
+        .content1 {
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+    // 全部按钮
+    .allButton {
+      font-size: 24rpx;
+      font-weight: 400;
+    }
+  }
+  // 收费标准表格开始
+  .charging-standards {
+    margin-top: 10rpx;
+    background-color: #fff;
+    .text {
+      font-size: 32rpx;
+      font-weight: 700;
+      padding: 14rpx 0 0 14rpx;
+    }
+    .scroll-class {
+      height: 440rpx;
+      background-color: #fff;
+      margin-top: 10rpx;
+      .table {
+        display: table;
+        width: 2000rpx;
+        /* 合并边框 */
+        border-collapse: collapse;
+        box-sizing: border-box;
+        background-color: #fff;
+        margin: 15rpx 0;
+        /* 控制前二行的背景色 */
+        .bgc {
+          background-color: #f2f2f2;
+        }
+        /* 控制第二行的行高 */
+        .second {
+          height: 200rpx;
+        }
+        .table-tr {
+          /* 此元素会作为一个表格行显示（类似 <tr>） */
+          display: table-row;
+          height: 92rpx;
+          /* 控制收费表格的 表头 */
+          .tableTh {
+            width: 140rpx;
+          }
+          .public {
+            width: 1200rpx;
+          }
+          .table-th {
+            /* 此元素会作为一个表格单元格显示（类似 <td> 和 <th>） */
+            display: table-cell;
+            font-weight: bold;
+            border: 1rpx solid gray;
+            text-align: center;
+            vertical-align: middle;
+          }
+          .table-td {
+            display: table-cell;
+            border: 1rpx solid gray;
+            text-align: center;
+            vertical-align: middle;
+          }
+        }
+      }
+    }
+  }
+  // 确认维修按钮
+  .confirm {
+    margin-top: 20rpx;
+    background-color: #fff;
+  }
+}
