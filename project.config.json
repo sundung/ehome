@@ -87,6 +87,13 @@
 					"pathName": "pages/components/component/orderHeader/waitHomeHeader/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "待支付头部",
+					"pathName": "pages/components/component/orderHeader/orderPayHeader/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

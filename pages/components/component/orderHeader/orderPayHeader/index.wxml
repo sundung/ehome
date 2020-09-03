@@ -1,0 +1,7 @@
+<!--pages/components/component/orderHeader/orderPayHeader/index.wxml-->
+<view class='header'>
+  <view class="left">
+    <view class="top">待支付</view>
+    <view class="bottom">师傅确认故障，已提交维修清单，确认维修请在线支付！</view>
+  </view>
+</view>
