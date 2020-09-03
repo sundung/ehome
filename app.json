@@ -25,7 +25,8 @@
     "pages/components/component/orderDetailComponents/maintainList/index",
     "pages/components/component/orderHeader/waitHomeHeader/index",
     "pages/components/component/orderHeader/orderInServiceHeader/index",
-    "pages/components/component/orderHeader/orderPayHeader/index"
+    "pages/components/component/orderHeader/orderPayHeader/index",
+    "pages/components/component/orderHeader/orderPaidHeader/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

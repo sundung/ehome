@@ -1,0 +1,7 @@
+<!--pages/components/component/orderHeader/orderPaidHeader/index.wxml-->
+<view class='header'>
+  <view class="left">
+    <view class="top">已支付</view>
+    <view class="bottom">师傅维修中,订单已支付！</view>
+  </view>
+</view>
