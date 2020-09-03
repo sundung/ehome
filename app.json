@@ -14,7 +14,7 @@
     "pages/components/component/orderInService/index",
     "pages/components/component/orderEnd/index",
     "pages/components/orderDetail/index",
-    "pages/components/component/orderDetailComponents/waitHeader/index",
+    "pages/components/component/orderHeader/waitHeader/index",
     "pages/components/component/orderDetailComponents/chargesNotes/index",
     "pages/components/component/orderDetailComponents/iconBlock/index",
     "pages/components/component/orderDetailComponents/chargeStandard/index",

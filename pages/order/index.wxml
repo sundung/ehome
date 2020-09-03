@@ -7,7 +7,7 @@
 </block>
 <!-- 服务中开始------------------------ -->
 <block wx:elif="{{tabs[1].isActive}}">
-  <orderInService></orderInService>
+  <orderInService bindtap='goToMaintainList'></orderInService>
 </block> 
 <block wx:elif="{{tabs[2].isActive}}">
     <orderEnd></orderEnd>

@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "waitHeader":"/pages/components/component/orderDetailComponents/waitHeader/index",
+    "waitHeader":"/pages/components/component/orderHeader/waitHeader/index",
     "chargesNotes":"/pages/components/component/orderDetailComponents/chargesNotes/index",
     "iconBlock":"/pages/components/component/orderDetailComponents/iconBlock/index",
     "chargeStandard":"/pages/components/component/orderDetailComponents/chargeStandard/index",
