@@ -20,7 +20,7 @@
 
 <!-- 结束按钮 -->
 
-  <button class="finish" plain>结束服务</button>
+  <button bindtap='goToFinishedService' class='finish' plain style='border:0;background-color:#1993fc;font-size:25rpx; color:#fff'>结束服务</button>
 
   
 

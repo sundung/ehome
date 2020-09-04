@@ -7,7 +7,12 @@ Page({
   data: {
 
   },
-
+  // 点击 结束服务按钮跳转到 结束服务页面
+  goToFinishedService() {
+    wx.navigateTo({
+      url: '/pages/components/finishedService/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
