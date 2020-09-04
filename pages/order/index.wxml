@@ -10,6 +10,7 @@
 <block wx:elif="{{tabs[1].isActive}}">
   <orderInService bindtap='goToOrderInServiceDetail'></orderInService>
   <orderPay bindtap='goToPayDetail'></orderPay>
+  <orderPaid></orderPaid>
 </block> 
 <!-- 已结束订单模块开始---------------------------------------- -->
 <block wx:elif="{{tabs[2].isActive}}">
