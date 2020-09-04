@@ -1,5 +1,5 @@
-<!--pages/components/component/orderService/index.wxml-->
-<view class='task-orders'>
+<!--pages/components/component/orderPay/index.wxml-->
+<view class='task-orders1'>
     <view class='top'>
       <view class='left'>
         <view class="image"></view>
@@ -8,7 +8,7 @@
         </view>  
       </view>
       <view class="right">
-        服务中
+        待支付
       </view>  
     </view>
     <view class="content">
@@ -45,9 +45,17 @@
       <view class='address'>
         北京市朝阳区松江路20号马泉营一区
       </view>  
+      <!-- 底部信息 -->
       <view class="btn">
-        <button size='mini' class="buttonAll" plain="true" bindtap='goToMaintainList'>获取维修清单</button>
+        <!-- 维修价格 -->
+        <view class="price">
+          <view class='al'>维修总价 </view>
+          <view class="text">
+          ￥184.00
+          </view> 
+        </view>
+        <!-- 支付按钮 -->
+        <button size='mini' class="buttonall" plain="true" bindtap='goToMaintainList'>支付</button>
       </view>
     </view>
 </view>
-

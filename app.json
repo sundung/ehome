@@ -30,8 +30,9 @@
     "pages/components/component/orderHeader/orderFinshedHeader/index",
     "pages/components/component/orderHeader/orderCanceledHeader/index",
     "pages/components/component/orderWaitHome/index",
-    "pages/components/allOrderDetail/orderWaitHomeDetail/index"
-    
+    "pages/components/allOrderDetail/orderWaitHomeDetail/index",
+    "pages/components/allOrderDetail/orderPayDetail/index",
+    "pages/components/component/orderPay/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
