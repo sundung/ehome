@@ -19,4 +19,24 @@
 <orderForm></orderForm>
 
 <!-- 结束按钮 -->
-<button>结束服务</button>
+
+  <button class="finish" plain>结束服务</button>
+
+  
+
+<!-- 底部提示信息 -->
+<view class="tips">在线支付的订单是处理退款、赔偿等问题的唯一凭据，私下交易权益保障!</view>
+
+<!-- 底部按钮区域 -->
+
+<view class="bottom">
+  <view class="price">
+    <text class="word" >
+      维修总价 
+    </text>
+    <text class="text">
+      ￥180元
+    </text>
+  </view>
+  <button class='pay' plain>支付</button>
+</view>

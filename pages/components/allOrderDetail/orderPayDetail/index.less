@@ -1,3 +1,51 @@
 page {
   background-color: #f2f2f2;
 }
+//结束服务按钮
+
+.finish {
+  margin: 20rpx 0 240rpx 0;
+  border: 0;
+  background-color: #fff;
+  color: #fff;
+}
+
+// 底部提示信息
+.tips {
+  height: 80rpx;
+  background-color: #d1e9fe;
+  position: fixed;
+  left: 0;
+  bottom: 110rpx;
+  color: red;
+  font-size: 24rpx;
+  padding: 0 20rpx;
+}
+
+// 底部按钮区域开始
+.bottom {
+  display: flex;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 110rpx;
+  background-color: #fff;
+  width: 100vw;
+  .price {
+    width: 50%;
+    display: flex;
+    text-align: center;
+    margin-left: 12rpx;
+    line-height: 40rpx;
+    font-size: 34rpx;
+    .text {
+      color: red;
+    }
+  }
+  .pay {
+    width: 50%;
+    border: 0;
+    background-color: #1993fc;
+    line-height: 80rpx;
+  }
+}

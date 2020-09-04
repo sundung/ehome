@@ -94,6 +94,12 @@
 					"pathName": "pages/components/component/orderDetailComponents/payMaintainList/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "结束服务",
+					"pathName": "pages/components/finishedService/index",
+					"scene": null
 				}
 			]
 		}
