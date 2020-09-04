@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    // isRuleTrue:false
+   
   },
     // 点击icon区域跳转服务保障页面
     goToServiceAssurance (){

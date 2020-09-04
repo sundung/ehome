@@ -21,3 +21,24 @@
   <view class="item">修改服务时间</view>
   <view class="item">联系师傅</view>
 </view>
+
+<!-- 点击取消订单弹出的弹出框--------------------- -->
+<!--  -->
+<!-- 点击取消订单弹出的弹出框--------------------- -->
+
+<view class="float {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
+  <view class='floatContent'>
+    <view class="title">请仔细阅读下方文字后再确定是否取消订单!</view>
+    <view class="content">
+        <view >我们将会对订单进行实时跟踪,有效的保障您的合法权益,私下交易将无法享受到赔付、财产安全保障,其售后权益保障!</view>
+        <view class='item'>
+          确定要取消订单吗?
+        </view>
+    </view>
+    <view class="line"></view> 
+    <view class="btn1">
+      <view class='button' bindtap='goToCancelOrder'>确定取消</view>
+      <view class='button' bindtap='closeMask'>暂不取消</view>
+    </view>
+  </view>
+</view>

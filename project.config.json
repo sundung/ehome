@@ -78,6 +78,35 @@
 					"id": -1,
 					"name": "待上门订单详情",
 					"pathName": "pages/components/allOrderDetail/orderWaitHomeDetail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "取消订单的弹出层",
+					"pathName": "pages/components/component/orderDetailComponents/cancelOrderMask/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "待上门头部",
+					"pathName": "pages/components/component/orderHeader/waitHomeHeader/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "弹出框",
+					"pathName": "pages/components/modal/modal",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "pages/components/allOrderDetail/orderWaitDetail/index",
+					"pathName": "pages/components/allOrderDetail/orderWaitDetail/index",
+					"query": "",
 					"scene": null
 				}
 			]
