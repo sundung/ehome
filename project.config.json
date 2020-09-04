@@ -80,6 +80,20 @@
 					"pathName": "pages/order/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "待支付详情",
+					"pathName": "pages/components/allOrderDetail/orderPayDetail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "支付的维修清单",
+					"pathName": "pages/components/component/orderDetailComponents/payMaintainList/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

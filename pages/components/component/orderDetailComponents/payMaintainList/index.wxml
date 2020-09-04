@@ -1,0 +1,27 @@
+<!--pages/components/component/orderDetailComponents/payMaintainList/index.wxml-->
+<view class="main">
+  <view class="title main-item">
+    <view class="title_item">维修清单</view>
+    <view class="get">重新获取</view>
+  </view>
+  <view class="type main-item">
+    <view class="left">维修类型</view>
+    <view class="right">中修 / 60元</view>
+  </view>
+  <view class="info main-item">
+    <view class="title">维修说明</view>
+    <view class="content">需要更换电源</view>
+  </view>
+  <view class="line"></view>
+  <view class="materials main-item">
+    <view class="title">使用材料</view>
+    <view class="con">
+      <view class="left">电源线</view>
+      <view class="right"> 120元 / 跟 x 1</view>
+    </view>
+  </view>
+  <view class="line"></view>
+  <view class="price">
+    合计: 180 元
+  </view>
+</view>

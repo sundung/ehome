@@ -58,6 +58,12 @@ Page({
         '/pages/components/component/orderDetailComponents/maintainList/index',
     })
   },
+  // 点击带待支付订单跳转到待支付订单详情页面
+  goToPayDetail () {
+    wx.navigateTo({
+      url: '/pages/components/allOrderDetail/orderPayDetail/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

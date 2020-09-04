@@ -2,6 +2,7 @@
   "usingComponents": {
     "waitHomeHeader": "/pages/components/component/orderHeader/waitHomeHeader/index",
     "orderInfo": "/pages/components/component/orderDetailComponents/orderInfo/index",
+    "chargesNotes":"/pages/components/component/orderDetailComponents/chargesNotes/index",
     "iconBlock": "/pages/components/component/orderDetailComponents/iconBlock/index",
     "chargeStandard": "/pages/components/component/orderDetailComponents/chargeStandard/index",
     "orderForm": "/pages/components/component/orderDetailComponents/orderForm/index"

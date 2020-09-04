@@ -1,0 +1,43 @@
+.main {
+  height: 490rpx;
+  background-color: #fff;
+  padding: 20rpx;
+  margin-bottom: 10rpx;
+}
+.main .main-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 30rpx 0;
+}
+.main .title {
+  margin: 0;
+}
+.main .title .get {
+  color: #1993fc;
+}
+.main .line {
+  border: 1rpx solid #ccc;
+}
+.main .info {
+  display: flex;
+  flex-direction: column;
+}
+.main .info .content {
+  font-size: 24rpx;
+  color: #666;
+}
+.main .materials {
+  display: flex;
+  flex-direction: column;
+}
+.main .materials .con {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20rpx;
+}
+.main .price {
+  display: flex;
+  justify-content: flex-end;
+  color: red;
+  margin-top: 20rpx;
+}

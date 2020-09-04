@@ -1,2 +1,22 @@
 <!--pages/components/allOrderDetail/orderPayDetail/index.wxml-->
-<text>pages/components/allOrderDetail/orderPayDetail/index.wxml</text>
+<!-- 头部 -->
+<orderPayHeader></orderPayHeader>
+
+<!-- 订单信息 -->
+<orderInfo></orderInfo>
+<!-- icon区域 -->
+<iconBlock bindtap='goToServiceAssurance'></iconBlock>
+
+<!-- 维修清单 -->
+<payMaintainList></payMaintainList>
+
+<!-- 收费说明 -->
+<chargesNotes></chargesNotes>
+
+<!-- 收费标准 -- 表格 -->
+<chargeStandard></chargeStandard>
+<!-- 联系人信息 -->
+<orderForm></orderForm>
+
+<!-- 结束按钮 -->
+<button>结束服务</button>
