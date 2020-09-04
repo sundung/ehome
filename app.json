@@ -34,7 +34,8 @@
     "pages/components/allOrderDetail/orderPayDetail/index",
     "pages/components/component/orderPay/index",
     "pages/components/component/orderDetailComponents/payMaintainList/index",
-    "pages/components/finishedService/index"
+    "pages/components/finishedService/index",
+    "pages/components/allOrderDetail/orderInServiceDetail/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

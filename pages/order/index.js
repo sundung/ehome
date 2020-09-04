@@ -51,11 +51,11 @@ Page({
       url: '/pages/components/allOrderDetail/orderWaitHomeDetail/index',
     })
   },
-  // 点击服务中跳转到维修清单页面
-  goToMaintainList() {
+  // 点击服务中跳转到服务中订单详情页面
+  goToOrderInServiceDetail() {
     wx.navigateTo({
       url:
-        '/pages/components/component/orderDetailComponents/maintainList/index',
+        '/pages/components/allOrderDetail/orderInServiceDetail/index',
     })
   },
   // 点击带待支付订单跳转到待支付订单详情页面

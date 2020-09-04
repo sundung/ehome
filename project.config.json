@@ -99,6 +99,14 @@
 					"id": -1,
 					"name": "结束服务",
 					"pathName": "pages/components/finishedService/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 5,
+					"name": "服务中订单详情",
+					"pathName": "pages/components/allOrderDetail/orderInServiceDetail/index",
+					"query": "",
 					"scene": null
 				}
 			]

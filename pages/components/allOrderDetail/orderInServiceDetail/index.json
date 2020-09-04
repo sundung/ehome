@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "orderInServiceHeader":"/pages/components/component/orderHeader/orderInServiceHeader/index",
+    "chargesNotes":"/pages/components/component/orderDetailComponents/chargesNotes/index",
+    "iconBlock":"/pages/components/component/orderDetailComponents/iconBlock/index",
+    "chargeStandard":"/pages/components/component/orderDetailComponents/chargeStandard/index",
+    "orderForm":"/pages/components/component/orderDetailComponents/orderForm/index",
+    "orderInfo":"/pages/components/component/orderDetailComponents/orderInfo/index"
+  },
+  "navigationBarTitleText": "订单详情",
+  "navigationBarBackgroundColor": "#1993fc",
+  "navigationBarTextStyle": "white"
+}

@@ -1,0 +1,28 @@
+page {
+  background-color: #f2f2f2;
+}
+.bottom {
+  height: 100rpx;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+}
+.bottom .left {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border: 1rpx solid #1c94fc;
+  color: #1c94fc;
+}
+.bottom .right {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1c94fc;
+  color: #fff;
+}
