@@ -1,3 +1,6 @@
 {
-  "usingComponents": {}
+  "usingComponents": {},
+  "navigationBarTitleText": "结束服务",
+  "navigationBarBackgroundColor": "#1993fc",
+  "navigationBarTextStyle": "white"
 }

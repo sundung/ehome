@@ -7,7 +7,25 @@ Page({
   data: {
 
   },
-
+  // 点击  结束服务   按钮弹出一个弹出框
+    //打开透明层
+    cancelOrderMask: function () {
+      this.setData({
+        isRuleTrue: true
+      })
+    },
+     // 点击 取消按钮   关闭弹出层
+     closeMask(){
+      this.setData({
+        isRuleTrue: false
+      })
+    },
+    // 点击确定跳转到   --> 首页
+    goToHome() {
+      wx.switchTab({
+        url: '/pages/home/index'
+      })
+    },
   /**
    * 生命周期函数--监听页面加载
    */

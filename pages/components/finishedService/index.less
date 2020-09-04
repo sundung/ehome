@@ -1,0 +1,92 @@
+.container {
+  .title {
+    padding: 20rpx;
+  }
+  .item {
+    display: flex;
+    justify-content: space-between;
+    margin: 20rpx;
+    .text {
+      text-align: center;
+    }
+  }
+  .line {
+    border: 1rpx solid #ccc;
+    width: 95%;
+    margin: 0 auto;
+  }
+  .textarea {
+    color: #717171;
+    font-size: 26rpx;
+    padding: 0 20rpx;
+  }
+}
+
+// 底部结束按钮
+
+.btn {
+  height: 80rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+// 点击结束服务按钮弹出 弹出框的样式
+
+.isRuleShow {
+  display: block;
+}
+
+.isRuleHide {
+  display: none;
+}
+
+.float {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+.floatContent {
+  padding: 20rpx;
+  width: 80%;
+  height: 280rpx;
+  background: #fff;
+  margin: 40% auto;
+  border-radius: 20rpx;
+  .title {
+    text-align: center;
+    margin-top: 40rpx;
+  }
+  .line {
+    border: 1rpx solid #ccc;
+    margin-top: 80rpx;
+  }
+  .btn1 {
+    display: flex;
+    .button {
+      width: 50%;
+      text-align: center;
+      line-height: 100rpx;
+      color: red;
+    }
+    .shortLine {
+      border-right: 1px solid #ccc;
+    }
+  }
+}
+
+.ruleHide {
+  height: 60rpx !important;
+  width: 60rpx !important;
+  position: absolute;
+  top: -9rpx;
+  right: -9rpx;
+}
