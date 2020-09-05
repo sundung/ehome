@@ -1,4 +1,4 @@
-// pages/components/allOrderDetail/orderPaidDetail/index.js
+// pages/components/allOrderDetail/orderOverTimeDetail/index.js
 Page({
 
   /**
@@ -8,29 +8,36 @@ Page({
 
   },
   // 点击icon区域跳转服务保障页面
-  goToServiceAssurance() {
+  goToServiceAssurance (){
     wx.navigateTo({
       url: '/pages/components/component/serviceAssurance/index',
     })
   },
-  // 点击服务结束按钮弹出弹出框
-  finshedServiceModal() {
-    this.setData({
-      isRuleTrue: true
+  // 点击重新预约跳转到家电维修页面
+  goTojiadianweixiu() {
+    wx.navigateTo({
+      url: '/pages/components/jiadianweixiu/index',
     })
   },
-  // 点击暂不取消按钮关闭弹出层
-  closeMask(){
-    this.setData({
-      isRuleTrue: false
-    })
-  },
-  // 点击结束 关闭已支付订单 并跳转到 订单中心
-  goToOrder() {
-    wx.switchTab({
-      url: '/pages/order/index',
-    })
-  },
+  // 点击取消订单按钮弹出一个弹出框
+    //打开透明层
+    cancelOrderMask: function () {
+      this.setData({
+        isRuleTrue: true
+      })
+    },
+    // 点击取消按钮关闭弹出层
+    closeMask(){
+      this.setData({
+        isRuleTrue: false
+      })
+    },
+    // 点击确定按钮跳转到订单中心,并删除订单
+    goToOrder() {
+      wx.switchTab({
+        url: '/pages/order/index',
+      })
+    },
   /**
    * 生命周期函数--监听页面加载
    */

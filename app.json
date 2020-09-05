@@ -37,7 +37,8 @@
     "pages/components/finishedService/index",
     "pages/components/allOrderDetail/orderInServiceDetail/index",
     "pages/components/component/orderPaid/index",
-    "pages/components/allOrderDetail/orderPaidDetail/index"
+    "pages/components/allOrderDetail/orderPaidDetail/index",
+    "pages/components/allOrderDetail/orderOverTimeDetail/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

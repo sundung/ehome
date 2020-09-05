@@ -69,13 +69,6 @@
 			"list": [
 				{
 					"id": -1,
-					"name": "pa",
-					"pathName": "pages/components/component/orderPay/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
 					"name": "pages/order/index",
 					"pathName": "pages/order/index",
 					"query": "",
@@ -83,36 +76,8 @@
 				},
 				{
 					"id": -1,
-					"name": "待支付详情",
-					"pathName": "pages/components/allOrderDetail/orderPayDetail/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "支付的维修清单",
-					"pathName": "pages/components/component/orderDetailComponents/payMaintainList/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "结束服务",
-					"pathName": "pages/components/finishedService/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 5,
-					"name": "服务中订单详情",
-					"pathName": "pages/components/allOrderDetail/orderInServiceDetail/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 6,
-					"name": "已支付订单详情",
-					"pathName": "pages/components/allOrderDetail/orderPaidDetail/index",
+					"name": "超时订单",
+					"pathName": "pages/components/allOrderDetail/orderOverTimeDetail/index",
 					"query": "",
 					"scene": null
 				}

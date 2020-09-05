@@ -70,6 +70,12 @@ Page({
       url: '/pages/components/allOrderDetail/orderPaidDetail/index',
     })
   }, 
+  // 点击已超时订单跳转到超时订单
+  goToOverTimeDetail(){
+    wx.navigateTo({
+      url: '/pages/components/allOrderDetail/orderOverTimeDetail/index',
+    })
+  },
   
   /**
    * 生命周期函数--监听页面加载
