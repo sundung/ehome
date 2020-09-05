@@ -6,7 +6,8 @@
     "orderInService":"/pages/components/component/orderInService/index",
     "orderWaitHome":"/pages/components/component/orderWaitHome/index",
     "orderPay":"/pages/components/component/orderPay/index",
-    "orderPaid":"/pages/components/component/orderPaid/index"
+    "orderPaid":"/pages/components/component/orderPaid/index",
+    "orderFinished":"/pages/components/component/orderFinished/index"
   },
   "navigationBarTitleText": "订单",
   "navigationBarBackgroundColor":"#1993fc",

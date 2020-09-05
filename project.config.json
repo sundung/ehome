@@ -87,6 +87,13 @@
 					"pathName": "pages/components/allOrderDetail/orderCancelServiceDetail/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": 3,
+					"name": "申请售后",
+					"pathName": "pages/components/component/orderFinished/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

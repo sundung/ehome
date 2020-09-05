@@ -1,0 +1,91 @@
+.task-orders1 {
+  padding: 20rpx;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+.task-orders1 .top {
+  display: flex;
+  justify-content: space-between;
+}
+.task-orders1 .top .left {
+  display: flex;
+  color: #1993fc;
+}
+.task-orders1 .top .left .image {
+  height: 40rpx;
+  width: 40rpx;
+  background-color: #1993fc;
+  margin-right: 15rpx;
+}
+.task-orders1 .top .right1 {
+  color: red;
+}
+.task-orders1 .content {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  font-size: 30rpx;
+}
+.task-orders1 .content .left .image {
+  height: 140rpx;
+  width: 140rpx;
+  border: 1px solid #ccc;
+  border-radius: 8rpx;
+}
+.task-orders1 .content .right {
+  margin-left: 20rpx;
+}
+.task-orders1 .content .right .content {
+  font-size: 24rpx;
+  color: #717171;
+}
+.task-orders1 .content .right .content .left {
+  display: flex;
+  flex-wrap: wrap;
+}
+.task-orders1 .content .right .content .left .item:nth-child(1) {
+  margin-bottom: 12rpx;
+}
+.task-orders1 .content .right .content .right {
+  display: flex;
+  flex-wrap: wrap;
+}
+.task-orders1 .content .right .content .right .item:nth-child(1) {
+  margin-bottom: 12rpx;
+}
+.task-orders1 .bottom {
+  margin-top: 14rpx;
+  font-size: 24rpx;
+  color: #717171;
+}
+.task-orders1 .bottom .top {
+  display: flex;
+  justify-content: flex-start;
+}
+.task-orders1 .bottom .top .time {
+  margin-left: 40rpx;
+}
+.task-orders1 .bottom .btn {
+  margin-top: 20rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.task-orders1 .bottom .btn .price {
+  flex: 5;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 32rpx;
+  color: #000;
+}
+.task-orders1 .bottom .btn .price .text {
+  margin-left: 14rpx;
+  color: red;
+}
+.task-orders1 .bottom .btn .buttonall {
+  flex: 3;
+  color: #1c94fc;
+  background-color: #fff;
+  border-color: #1c94fc;
+  font-size: 28rpx;
+}
