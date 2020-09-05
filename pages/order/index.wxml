@@ -15,6 +15,7 @@
 <!-- 已结束订单模块开始---------------------------------------- -->
 <block wx:elif="{{tabs[2].isActive}}">
     <orderEnd bindtap='goToOverTimeDetail'></orderEnd>
+    <orderEnd bindtap='goToCancelServiceDetail'></orderEnd>
   </block>
 <!-- 全部订单模块--------------------------------------------- -->
 <block wx:else>

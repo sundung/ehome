@@ -1,0 +1,40 @@
+<!--pages/components/allOrderDetail/orderCancelServiceDetail/index.wxml-->
+<!-- 头部 -->
+<orderCancelServiceHeader></orderCancelServiceHeader>
+<!-- 订单信息 -->
+<orderInfo></orderInfo>
+<!-- icon区域 -->
+<iconBlock bindtap='goToServiceAssurance'></iconBlock>
+<!-- 维修清单 -->
+<payMaintainList></payMaintainList>
+
+<!-- 收费说明 -->
+<chargesNotes></chargesNotes>
+
+<!-- 收费标准 -- 表格 -->
+<chargeStandard></chargeStandard>
+
+<!-- 订单联系人信息 -->
+<orderForm></orderForm>
+
+
+<!-- 底部按钮区域 -->
+<view class="btn">
+  <view class="item" bindtap="cancelOrderMask">删除订单</view>
+  <view class="item" bindtap='goTojiadianweixiu'>重新预约</view>
+</view>
+
+
+<!-- 点击取消订单弹出的弹出框--------------------- -->
+
+<view class="float {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
+  <view class='floatContent'>
+    <view class="title">确定要删除订单吗？</view>
+    <view class="line"></view> 
+    <view class="btn1">
+      <view class='button' bindtap='closeMask' >取消</view>
+      <view class="border"></view>
+      <view class='button' bindtap='goToOrder'>确定</view>
+    </view>
+  </view>
+</view>

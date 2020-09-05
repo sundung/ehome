@@ -1,2 +1,7 @@
 <!--pages/components/component/orderHeader/orderCancelServiceHeader/index.wxml-->
-<text>pages/components/component/orderHeader/orderCancelServiceHeader/index.wxml</text>
+<view class='header'>
+  <view class="left">
+    <view class="top">已结束</view>
+    <view class="bottom">取消维修服务~</view>
+  </view>
+</view>

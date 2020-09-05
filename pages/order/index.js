@@ -76,7 +76,12 @@ Page({
       url: '/pages/components/allOrderDetail/orderOverTimeDetail/index',
     })
   },
-  
+  // 点击取消维修服务订单跳转到取消维修服务订单详情
+  goToCancelServiceDetail() {
+    wx.navigateTo({
+      url: '/pages/components/allOrderDetail/orderCancelServiceDetail/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */

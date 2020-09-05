@@ -1,0 +1,81 @@
+page {
+  background-color: #f2f2f2;
+}
+
+// 底部按钮区域
+.btn {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  .item {
+    flex: 1;
+    width: 50%;
+    height: 100rpx;
+    background-color: #fff;
+    text-align: center;
+    line-height: 100rpx;
+    border: 1px solid #1472fc;
+    color: #1472fc;
+  }
+}
+
+// 点击取消按钮弹出的弹出层样式开始-----------------
+.isRuleShow {
+  display: block;
+}
+
+.isRuleHide {
+  display: none;
+}
+
+.float {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 2;
+  top: 0;
+  left: 0;
+}
+.floatContent {
+  padding: 20rpx;
+  width: 75%;
+  height: 280rpx;
+  background: #fff;
+  margin: 40% auto;
+  border-radius: 20rpx;
+  .title {
+    // font-size: 40rpx;
+    // font-weight: 700;
+    text-align: center;
+    margin: 40rpx 0;
+  }
+
+  .line {
+    border: 1rpx solid #ccc;
+    margin-top: 20rpx;
+  }
+
+  .btn1 {
+    display: flex;
+    .button {
+      width: 50%;
+      text-align: center;
+      line-height: 150rpx;
+      color: red;
+    }
+    .border {
+      border-right: 1rpx solid #ccc;
+    }
+  }
+}
+
+.ruleHide {
+  height: 60rpx !important;
+  width: 60rpx !important;
+  position: absolute;
+  top: -9rpx;
+  right: -9rpx;
+}

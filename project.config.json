@@ -80,6 +80,13 @@
 					"pathName": "pages/components/allOrderDetail/orderOverTimeDetail/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "结束服务订单详情",
+					"pathName": "pages/components/allOrderDetail/orderCancelServiceDetail/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

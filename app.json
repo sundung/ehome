@@ -38,7 +38,9 @@
     "pages/components/allOrderDetail/orderInServiceDetail/index",
     "pages/components/component/orderPaid/index",
     "pages/components/allOrderDetail/orderPaidDetail/index",
-    "pages/components/allOrderDetail/orderOverTimeDetail/index"
+    "pages/components/allOrderDetail/orderOverTimeDetail/index",
+    "pages/components/component/orderHeader/orderCancelServiceHeader/index",
+    "pages/components/allOrderDetail/orderCancelServiceDetail/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
