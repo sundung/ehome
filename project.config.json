@@ -108,6 +108,13 @@
 					"pathName": "pages/components/allOrderDetail/orderInServiceDetail/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "已支付订单详情",
+					"pathName": "pages/components/allOrderDetail/orderPaidDetail/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

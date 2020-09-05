@@ -17,7 +17,7 @@
 
 <!-- 底部按钮区域 -->
 <view class="btn">
-  <view class="item" bindtap="cancelOrderMask">取消订单时间</view>
+  <view class="item" bindtap="cancelOrderMask">取消订单</view>
   <view class="item">修改服务时间</view>
   <view class="item">联系师傅</view>
 </view>

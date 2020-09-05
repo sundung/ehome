@@ -64,6 +64,13 @@ Page({
       url: '/pages/components/allOrderDetail/orderPayDetail/index',
     })
   },
+  // 点击已支付订单跳转到已支付订单详情 
+  goToOrderPaidDetail() {
+    wx.navigateTo({
+      url: '/pages/components/allOrderDetail/orderPaidDetail/index',
+    })
+  }, 
+  
   /**
    * 生命周期函数--监听页面加载
    */
