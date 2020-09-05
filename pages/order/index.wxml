@@ -16,7 +16,7 @@
 <block wx:elif="{{tabs[2].isActive}}">
     <orderEnd bindtap='goToOverTimeDetail'></orderEnd>
     <orderEnd bindtap='goToCancelServiceDetail'></orderEnd>
-    <orderFinished></orderFinished>
+    <orderFinished bindtap='goToOrderFinishedDetail'></orderFinished>
   </block>
 <!-- 全部订单模块--------------------------------------------- -->
 <block wx:else>

@@ -41,7 +41,8 @@
     "pages/components/allOrderDetail/orderOverTimeDetail/index",
     "pages/components/component/orderHeader/orderCancelServiceHeader/index",
     "pages/components/allOrderDetail/orderCancelServiceDetail/index",
-    "pages/components/component/orderFinished/index"
+    "pages/components/component/orderFinished/index",
+    "pages/components/allOrderDetail/orderFinishedDetail/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

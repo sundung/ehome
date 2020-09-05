@@ -1,0 +1,17 @@
+<!--pages/components/allOrderDetail/orderFinishedDetail/index.wxml-->
+<!-- 头部 -->
+<orderCancelServiceHeader></orderCancelServiceHeader>
+<!-- 订单信息 -->
+<orderInfo></orderInfo>
+<!-- icon区域 -->
+<iconBlock bindtap='goToServiceAssurance'></iconBlock>
+
+
+<!-- 收费说明 -->
+<chargesNotes></chargesNotes>
+
+<!-- 收费标准 -- 表格 -->
+<!-- <chargeStandard></chargeStandard> -->
+
+<!-- 订单联系人信息 -->
+<orderForm></orderForm>

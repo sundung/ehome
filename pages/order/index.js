@@ -82,6 +82,12 @@ Page({
       url: '/pages/components/allOrderDetail/orderCancelServiceDetail/index',
     })
   },
+  // 点击已结束订单,跳转到已结束订单详情页面
+  goToOrderFinishedDetail(){
+    wx.navigateTo({
+      url: '/pages/components/allOrderDetail/orderFinishedDetail/index',
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
