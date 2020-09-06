@@ -59,19 +59,19 @@
  <view class="jiadian">
     <view class="jiadianweixiu-item">
       <view class="item">
-      <image></image>
+      <image src="/assets/imgs/tp-kongtiaojiafu@2x.png"></image>
       <view>空调加氟</view>
       </view>
     </view>
     <view class="jiadianweixiu-item">
       <view class="item">
-      <image></image>
+      <image src="/assets/imgs/tp-kongtiaoweixiu@2x.png"></image>
       <view>空调维修</view>
       </view>
     </view>
     <view class="jiadianweixiu-item">
       <view class="item">
-      <image></image>
+      <image src="/assets/imgs/tp-reshuiqiweixiu@2x.png"></image>
       <view>热水器维修</view>
       </view>
     </view>
@@ -84,19 +84,19 @@
  <view class="jiadian">
     <view class="jiadianweixiu-item">
       <view class="item">
-      <image></image>
+      <image src="/assets/imgs/tp-kongtiaoanzhuangyiji@2x.png"></image>
       <view>空调安装移机</view>
       </view>
     </view>
     <view class="jiadianweixiu-item">
       <view class="item">
-      <image></image>
+      <image src="/assets/imgs/tp-dianshianzhaung@2x.png"></image>
       <view>电视安装</view>
       </view>
     </view>
     <view class="jiadianweixiu-item">
       <view class="item">
-      <image></image>
+      <image src="/assets/imgs/tp-reshuiqiweixiu@2x.png"></image>
       <view>热水器安装</view>
       </view>
     </view>
@@ -109,19 +109,19 @@
  <view class="jiadian">
     <view class="jiadianweixiu-item">
       <view class="item">
-      <image></image>
+      <image src="/assets/imgs/tp-matongshutong@2x.png"></image>
       <view>马桶疏通</view>
       </view>
     </view>
     <view class="jiadianweixiu-item">
       <view class="item">
-      <image></image>
+      <image src="/assets/imgs/tp-diloushutong@2x.png"></image>
       <view>地漏疏通</view>
       </view>
     </view>
     <view class="jiadianweixiu-item">
       <view class="item">
-      <image></image>
+      <image src="/assets/imgs/tp-yugangshutong@2x.png"></image>
       <view>浴缸疏通</view>
       </view>
     </view>

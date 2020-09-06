@@ -1,29 +1,32 @@
 /* pages/home/index.wxss */
 
+page {
+background-color: #F8F8F8;
+}
 /* 轮播图样式  -----------------------------------------------------------*/
 swiper {
-  height:400rpx;
+  height:273rpx;
   width:100vw;
 }
 swiper image {
-  height: 400rpx;
+  height: 273rpx;
   width:100vw;
 }
 swiper swiper-item {
-  height:300rpx;
+  height:273rpx;
 }
 
 /* icon按钮区域  -----------------------------------------------------------*/
 .container {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: center; */
-  /* align-items: center; */
-  margin-top: 40rpx;
+  align-items: center;
+  background-color: #fff;
+  height: 376rpx;
+  margin-bottom: 20rpx;
 }
 /* 使用flex控制子元素的排列方式 */
 .container  .iconButton {
-  /* align-items: center; */
  width:33.3%;
  min-width: 33.3%; 
  max-width: 33.3%;
@@ -42,10 +45,7 @@ swiper swiper-item {
   width:80rpx;
   margin-bottom: 15rpx;
 }
-/* 选中最后三个元素 */
-.container .iconButton:nth-child(n+4) {
-  margin-top: 40rpx;
-}
+
 
 /* 家电维修模块 -----------------------------------------------------------*/
 
@@ -59,18 +59,21 @@ swiper swiper-item {
   flex-direction: column;
   align-items: center;
 }
+/* 控制家电大模块之间的距离 */
+.jiadianweixiu {
+  margin-bottom: 20rpx;
+  background-color: #fff;
+  height: 393rpx;
+}
 /* 控制家电维修标题文字 */
 .jiadianweixiu .text {
-  margin-top:20rpx;
-  color:blue;
-  padding: 0 0 25rpx 25rpx;
+  padding: 30rpx 0 0 30rpx;
 }
 /* 控制家电维修图片 */
 .jiadianweixiu-item image {
-  height: 160rpx;
-  width:160rpx;
-  border-radius: 25rpx;
+  height: 210rpx;
+  width:210rpx;
   margin-bottom: 25rpx;
-  background-color: rebeccapurple;
+  /* background-color: rebeccapurple; */
 }
 /* 控制家电维修图片及文字 */
