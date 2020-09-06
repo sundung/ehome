@@ -1,11 +1,11 @@
-<!--pages/components/component/orderDetail/chargeStandard/index.wxml-->
+<!--pages/components/component/orderDetailComponents/chargeStandard/index.wxml-->
   <view class='table-standard'>
     <view class="text">收费标准</view>
-  <scroll-view scroll-x='true' class="scroll-class">
+    <!-- 表格主体 -->
     <view class="table">
       <view class="table-tr">
         <view class="table-th"></view>
-        <view class="table-th public">空调维修收费项目指导价</view>
+        <view class="table-th title-th">空调维修收费项目指导价</view>
         <view class="table-th"></view>
         <view class="table-th"></view>
         <view class="table-th"></view>
@@ -14,14 +14,16 @@
         <view class="table-th tableTh">类型</view>
         <view class="table-th public">维修项目</view>
         <view class="table-th">1p-2p</view>
-        <view class="table-th">1p-2p</view>
-        <view class="table-th">1p-2p</view>
+        <view class="table-th" >
+           3P-4P
+        </view> 
+        <view class="table-th"> >5P</view>
       </view>
       <view class="table-tr">
         <view class="table-td tableTh">简修</view>
         <view class="table-td public">
-          1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
-          2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
+          1、调整、更换遥控器、过滤网、封堵墙洞、加长排水管、清洗过滤网；
+          2、调整处理：上门检查、空调保养、接线错调整、内机噪音调整、机内异物排除、堵墙洞、贴防震胶；
         </view>
         <view class="table-td">50</view>
         <view class="table-td"></view>
@@ -30,8 +32,7 @@
       <view class="table-tr">
         <view class="table-td tableTh">小修</view>
         <view class="table-td public">
-          1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
-          2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
+          1、更换电脑板、离心风扇、导风板、连机线、连接管、电源线、线控器、接线端子排、柜机内机风扇、室温传感器、控制器（控制板、主板）、显示器、接收器、感温头、电源线、扫风（导风、同步）电机、电加热管限温器（熔断器）、及其他零部件；
         </view>
         <view class="table-td">50</view>
         <view class="table-td"></view>
@@ -40,8 +41,8 @@
       <view class="table-tr">
         <view class="table-td tableTh">中修</view>
         <view class="table-td public">
-          1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
-          2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
+          1、处理系统管理脏堵、内外机连接管（补漏）、找到具体漏点位置及故障原因并修复，充制冷剂；
+          2、更换压缩机启动器、风机启动器、电容等其他零部件；
         </view>
         <view class="table-td">50</view>
         <view class="table-td"></view>
@@ -50,14 +51,12 @@
       <view class="table-tr">
         <view class="table-td tableTh">大修</view>
         <view class="table-td public">
-          1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
-          2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
+          1.更换：压缩机、四通阀、冷凝器、截止阀、单向阀、过滤器、电磁阀体毛细管组。
         </view>
         <view class="table-td">50</view>
         <view class="table-td"></view>
         <view class="table-td"></view>
       </view>
     </view>
-  </scroll-view>
   </view>
     

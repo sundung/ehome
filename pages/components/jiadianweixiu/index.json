@@ -1,4 +1,6 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "chargeStandard":"/pages/components/component/orderDetailComponents/chargeStandard/index"
+  },
   "navigationBarTitleText": "家电维修"
 }

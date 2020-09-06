@@ -1,49 +1,62 @@
 .table-standard {
-  margin-top: 10rpx;
+  margin: 20rpx 0;
   background-color: #fff;
+  height: 1250rpx;
+  padding: 30rpx;
 }
 .table-standard .text {
-  font-size: 32rpx;
-  font-weight: 700;
-  padding: 14rpx 0 0 14rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  margin-bottom: 30rpx;
 }
-.scroll-class {
-  height: 600rpx;
-  background-color: #fff;
-  margin-top: 16rpx;
-}
-.scroll-class .table {
+.table {
+  height: 790rpx;
+  width: 690rpx;
   display: table;
-  width: 2000rpx;
+  font-size: 24rpx;
+  color: #666;
   /* 合并边框 */
   border-collapse: collapse;
   box-sizing: border-box;
   background-color: #fff;
   margin: 15rpx 0;
 }
-.scroll-class .table .table-tr {
+.table .table-tr {
   /* 此元素会作为一个表格行显示（类似 <tr>） */
   display: table-row;
   height: 92rpx;
   /* 控制收费表格的 表头 */
 }
-.scroll-class .table .table-tr .tableTh {
-  width: 140rpx;
+.table .table-tr .title-th {
+  height: 74rpx;
+  color: #111;
 }
-.scroll-class .table .table-tr .public {
-  width: 1200rpx;
+.table .table-tr view:nth-child(3) {
+  width: 92rpx;
 }
-.scroll-class .table .table-tr .table-th {
+.table .table-tr view:nth-child(4) {
+  width: 108rpx;
+}
+.table .table-tr view:nth-child(5) {
+  width: 66rpx;
+}
+.table .table-tr .tableTh {
+  width: 70rpx;
+}
+.table .table-tr .public {
+  width: 356rpx;
+  padding: 20rpx 10rpx;
+}
+.table .table-tr .table-th {
   /* 此元素会作为一个表格单元格显示（类似 <td> 和 <th>） */
   display: table-cell;
-  font-weight: bold;
-  border: 1rpx solid gray;
+  border: 1rpx solid #d7d7d7;
   text-align: center;
   vertical-align: middle;
 }
-.scroll-class .table .table-tr .table-td {
+.table .table-tr .table-td {
   display: table-cell;
-  border: 1rpx solid gray;
+  border: 1rpx solid #d7d7d7;
   text-align: center;
   vertical-align: middle;
 }

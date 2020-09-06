@@ -1,49 +1,73 @@
 .table-standard {
-  margin-top: 10rpx;
+  margin: 20rpx 0;
   background-color: #fff;
+  height: 1250rpx;
+  padding: 30rpx;
+  // 控制 收费标准 文字
   .text {
-    font-size: 32rpx;
-    font-weight: 700;
-    padding: 14rpx 0 0 14rpx;
+    font-size: 28rpx;
+    font-weight: 500;
+    margin-bottom: 30rpx;
   }
 }
-.scroll-class {
-  height: 600rpx;
+// 表格主题样式开始
+.table {
+  height: 790rpx;
+  width: 690rpx;
   background-color: #fff;
-  margin-top: 16rpx;
-  .table {
-    display: table;
-    width: 2000rpx;
-    /* 合并边框 */
-    border-collapse: collapse;
-    box-sizing: border-box;
-    background-color: #fff;
-    margin: 15rpx 0;
-    .table-tr {
-      /* 此元素会作为一个表格行显示（类似 <tr>） */
-      display: table-row;
-      height: 92rpx;
-      /* 控制收费表格的 表头 */
-      .tableTh {
-        width: 140rpx;
-      }
-      .public {
-        width: 1200rpx;
-      }
-      .table-th {
-        /* 此元素会作为一个表格单元格显示（类似 <td> 和 <th>） */
-        display: table-cell;
-        font-weight: bold;
-        border: 1rpx solid gray;
-        text-align: center;
-        vertical-align: middle;
-      }
-      .table-td {
-        display: table-cell;
-        border: 1rpx solid gray;
-        text-align: center;
-        vertical-align: middle;
-      }
+  display: table;
+  // 控制整个表格的文字
+  font-size: 24rpx;
+  color: #666;
+  /* 合并边框 */
+  border-collapse: collapse;
+  box-sizing: border-box;
+  background-color: #fff;
+  margin: 15rpx 0;
+  .table-tr {
+    // 控制表格第一行
+    .title-th {
+      height: 74rpx;
+      color: #111;
+    }
+    // 控制第三列
+    & view:nth-child(3) {
+      width: 92rpx;
+    }
+    // 控制第四列
+    & view:nth-child(4) {
+      width: 108rpx;
+    }
+    // 控制第五列
+    & view:nth-child(5) {
+      width: 66rpx;
+    }
+    /* 此元素会作为一个表格行显示（类似 <tr>） */
+    display: table-row;
+    height: 92rpx;
+    /* 控制收费表格的 表头 */
+    .tableTh {
+      width: 70rpx;
+    }
+    // 控制维修项目这一列的宽度
+    .public {
+      width: 356rpx;
+      // 控制维修项目说明的内容
+      padding: 20rpx 10rpx;
+    }
+    .table-th {
+      /* 此元素会作为一个表格单元格显示（类似 <td> 和 <th>） */
+      display: table-cell;
+      // font-weight: bold;
+      border: 1rpx solid #d7d7d7;
+      text-align: center;
+      vertical-align: middle;
+    }
+    .table-td {
+      display: table-cell;
+      border: 1rpx solid #d7d7d7;
+      text-align: center;
+      vertical-align: middle;
     }
   }
 }

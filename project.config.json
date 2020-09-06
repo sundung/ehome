@@ -76,29 +76,15 @@
 				},
 				{
 					"id": -1,
-					"name": "超时订单",
-					"pathName": "pages/components/allOrderDetail/orderOverTimeDetail/index",
+					"name": "店家维修",
+					"pathName": "pages/components/jiadianweixiu/index",
 					"query": "",
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "结束服务订单详情",
-					"pathName": "pages/components/allOrderDetail/orderCancelServiceDetail/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": 3,
-					"name": "申请售后",
-					"pathName": "pages/components/component/orderFinished/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "已结束订单详情",
-					"pathName": "pages/components/allOrderDetail/orderFinishedDetail/index",
+					"id": 2,
+					"name": "收费标准表格组件",
+					"pathName": "pages/components/component/orderDetailComponents/chargeStandard/index",
 					"query": "",
 					"scene": null
 				}
