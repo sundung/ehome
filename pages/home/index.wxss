@@ -38,8 +38,8 @@ swiper swiper-item {
 
 /* 控制icon图片的大小 */
 .container image {
-  height:60rpx;
-  width:60rpx;
+  height:80rpx;
+  width:80rpx;
   margin-bottom: 15rpx;
 }
 /* 选中最后三个元素 */

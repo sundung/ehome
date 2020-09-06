@@ -55,20 +55,20 @@
     "list": [
       {
         "pagePath": "pages/home/index",
-        "iconPath": "/assets/img/home.png",
-        "selectedIconPath": "/assets/img/home-1.png",
+        "iconPath": "/assets/imgs/shouye-xuanzhong@2x.png",
+        "selectedIconPath": "/assets/imgs/shouye-xuanzhong@2x.png",
         "text": "首页"
       },
       {
         "pagePath": "pages/order/index",
-        "iconPath": "/assets/img/order.png",
-        "selectedIconPath": "/assets/img/order-1.png",
+        "iconPath": "/assets/imgs/shouye-xuanzhong@2x.png",
+        "selectedIconPath": "/assets/imgs/shouye-xuanzhong@2x.png",
         "text": "订单"
       },
       {
         "pagePath": "pages/mine/index",
-        "iconPath": "/assets/img/mine.png",
-        "selectedIconPath": "/assets/img/mine-1.png",
+        "iconPath": "/assets/imgs/shouye-xuanzhong@2x.png",
+        "selectedIconPath": "/assets/imgs/shouye-xuanzhong@2x.png",
         "text": "我的"
       }
     ]
