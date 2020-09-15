@@ -1,41 +1,75 @@
 /* pages/mine/index.wxss */
 page {
-  background-color: #ccc;
+  background-color: #f8f8f8;
 }
-
 .title {
   display: flex;
   align-items: center;
-  padding: 0 24rpx;
-  height: 300rpx;
+  padding: 0 30rpx;
+  height: 216rpx;
+  background: linear-gradient(314deg, #00c3ff 0%, #0090ff 100%);
+  /* 控制用户头像 */
+}
+.title .avator {
+  height: 93rpx;
+  width: 90rpx;
   background-color: #fff;
+  border-radius: 50%;
+  /* 控制与右侧电话号码的距离 */
+  margin-right: 20rpx;
 }
-.title image {
-  height: 140rpx;
-  width: 140rpx;
-  margin-right: 40rpx;
-}
-
-
 .content {
-  margin-top: 20rpx;
-  height: 300rpx;
+  margin-top: 34rpx;
+  height: 270rpx;
   background-color: #fff;
+  color: #111;
+  font-size: 24rpx;
+  /* 控制小图标的大小 */
+  /* 线段 */
+}
+.content image {
+  height: 26rpx;
+  width: 26rpx;
+  margin-right: 10rpx;
 }
 .content .content-item {
+  height: 88rpx;
   display: flex;
   justify-content: space-between;
-  padding: 24rpx;
+  align-items: center;
+  padding: 0 30rpx;
 }
-
+.content .content-item .left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content .content-item .gl {
+  width: 14rpx;
+  height: 14rpx;
+  border-left: 1rpx solid #999;
+  border-bottom: 1rpx solid #999;
+  -webkit-transform: translate(0, -50%) rotate(-135deg);
+  transform: translate(0, -50%) rotate(-135deg);
+}
 .content .line {
   margin: 0 auto;
-  width:94vw;
-  height:2rpx;
-  background:#aaa;
+  width: 94vw;
+  height: 1rpx;
+  background: #d7d7d7;
 }
-
-
+/* 按钮样式 */
 .btn {
-  margin-top: 140rpx;
+  margin-top: 440rpx;
+  width: 300rpx;
+  height: 88rpx;
+  background: #ffffff;
+  box-shadow: 0px 0px 20rpx 0px rgba(196, 196, 196, 0.2);
+  border-radius: 44rpx;
+  /* 控制文字样式 */
+  color: #666;
+  font-size: 28rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

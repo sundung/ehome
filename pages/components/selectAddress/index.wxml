@@ -2,5 +2,9 @@
 
 <view class="address">
   <image class="title" src="/assets/imgs/address/zanwudizhi.png"  />
+  <text class="" >
+    您还没有添加服务地址呐～
+  </text>
+    
 </view>
 <button style='width:690rpx' class="btn" bindtap="goToNewAddress">添加地址</button>

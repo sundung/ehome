@@ -7,10 +7,17 @@ page {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+.address text {
+  font-size: 28rpx;
+  color: #999;
+  text-align: center;
+  line-height: 40rpx;
 }
 .address .title {
   margin-top: 248rpx;
-  height: 464rpx;
+  height: 354rpx;
   width: 630 rpx;
 }
 

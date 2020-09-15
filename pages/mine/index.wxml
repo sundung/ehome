@@ -3,24 +3,35 @@
 <!-- 我的页面头部开始----------------------------------- -->
 
 <view class="title">
-  <image src="/assets/img/home-1.png"></image>
+  <image src="" class='avator'></image>
   <view>1234342324234</view>
 </view>
 
 <view class="content">
   <view class="content-item" bindtap="goToNewAddress">
-    <view class="address">我的地址</view>
-    <view> > </view>
+    <view class='left'>
+      <image class="icon" src="/assets/imgs/mine/wodedizhi.png"  />
+      <view class="address">我的地址</view>
+    </view>
+    <view class='gl'> </view>
   </view>
   <view class="line"></view>
-  <view class="content-item">
-    <view class="help">帮助</view>
-    <view> > </view>
-  </view>
   <view class="line"></view>
   <view class="content-item">
-    <view class="protocol">用户协议</view>
-    <view> > </view>
+    <view class="left">
+      <image class="icon" src="/assets/imgs/mine/bangzhu.png"  />
+      <view class="help">帮助</view>
+    </view>
+    <view class='gl'> </view>
+  </view>
+  <view class="line"></view>
+  <view class="line"></view>
+  <view class="content-item">
+    <view class="left">
+      <image class="icon" src="/assets/imgs/mine/yonghuxieyi.png"  />
+      <view class="protocol">用户协议</view> 
+    </view>
+    <view class='gl'> </view>
   </view>
 </view>
 
