@@ -104,7 +104,7 @@
 <!-- 遮罩层 -->
 <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
 <!-- 点击报修项目弹出层------------------------------------------------------------------ -->
-<!-- wx:if="{{showModal}}" -->
+
 <view class="modalDlg" wx:if="{{showModal}}" >
   <view class="modalDlgTop">
     <view class="modalDlgTop-item" bindtap="closeModalDlg">X</view>
@@ -120,7 +120,6 @@
     <view class="serviceProject-item {{num1==6?'active':''}}" data-num1='6' data-value="燃气灶维修" bindtap="getValue">燃气灶维修</view>
     <view class="serviceProject-item public {{num1==7?'active':''}}" data-num1='7' data-value="燃气热水器维修" bindtap="getValue">燃气热水器维修</view>
     <view class="serviceProject-item public {{num1==8?'active':''}}" data-num1='8' data-value="电热水器维修" bindtap="getValue">电热水器维修</view>
-    <view class="serviceProject-item public {{num1==9?'active':''}}" data-num1='9' data-value="电热水器维修" bindtap="getValue">电热水器维修</view>
   </view>
 </view>
 
