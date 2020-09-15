@@ -1,19 +1,30 @@
 /* pages/components/selectAddress/index.wxss */
 
+page {
+  background-color: #f8f8f8;
+}
 .address {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 400rpx;
 }
 .address .title {
-  margin-bottom: 30rpx;
+  margin-top: 248rpx;
+  height: 464rpx;
+  width: 630 rpx;
 }
 
-.address .btn {
-  border: 1px solid #cdcdcd;
-  font-size: 26rpx;
-  height: 80rpx;
-  text-align: center;
-  line-height: 40rpx;
+/* 按钮样式 */
+
+.btn {
+  position: fixed;
+  bottom: 30rpx;
+  left: 30rpx;
+  width: 690rpx;
+  height: 98rpx;
+  background: #0090ff;
+  border-radius: 8rpx;
+  color: #fff;
+  line-height: 35px;
+  font-size: 32rpx;
 }

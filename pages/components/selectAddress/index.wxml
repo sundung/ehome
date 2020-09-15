@@ -1,6 +1,6 @@
 <!--pages/components/selectAddress/index.wxml-->
 
 <view class="address">
-  <view class="title">您还没有服务地址哦~</view>
-  <button class="btn" bindtap="goToNewAddress">添加地址</button>
+  <image class="title" src="/assets/imgs/address/zanwudizhi.png"  />
 </view>
+<button style='width:690rpx' class="btn" bindtap="goToNewAddress">添加地址</button>

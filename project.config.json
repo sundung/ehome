@@ -101,6 +101,13 @@
 					"pathName": "pages/components/newAddress/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "选择服务地址",
+					"pathName": "pages/components/selectAddress/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}
