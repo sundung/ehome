@@ -195,18 +195,34 @@ page {
 /* 点击空调机型弹出一个弹出层 */
 
 /* <!-- 点击空调机型弹出弹出层--------------------------------------------- --> */
-.modalDlg .air-modalDlg {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
+.modalDlg {
+  .air-modalDlg {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80rpx;
+  }
+  .air-modalDlg-item {
+    height: 60rpx;
+    width: 210rpx;
+    border-radius: 8px;
+    border: 1rpx solid #999;
+    /* 控制文字水平垂直居中 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* 控制第一行的样式 */
 
-.modalDlg .air-modalDlg .air-modalDlg-item {
-  width: 30%;
-  display: flex;
-  justify-content: center;
-  border: 1px solid #666;
-  margin-top: 40rpx;
+  & view:nth-child(4) {
+    margin: 30rpx 0;
+  }
+  & view:nth-child(5) {
+    margin: 30rpx 0;
+  }
+  & view:nth-child(6) {
+    margin: 30rpx 0;
+  }
 }
 
 /* 报修数量样式开始--------------------------------------------------------------------- */
