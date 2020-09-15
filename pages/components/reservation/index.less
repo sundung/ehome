@@ -1,5 +1,6 @@
 /* pages/components/reservation/index.wxss */
 /* 设置整个页面背景色 */
+
 page {
   background: #f8f8f8;
   font-size: 24rpx;
@@ -10,20 +11,24 @@ page {
   line-height: 33rpx;
   letter-spacing: 4rpx;
 }
+
 /* <!-- 报修项目模块开始 --------------------------------------------------------- --> */
+
 .repairs {
   background-color: #fff;
   height: 88rpx;
   padding: 0 30rpx;
   display: flex;
   justify-content: space-between;
+  .repairs-item {
+    margin-top: 28rpx;
+  }
+  // 控制 更换 文字的颜色
+  & view:nth-child(3) {
+    color: #999;
+  }
 }
-.repairs .repairs-item {
-  margin-top: 28rpx;
-}
-.repairs view:nth-child(3) {
-  color: #999;
-}
+
 /* 维修项目横线样式--------------------------------------------------------- */
 .line-1 {
   display: block;
@@ -38,16 +43,18 @@ page {
   justify-content: space-around;
   height: 88rpx;
   background-color: #fff;
-}
-.icon-group .icon-group-item {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.icon-group .icon-group-item image {
-  width: 20rpx;
-  height: 22rpx;
-  margin-right: 12rpx;
+  .icon-group-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // icon区域的图片样式
+    image {
+      width: 20rpx;
+      height: 22rpx;
+      // 控制icon图片与文字的距离
+      margin-right: 12rpx;
+    }
+  }
 }
 /* 更换按钮 */
 .repairs .changButton {
@@ -55,6 +62,7 @@ page {
   height: 60rpx;
   width: 100rpx;
 }
+
 /* 遮罩层 ---------------------------------------------------------*/
 .mask {
   width: 100%;
@@ -66,6 +74,7 @@ page {
   z-index: 9000;
   opacity: 0.5;
 }
+
 /* 弹出层 ------------------------------------------------------*/
 .modalDlg {
   width: 100%;
@@ -114,11 +123,13 @@ page {
 .modalDlg .serviceProject view:nth-child(7) {
   width: 33%;
 }
+
 /* 点击服务项目时高亮-------------------------------------------------------------- */
 .active {
   color: #1993fc !important;
   border-color: #1993fc !important;
 }
+
 /* <!-- 空调机型选择区域-----------------------------------------------------------> */
 /* 整个外包的大盒子样式 */
 .air-conditioner {
@@ -129,6 +140,7 @@ page {
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
+  // 控制 维修具体报修内容与 icon 区域的距离
   margin-top: 20rpx;
 }
 /* 盒子里边的每个item样式 */
@@ -136,7 +148,9 @@ page {
   display: flex;
   justify-content: space-between;
 }
+
 /* 点击空调机型弹出一个弹出层 */
+
 /* 空调机型选择区域里的那两条线段------------------------------------------------------------------- */
 .air-conditioner .line {
   margin: 0 auto;
@@ -150,12 +164,14 @@ page {
   vertical-align: middle;
   margin: -10rpx 20rpx 0 0;
 }
+
 /* <!-- 点击空调机型弹出弹出层--------------------------------------------- --> */
 .modalDlg .air-modalDlg {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
 .modalDlg .air-modalDlg .air-modalDlg-item {
   width: 30%;
   display: flex;
@@ -163,10 +179,12 @@ page {
   border: 1px solid #666;
   margin-top: 40rpx;
 }
+
 /* 报修数量样式开始--------------------------------------------------------------------- */
 .air-conditioner .air-conditioner-item .input {
   display: flex;
 }
+
 .air-conditioner .air-conditioner-item .input .public {
   height: 45rpx;
   width: 45rpx;
@@ -180,6 +198,7 @@ page {
 .air-conditioner .air-conditioner-item .input input {
   width: 20rpx;
 }
+
 /* 服务地址模块------------------------------------------------------------------------ */
 /* 使用scroll-view包裹服务模块让其背景色占剩余的全部空间 */
 .scrollView {
@@ -214,6 +233,7 @@ page {
   background: #d7d7d7;
 }
 /* 补充问题描述区域------------------------------------------------------ */
+
 .question .content textarea {
   /* background-color: pink; */
   width: 100vw;
@@ -221,6 +241,7 @@ page {
   bottom: 100rpx;
   left: 0;
 }
+
 /* 立即预约按钮---------------------------------------------------- */
 .button {
   height: 100rpx;
@@ -230,6 +251,7 @@ page {
   bottom: 0;
   background-color: #1c94fc;
 }
+
 /* .up {
   display: block;
   border: 1px solid #b7b8b5;
@@ -241,12 +263,15 @@ page {
   border-radius: 30rpx;
   margin-top: 20rpx;
 } */
+
 .isRuleShow {
   display: block;
 }
+
 .isRuleHide {
   display: none;
 }
+
 .float {
   height: 100%;
   width: 100%;
@@ -256,6 +281,7 @@ page {
   top: 0;
   left: 0;
 }
+
 .floatContent {
   padding: 20rpx 0;
   width: 80%;
@@ -269,6 +295,7 @@ page {
   align-items: center;
   position: relative;
 }
+
 .ruleHide {
   height: 60rpx !important;
   width: 60rpx !important;

@@ -4,6 +4,7 @@
 
 <view class="repairs">
   <view class="repairs-item">
+  <text class='start'>*</text>
   <text>报修项目</text>
   </view>
   <view class="repairs-item">{{msg}}</view>
@@ -11,7 +12,21 @@
 </view>
 <!-- 横线 -->
 <view class="line-1" ></view>
-
+<!-- 报修项目的icon区域 ----------------------------------------------------->
+<view class="icon-group">
+  <view class="icon-group-item">
+    <image  src="/assets/imgs/lijiyuyueIcon/shangmenfuwu.png"  /> 
+    免费上门
+  </view>
+  <view class="icon-group-item">
+    <image  src="/assets/imgs/lijiyuyueIcon/mianfeijiance-jinhuang.png"  />
+    免费检测
+  </view>
+  <view class="icon-group-item">
+    <image  src="/assets/imgs/lijiyuyueIcon/shoufeitouming.png"  />
+    收费透明
+  </view>
+</view>
 <!-- 遮罩层 -->
 <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
 <!-- 点击报修项目弹出层------------------------------------------------------------------ -->
@@ -35,18 +50,7 @@
   </view>
 </view>
 
-<!-- 报修项目的icon区域 ----------------------------------------------------->
-<view class="icon-group">
-  <view class="icon-group-item">
-    <icon type="{{typeList[0]}}" size="18"></icon>免费修上门
-  </view>
-  <view class="icon-group-item">
-    <icon type="{{typeList[0]}}" size="18"></icon>免费修上门
-  </view>
-  <view class="icon-group-item">
-    <icon type="{{typeList[0]}}" size="18"></icon>免费修上门
-  </view>
-</view>
+
 
 <!-- 空调机型选择区域----------------------------------------------------------->
 <view class="air-conditioner">
