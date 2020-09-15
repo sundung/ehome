@@ -26,16 +26,41 @@
 <!-- 压住背景图的区域 ------------------------------------------------------------->
 
 <view class="block">
-  <!-- <scroll-view scroll-x="true" class="block-flex scroll-view_H" enable-flex style="width: 100%">
-    <view class="block-item scroll-view-item_H ">空调加氟</view>
-    <view class="block-item scroll-view-item_H ">空调维修</view>
-    <view class="block-item scroll-view-item_H ">冰箱维修</view>
-    <view class="block-item scroll-view-item_H ">电视维修</view>
-    <view class="block-item scroll-view-item_H ">洗衣机维修</view>
-    <view class="block-item scroll-view-item_H ">燃气灶维修</view>
-    <view class="block-item scroll-view-item_H ">燃气热水器维修</view>
-    <view class="block-item scroll-view-item_H ">电热水器维修</view>
-  </scroll-view> -->
+   <scroll-view scroll-x="true" class="block-flex scroll-view_H" enable-flex style="width: 2104rpx">
+    <view class="block-item scroll-view-item_H active ">
+      <text>空调加氟</text>
+      <image class='img' src='/assets/imgs/jiadianweixiuIcon/kongtiaojiafu-dianji.png'></image>
+      <image class="smallImg" src='/assets/imgs/jiadianweixiuIcon/dianji.png'></image>
+    </view>
+    <view class="block-item scroll-view-item_H ">
+      <text>空调维修</text>
+      <image class='img' src='/assets/imgs/jiadianweixiuIcon/kongtiaoweix-weidianji.png'></image>
+    </view>
+    <view class="block-item scroll-view-item_H ">
+      <text>冰箱维修</text>
+      <image class='img' src='/assets/imgs/jiadianweixiuIcon/bingxiang-weidianji.png'></image>
+    </view>
+    <view class="block-item scroll-view-item_H ">
+      <text>电视维修</text>
+      <image class='img' src='/assets/imgs/jiadianweixiuIcon/dianshi-weixuanzhong.png'></image>
+    </view>
+    <view class="block-item scroll-view-item_H ">
+      <text>洗衣机维修</text>
+      <image class='img' src='/assets/imgs/jiadianweixiuIcon/xiyiji-weixuanzhong.png'></image>
+    </view>
+    <view class="block-item scroll-view-item_H ">
+      <text>燃气灶维修</text>
+      <image class='img' src='/assets/imgs/jiadianweixiuIcon/ranqizao-weixuanzhong.png'></image>
+    </view>
+    <view class="block-item scroll-view-item_H ">
+      <text>燃气热水器维修</text>
+      <image class='img' src='/assets/imgs/jiadianweixiuIcon/ranqireshuiqi-weixuanzhong.png'></image>
+    </view>
+    <view class="block-item scroll-view-item_H ">
+      <text>电热水器维修</text>
+      <image class='img' src='/assets/imgs/jiadianweixiuIcon/dianreshuiqi-weixuanzhong.png'></image>
+    </view>
+  </scroll-view> 
 </view>
 <!-- 收费说明 ------------------------------------------------------------->
 
@@ -50,65 +75,6 @@
 
 <!-- 收费标准  表格----------------------------------------------------------- -->
 
-<!-- <scroll-view scroll-x='true' class="scroll-class">
-  <view class="table">
-  <view class="table-tr">
-    <view class="table-th"></view>
-    <view class="table-th">空调维修收费项目指导价</view>
-    <view class="table-th"></view>
-    <view class="table-th"></view>
-    <view class="table-th"></view>
-  </view>
-    <view class="table-tr">
-      <view class="table-th">类型</view>
-      <view class="table-th">维修项目</view>
-      <view class="table-th">1p-2p</view>
-      <view class="table-th">1p-2p</view>
-      <view class="table-th">1p-2p</view>
-    </view>
-    <view class="table-tr">
-      <view class="table-td">简修</view>
-      <view class="table-td">
-        1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
-        2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
-      </view>
-      <view class="table-td">50</view>
-      <view class="table-td"></view>
-      <view class="table-td"></view>
-    </view>
-    <view class="table-tr">
-      <view class="table-td">小修</view>
-      <view class="table-td">
-        1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
-        2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
-      </view>
-      <view class="table-td">50</view>
-      <view class="table-td"></view>
-      <view class="table-td"></view>
-    </view>
-    <view class="table-tr">
-      <view class="table-td">中修</view>
-      <view class="table-td">
-        1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
-        2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
-      </view>
-      <view class="table-td">50</view>
-      <view class="table-td"></view>
-      <view class="table-td"></view>
-    </view>
-    <view class="table-tr">
-      <view class="table-td">大修</view>
-      <view class="table-td">
-        1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
-        2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
-      </view>
-      <view class="table-td">50</view>
-      <view class="table-td"></view>
-      <view class="table-td"></view>
-    </view>
-  </view>
-
-</scroll-view> -->
 <chargeStandard></chargeStandard>
 <!-- 服务流程 ------------------------------------------------------------->
 

@@ -13,9 +13,10 @@ page {
 }
 
 /* 压住背景图片的区域  -----------------------------------------------------------*/
-
+/* 外部大的模块 */
 .block {
   background-color: #fff;
+  font-size: 28rpx;
   height: 174rpx;
   width: 690rpx;
   border-radius: 8rpx;
@@ -23,27 +24,52 @@ page {
   /* 定位 */
   position: relative;
   left: 30rpx;
-  /* transform: translate(-50%); */
   top: -350rpx;
-  /* z-index: -1; */
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
-.block .block-flex {
-  display: flex;
-}
-.block .scroll-view_H {
-  white-space: nowrap;
-  /* width: 100%; */
-  /* height: 134rpx;/ */
+/* 隐藏横向滚动条 */
+::-webkit-scrollbar {
+  display: none;
 }
 
+/* 里面的滑动模块 */
+.block .block-flex {
+  display: flex;
+  height: 0;
+}
+
+/* 内部滑块样式 */
 .block .block-flex .block-item {
-  color: #666;
-  background-color: #fff;
-  border-radius: 8px;
-  border: 1px solid #0090ff;
   width: 240rpx;
   height: 134rpx;
-  margin: 20rpx;
+  background: #ffffff;
+  box-shadow: 0px 0px 10rpx 0px rgba(196, 196, 196, 0.3);
+  border-radius: 8rpx;
+  margin: 20rpx 6rpx 20rpx 20rpx;
+}
+/* 控制滑块内部文字 */
+
+.block .block-item text {
+  display: block;
+  padding: 12rpx;
+  box-sizing: border-box;
+}
+
+/* 控制滑块内部的icon */
+.block .block-item .img {
+  width: 64rpx;
+  height: 38rpx;
+  margin: 10rpx 0 20rpx 12rpx;
+}
+.block .block-item .smallImg {
+  width: 46rpx;
+  height: 36rpx;
+  margin-left: 112rpx;
+}
+/* 滑块激活样式 */
+.active {
+  border: 1rpx solid #0090ff;
 }
 
 /* 服务保障区域开始 -----------------------------------------------------------*/
@@ -120,51 +146,6 @@ wx-button[plain]:not([type]) {
   border-radius: 32px;
   border: 1px solid #0090ff;
   color: #0090ff;
-}
-/* 收费标准 表格 区域开始 -----------------------------------------------------------*/
-.scroll-class {
-  height: 600rpx;
-  background-color: #fff;
-  margin-top: 16rpx;
-}
-.table,
-.table div {
-  margin: 0 auto;
-}
-.table {
-  display: table;
-  width: 2000rpx;
-  /* 合并边框 */
-  border-collapse: collapse;
-  box-sizing: border-box;
-  background-color: #fff;
-  margin: 15rpx 0;
-}
-.table-tr {
-  /* 此元素会作为一个表格行显示（类似 <tr>） */
-  display: table-row;
-  height: 92rpx;
-}
-.table-th {
-  /* 此元素会作为一个表格单元格显示（类似 <td> 和 <th>） */
-  display: table-cell;
-  font-weight: bold;
-  border: 1rpx solid gray;
-  text-align: center;
-  vertical-align: middle;
-}
-.table-td {
-  display: table-cell;
-  border: 1rpx solid gray;
-  text-align: center;
-  vertical-align: middle;
-}
-/* 控制收费表格的 表头 */
-.table .table-tr view:nth-child(1) {
-  width: 140rpx;
-}
-.table .table-tr view:nth-child(2) {
-  width: 1200rpx;
 }
 
 /* 服务流程模块开始  -----------------------------------------------------------*/
