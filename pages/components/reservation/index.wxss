@@ -225,6 +225,7 @@ page {
 .modalDlg view:nth-child(6) {
   margin: 30rpx 0;
 }
+/* 弹出框的样式 */
 .isRuleShow {
   display: block;
 }
