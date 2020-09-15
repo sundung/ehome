@@ -71,9 +71,30 @@ page {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* 报修数量样式开始 */
+}
+.air-conditioner .air-conditioner-item .input {
+  display: flex;
+  /* 控制 input框的数字 与 加减号垂直水平对齐 */
+  justify-content: center;
+  align-items: center;
+  /* 控制报修数量的input框 */
+}
+.air-conditioner .air-conditioner-item .input .public {
+  height: 24rpx;
+  width: 24rpx;
+  background-color: #fff;
+  border: 2rpx solid #999;
+  text-align: center;
+  line-height: 24rpx;
+  border-radius: 50%;
+  margin: 0 20rpx;
+}
+.air-conditioner .air-conditioner-item .input input {
+  width: 33rpx;
+  line-height: 40rpx;
 }
 /* 服务地址模块------------------------------------------------------------------------ */
-/* 使用scroll-view包裹服务模块让其背景色占剩余的全部空间 */
 /* 选择服务地址的样式 */
 .address {
   padding: 0 30rpx;
@@ -203,23 +224,6 @@ page {
 }
 .modalDlg view:nth-child(6) {
   margin: 30rpx 0;
-}
-/* 报修数量样式开始--------------------------------------------------------------------- */
-.air-conditioner .air-conditioner-item .input {
-  display: flex;
-}
-.air-conditioner .air-conditioner-item .input .public {
-  height: 45rpx;
-  width: 45rpx;
-  background-color: #666;
-  text-align: center;
-  line-height: 40rpx;
-  border-radius: 50%;
-  margin: 0 40rpx;
-}
-/* 控制报修数量的input框 */
-.air-conditioner .air-conditioner-item .input input {
-  width: 20rpx;
 }
 .isRuleShow {
   display: block;
