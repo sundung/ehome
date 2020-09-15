@@ -4,14 +4,14 @@
 
 <view class="repairs">
   <view class="repairs-item">
-  <text class='start'>*</text>
-  <text>报修项目</text>
+    <text class='start'>*</text>
+    <text>报修项目</text>
   </view>
   <view class="repairs-item">{{msg}}</view>
   <view class="repairs-item changButton" bindtap="alertChange">更换 > </view>
 </view>
 <!-- 横线 -->
-<view class="line-1" ></view>
+<view class="line" ></view>
 <!-- 报修项目的icon区域 ----------------------------------------------------->
 <view class="icon-group">
   <view class="icon-group-item">
@@ -27,6 +27,80 @@
     收费透明
   </view>
 </view>
+
+<!-- 空调机型选择区域----------------------------------------------------------->
+<view class="air-conditioner">
+  <view class="air-conditioner-item">
+    <view>空调机型</view>
+    <view>{{AirModalDlgValue}}</view>
+    <view bindtap="airModalDlg">请选择 > </view>
+  </view>
+  <!-- 线段 -->
+  <view class="line"></view>  
+  <view class="line"></view>  
+  <view class="air-conditioner-item">
+    <view>空调功率</view>
+    <view>{{AirPowerModalDlgValue}}</view>
+    <view bindtap="airPowerModalDlg">请选择 > </view>
+  </view>
+   <!-- 线段 -->
+  <view class="line"></view>
+  <view class="line"></view>
+  <view class="air-conditioner-item">
+    <view>报修数量</view>
+    <view class="input">
+      <view class="subtract public" bindtap="bindMinus">-</view>
+      <input bindinput='bindManual' value='{{num}}'></input>
+      <view class="add public" bindtap="bindPlus">+</view>
+    </view>
+  </view>
+</view>
+
+
+<!-- 服务地址模块开始------------------------------------------------------- -->
+
+  <view class="address">
+    <view class="address-item">
+      <view>
+        <text class='start'>*</text>
+        <text>服务地址</text>
+      </view> 
+      <navigator url="/pages/components/newAddress/index">
+        <view >请选择服务地址 > </view>
+      </navigator>
+    </view>
+    <!-- 线段 -->
+    <view class="line"></view>
+    <view class="line"></view>
+    <view class="address-item">
+      <view>
+        <text class='start'>*</text>
+      <text>上门服务时间</text>
+      </view> 
+      <!-- 使用时间选择器组件 -->
+      <timePicker></timePicker>
+    </view>
+  </view>
+  <!-- 线段 -->
+    <view class="line"></view>
+    <view class="line"></view>
+ <!-- 补充问题描述区------------------------------------------------------ -->
+    <view class="question">
+      <view class='item'>
+        <text class='start'>*</text>问题描述
+      </view>
+      <view class="content">
+        <textarea  placeholder="请描述存在的问题..."></textarea>
+      </view>
+    </view>
+
+<!-- 立即预约按钮---------------------------------------------------- -->
+<button style="width:609rpx" class="button" bindtap="alertOrder">
+立即预约
+</button>
+
+
+
 <!-- 遮罩层 -->
 <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
 <!-- 点击报修项目弹出层------------------------------------------------------------------ -->
@@ -52,31 +126,7 @@
 
 
 
-<!-- 空调机型选择区域----------------------------------------------------------->
-<view class="air-conditioner">
-  <view class="air-conditioner-item">
-    <view>空调机型</view>
-    <view>{{AirModalDlgValue}}</view>
-    <view bindtap="airModalDlg">请选择 > </view>
-  </view>
-  <!-- 线段 -->
-  <view class="line"></view>
-  <view class="air-conditioner-item">
-    <view>空调功率</view>
-    <view>{{AirPowerModalDlgValue}}</view>
-    <view bindtap="airPowerModalDlg">请选择 > </view>
-  </view>
-   <!-- 线段 -->
-  <view class="line"></view>
-  <view class="air-conditioner-item">
-    <view>报修数量</view>
-    <view class="input">
-      <view class="subtract public" bindtap="bindMinus">-</view>
-      <input bindinput='bindManual' value='{{num}}'></input>
-      <view class="add public" bindtap="bindPlus">+</view>
-    </view>
-  </view>
-</view>
+
 
 <!-- 点击空调机型弹出弹出层--------------------------------------------- -->
 <!-- 遮罩层 -->
@@ -120,40 +170,8 @@
     <view class="air-modalDlg-item {{num3==6?'active':''}}" data-num3='6' bindtap="getAirPowerModalDlgValue" data-value="5P">5P</view>
   </view> 
 </view>
-<!-- 服务地址模块开始------------------------------------------------------- -->
-<scroll-view class="scrollView" style="height: {{scrollViewHeight}}px">
-  <view class="address">
-    <view class="address-item">
-      <view>服务地址</view>
-      <!-- <view>{{AirModalDlgValue}}</view> -->
-      <navigator url="/pages/components/newAddress/index">
-        <view >请选择服务地址 > </view>
-      </navigator>
-    </view>
-    <!-- 线段 -->
-    <view class="line"></view>
-    <view class="address-item">
-      <view>上门服务时间</view>
-      <!-- 使用时间选择器组件 -->
-      <timePicker></timePicker>
-    </view>
-    <!-- 线段 -->
-    <view class="line"></view>
-    <!-- 补充问题描述区------------------------------------------------------ -->
-    <view class="question address-item">
-      <view class="title">
-        问题描述
-      </view>
-      <view class="content">
-        <textarea  placeholder="请描述存在的问题..."></textarea>
-      </view>
-    </view>
-  </view>
-</scroll-view>
-<!-- 立即预约按钮---------------------------------------------------- -->
-<button style="width:100%" class="button" bindtap="alertOrder">
-立即预约
-</button>
+
+
 
 
 <!-- 点击立即预约按钮弹出已经提交订单的弹出框------------------------------ -->
