@@ -4,7 +4,6 @@
 
 <view class="repairs">
   <view class="repairs-item">
-  <image src="/assets/img/order-1.png"></image>
   <text>报修项目</text>
   </view>
   <view class="repairs-item">{{msg}}</view>
@@ -52,21 +51,21 @@
 <!-- 空调机型选择区域----------------------------------------------------------->
 <view class="air-conditioner">
   <view class="air-conditioner-item">
-    <view><image src="/assets/img/home-1.png"></image>空调机型</view>
+    <view>空调机型</view>
     <view>{{AirModalDlgValue}}</view>
     <view bindtap="airModalDlg">请选择 > </view>
   </view>
   <!-- 线段 -->
   <view class="line"></view>
   <view class="air-conditioner-item">
-    <view><image src="/assets/img/home-1.png"></image>空调功率</view>
+    <view>空调功率</view>
     <view>{{AirPowerModalDlgValue}}</view>
     <view bindtap="airPowerModalDlg">请选择 > </view>
   </view>
    <!-- 线段 -->
   <view class="line"></view>
   <view class="air-conditioner-item">
-    <view><image src="/assets/img/home-1.png"></image>报修数量</view>
+    <view>报修数量</view>
     <view class="input">
       <view class="subtract public" bindtap="bindMinus">-</view>
       <input bindinput='bindManual' value='{{num}}'></input>
@@ -121,7 +120,7 @@
 <scroll-view class="scrollView" style="height: {{scrollViewHeight}}px">
   <view class="address">
     <view class="address-item">
-      <view><image src="/assets/img/home-1.png"></image>服务地址</view>
+      <view>服务地址</view>
       <!-- <view>{{AirModalDlgValue}}</view> -->
       <navigator url="/pages/components/newAddress/index">
         <view >请选择服务地址 > </view>
@@ -130,7 +129,7 @@
     <!-- 线段 -->
     <view class="line"></view>
     <view class="address-item">
-      <view><image src="/assets/img/home-1.png"></image>上门服务时间</view>
+      <view>上门服务时间</view>
       <!-- 使用时间选择器组件 -->
       <timePicker></timePicker>
     </view>
@@ -139,7 +138,7 @@
     <!-- 补充问题描述区------------------------------------------------------ -->
     <view class="question address-item">
       <view class="title">
-        <image src="/assets/img/home-1.png"></image>问题描述
+        问题描述
       </view>
       <view class="content">
         <textarea  placeholder="请描述存在的问题..."></textarea>
