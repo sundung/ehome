@@ -1,47 +1,71 @@
 .task-orders {
-  padding: 20rpx;
+  height: 360rpx;
+  padding: 30rpx;
   background-color: #fff;
   margin-bottom: 20rpx;
+  /* 控制订单顶部信息 */
+  /* 订单中间部分 */
+  /* 订单底部信息 */
 }
 .task-orders .top {
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
   display: flex;
   justify-content: space-between;
+  /* 订单状态 */
 }
 .task-orders .top .left {
   display: flex;
   color: #1993fc;
 }
 .task-orders .top .left .image {
-  height: 40rpx;
-  width: 40rpx;
-  margin-right: 15rpx;
+  height: 70rpx;
+  width: 70rpx;
+  border-radius: 50%;
+  /* 控制同意向与用户名的距离 */
+  margin-right: 20rpx;
   background-color: #1993fc;
 }
 .task-orders .top .right {
-  color: green;
+  font-weight: 400;
+  color: #999;
 }
 .task-orders .content {
-  margin-top: 20rpx;
   display: flex;
   justify-content: space-between;
-  font-size: 30rpx;
+  /* 订单中间左侧部分 */
+  /* 订单中间部分的右侧信息 */
+}
+.task-orders .content .left {
+  /* 订单图片 */
 }
 .task-orders .content .left .image {
-  height: 140rpx;
-  width: 140rpx;
-  border: 1px solid #ccc;
-  border-radius: 8rpx;
+  height: 126rpx;
+  width: 126rpx;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgba(196, 196, 196, 0.3);
+  border-radius: 8px;
 }
 .task-orders .content .right {
   margin-left: 20rpx;
 }
+.task-orders .content .right .title {
+  font-weight: 400;
+  color: #111;
+  font-size: 28rpx;
+  margin-bottom: 12rpx;
+}
 .task-orders .content .right .content {
   font-size: 24rpx;
-  color: #717171;
+  font-weight: 400;
+  color: #666;
 }
 .task-orders .content .right .content .left {
   display: flex;
   flex-wrap: wrap;
+  /* 控制订单具体信息的上下距离 */
 }
 .task-orders .content .right .content .left .item:nth-child(1) {
   margin-bottom: 12rpx;
@@ -49,16 +73,19 @@
 .task-orders .content .right .content .right {
   display: flex;
   flex-wrap: wrap;
+  /* 控制订单具体信息的上下距离 */
 }
 .task-orders .content .right .content .right .item:nth-child(1) {
   margin-bottom: 12rpx;
 }
 .task-orders .bottom {
-  margin-top: 14rpx;
   font-size: 24rpx;
-  color: #717171;
+  font-weight: 400;
+  color: #999;
 }
 .task-orders .bottom .top {
+  /* 取消日期与服务地址的间距 */
+  margin-bottom: 0;
   display: flex;
   justify-content: flex-start;
 }

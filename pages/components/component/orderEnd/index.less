@@ -1,47 +1,67 @@
-// 已结束订单模块样式
-// 待服务订单模块样式
+// 已取消订单模块样式
 .task-orders {
-  padding: 20rpx;
+  height: 360rpx;
+  padding: 30rpx;
   background-color: #fff;
   margin-bottom: 20rpx;
+  /* 控制订单顶部信息 */
   .top {
+    height: 70rpx;
+    line-height: 70rpx;
+    font-size: 24rpx;
+    margin-bottom: 20rpx;
     display: flex;
     justify-content: space-between;
     .left {
       display: flex;
       color: #1993fc;
       .image {
-        height: 40rpx;
-        width: 40rpx;
-        margin-right: 15rpx;
+        height: 70rpx;
+        width: 70rpx;
+        border-radius: 50%;
+        /* 控制同意向与用户名的距离 */
+        margin-right: 20rpx;
         background-color: #1993fc;
       }
     }
+    /* 订单状态 */
     .right {
-      color: green;
+      font-weight: 400;
+      color: #999;
     }
   }
+  /* 订单中间部分 */
   .content {
-    margin-top: 20rpx;
     display: flex;
     justify-content: space-between;
-    font-size: 30rpx;
+    /* 订单中间左侧部分 */
     .left {
+      /* 订单图片 */
       .image {
-        height: 140rpx;
-        width: 140rpx;
-        border: 1px solid #ccc;
-        border-radius: 8rpx;
+        height: 126rpx;
+        width: 126rpx;
+        background: #ffffff;
+        box-shadow: 0px 0px 20px 0px rgba(196, 196, 196, 0.3);
+        border-radius: 8px;
       }
     }
+    /* 订单中间部分的右侧信息 */
     .right {
       margin-left: 20rpx;
+      .title {
+        font-weight: 400;
+        color: #111;
+        font-size: 28rpx;
+        margin-bottom: 12rpx;
+      }
       .content {
         font-size: 24rpx;
-        color: #717171;
+        font-weight: 400;
+        color: #666;
         .left {
           display: flex;
           flex-wrap: wrap;
+          /* 控制订单具体信息的上下距离 */
           .item:nth-child(1) {
             margin-bottom: 12rpx;
           }
@@ -49,6 +69,7 @@
         .right {
           display: flex;
           flex-wrap: wrap;
+          /* 控制订单具体信息的上下距离 */
           .item:nth-child(1) {
             margin-bottom: 12rpx;
           }
@@ -56,11 +77,14 @@
       }
     }
   }
+  /* 订单底部信息 */
   .bottom {
-    margin-top: 14rpx;
     font-size: 24rpx;
-    color: #717171;
+    font-weight: 400;
+    color: #999;
     .top {
+      /* 取消日期与服务地址的间距 */
+      margin-bottom: 0;
       display: flex;
       justify-content: flex-start;
       .time {
