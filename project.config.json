@@ -115,6 +115,13 @@
 					"pathName": "pages/mine/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单页面的icon区域",
+					"pathName": "pages/components/component/orderDetailComponents/iconBlock/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}

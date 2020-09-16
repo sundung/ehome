@@ -2,15 +2,15 @@
 
   <view class="icon">
     <view class="icon-item">
-      <icon type="success" size="14" color="#1993fc"></icon>
+      <image class="img" src="/assets/imgs/feiyong.png" />
       <view class="word">无前期费用</view>
     </view>
     <view class="icon-item">
-      <icon type="success" size="14" color="#1993fc"></icon>
+      <image class="img" src="/assets/imgs/pinzhibaozhang.png" />
       <view class="word">品质有保障</view>
     </view>
     <view class="icon-item">
-      <icon type="success" size="14" color="#1993fc"></icon>
+      <image class="img" src="/assets/imgs/shouhou.png" />
       <view class="word">超长售后</view>
     </view>
   </view>

@@ -1,16 +1,20 @@
 .icon {
   display: flex;
   justify-content: space-around;
-  margin: 10rpx 0;
-  height: 80rpx;
+  margin: 20rpx 0;
+  height: 88rpx;
   background-color: #fff;
   align-items: center;
-  color: #1993fc;
   font-size: 24rpx;
 }
 .icon .icon-item {
   display: flex;
   align-items: center;
+  /* 控制icon图片大小 */
+}
+.icon .icon-item .img {
+  height: 22rpx;
+  width: 24rpx;
 }
 .icon .icon-item .word {
   margin-left: 14rpx;
