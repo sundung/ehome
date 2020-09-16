@@ -118,8 +118,8 @@
 				},
 				{
 					"id": -1,
-					"name": "订单页面的icon区域",
-					"pathName": "pages/components/component/orderDetailComponents/iconBlock/index",
+					"name": "服务保障页面",
+					"pathName": "pages/components/component/serviceAssurance/index",
 					"query": "",
 					"scene": null
 				}

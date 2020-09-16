@@ -2,31 +2,35 @@
 <view class="main">
   <view class="item">
     <view class="title">
-      <view class="image"></view>
+      <image class="image" src="/assets/imgs/feiyong.png" />
       <view class="word">无前期费用</view>
     </view>
     <view class="content">
-      <view class="content-item">无上门费  无检测费</view>
-      <view class="content-item">只有收费,才会产生费用</view>
+      <view class="content-item">
+        无上门费、无检测费、只有维修，才会产生费用；
+      </view>
     </view>
   </view>
   <view class="item">
     <view class="title">
-      <view class="image"></view>
+      <image class="image" src="/assets/imgs/pinzhibaozhang.png" />
       <view class="word">品质有保障</view>
     </view>
     <view class="content">
-      <view class="content-item">收费透明  服务有保障</view>
+      <view class="content-item">
+        收费透明、服务有保障；
+      </view>
     </view>
   </view>
   <view class="item">
     <view class="title">
-      <view class="image"></view>
+      <image class="image" src="/assets/imgs/shouhou.png" />
       <view class="word">超长售期</view>
     </view>
     <view class="content">
-      <view class="content-item">维修周期短</view>
-      <view class="content-item">售后时间长(报修120天)</view>
+      <view class="content-item">
+        维修周期短，售后时间长（保修120天）；
+      </view>
     </view>
   </view>
 </view>
