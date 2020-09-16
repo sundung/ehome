@@ -1,5 +1,5 @@
 <!--pages/components/component/orderFinished/index.wxml-->
-<view class='task-orders1'>
+<view class='task-ordersFinished'>
     <view class='top'>
       <view class='left'>
         <view class="image"></view>
@@ -7,7 +7,7 @@
           e到家
         </view>  
       </view>
-      <view class="right1">
+      <view class="right">
         已结束
       </view>  
     </view>
