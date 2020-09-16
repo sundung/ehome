@@ -1,17 +1,27 @@
 /* pages/components/component/tabs/index.wxss */
 
-/* .tabs {} */
+.tabs {
+  height: 88rpx;
+  background-color: #fff;
+  box-shadow: 0 0 10rpx 0 rgba(153, 153, 153, 0.2);
+  line-height: 88rpx;
+  margin-bottom: 6rpx;
+}
 .tabs-title {
+  /* 控制4个 tab栏一行显示 */
   display: flex;
-  padding: 20rpx;
+  justify-content: space-around;
 }
 .title-item {
-  flex: 1;
+  width: 98rpx;
+  font-size: 28rpx;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 20rpx;
 }
 .active {
-  color:#1372fb;
-  border-bottom: 5rpx solid currentColor;
+  font-size: 32rpx;
+  color: #0090ff;
+  border-bottom: 4rpx solid currentColor;
 }
