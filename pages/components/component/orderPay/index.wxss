@@ -90,6 +90,7 @@
   margin-left: 40rpx;
 }
 .task-ordersPay .bottom .btn {
+  margin-top: 20rpx;
   display: flex;
   justify-content: space-between;
 }
@@ -99,7 +100,7 @@
   justify-content: flex-start;
   align-items: center;
   font-size: 24rpx;
-  color: #000;
+  color: #111;
 }
 .task-ordersPay .bottom .btn .price .text {
   margin-left: 14rpx;

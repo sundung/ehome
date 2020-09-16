@@ -1,91 +1,118 @@
-.task-orders1 {
-  padding: 20rpx;
+.task-ordersPaid {
+  height: 420rpx;
+  padding: 30rpx 30rpx 20rpx 30rpx;
   background-color: #fff;
   margin-bottom: 20rpx;
+  /* 订单中间部分 */
+  /* 订单底部信息 */
 }
-.task-orders1 .top {
+.task-ordersPaid .top {
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 24rpx;
+  margin-bottom: 20rpx;
   display: flex;
   justify-content: space-between;
+  /* 订单状态 */
 }
-.task-orders1 .top .left {
+.task-ordersPaid .top .left {
   display: flex;
   color: #1993fc;
 }
-.task-orders1 .top .left .image {
-  height: 40rpx;
-  width: 40rpx;
+.task-ordersPaid .top .left .image {
+  height: 70rpx;
+  width: 70rpx;
+  border-radius: 50%;
+  /* 控制头像与用户名的距离 */
+  margin-right: 20rpx;
   background-color: #1993fc;
-  margin-right: 15rpx;
 }
-.task-orders1 .top .right {
-  color: green;
+.task-ordersPaid .top .right {
+  font-weight: 400;
+  color: #999;
 }
-.task-orders1 .content {
-  margin-top: 20rpx;
+.task-ordersPaid .content {
   display: flex;
   justify-content: space-between;
-  font-size: 30rpx;
+  /* 订单中间左侧部分 */
+  /* 订单中间部分的右侧信息 */
 }
-.task-orders1 .content .left .image {
-  height: 140rpx;
-  width: 140rpx;
-  border: 1px solid #ccc;
-  border-radius: 8rpx;
+.task-ordersPaid .content .left {
+  /* 订单图片 */
 }
-.task-orders1 .content .right {
+.task-ordersPaid .content .left .image {
+  height: 126rpx;
+  width: 126rpx;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgba(196, 196, 196, 0.3);
+  border-radius: 8px;
+}
+.task-ordersPaid .content .right {
   margin-left: 20rpx;
 }
-.task-orders1 .content .right .content {
-  font-size: 24rpx;
-  color: #717171;
+.task-ordersPaid .content .right .title {
+  font-weight: 400;
+  color: #111;
+  font-size: 28rpx;
+  margin-bottom: 12rpx;
 }
-.task-orders1 .content .right .content .left {
+.task-ordersPaid .content .right .content {
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #666;
+}
+.task-ordersPaid .content .right .content .left {
   display: flex;
   flex-wrap: wrap;
 }
-.task-orders1 .content .right .content .left .item:nth-child(1) {
+.task-ordersPaid .content .right .content .left .item:nth-child(1) {
   margin-bottom: 12rpx;
 }
-.task-orders1 .content .right .content .right {
+.task-ordersPaid .content .right .content .right {
   display: flex;
   flex-wrap: wrap;
 }
-.task-orders1 .content .right .content .right .item:nth-child(1) {
+.task-ordersPaid .content .right .content .right .item:nth-child(1) {
   margin-bottom: 12rpx;
 }
-.task-orders1 .bottom {
-  margin-top: 14rpx;
+.task-ordersPaid .bottom {
   font-size: 24rpx;
-  color: #717171;
+  color: #999;
+  /* 底部价格,结束服务按钮区域 */
 }
-.task-orders1 .bottom .top {
+.task-ordersPaid .bottom .top {
+  /* 取消日期与服务地址的间距 */
+  margin-bottom: 0;
   display: flex;
   justify-content: flex-start;
 }
-.task-orders1 .bottom .top .time {
+.task-ordersPaid .bottom .top .time {
   margin-left: 40rpx;
 }
-.task-orders1 .bottom .btn {
+.task-ordersPaid .bottom .btn {
   margin-top: 20rpx;
   display: flex;
   justify-content: space-between;
 }
-.task-orders1 .bottom .btn .price {
+.task-ordersPaid .bottom .btn .price {
   flex: 5;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 32rpx;
-  color: #000;
+  font-size: 24rpx;
+  color: #111;
 }
-.task-orders1 .bottom .btn .price .text {
+.task-ordersPaid .bottom .btn .price .text {
   margin-left: 14rpx;
-  color: red;
+  color: #0090ff;
 }
-.task-orders1 .bottom .btn .buttonall {
-  flex: 3;
-  color: #1c94fc;
+.task-ordersPaid .bottom .btn .buttonall {
+  width: 216rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 24rpx;
+  font-weight: 400;
+  color: #0090ff;
   background-color: #fff;
-  border-color: #1c94fc;
-  font-size: 28rpx;
+  border-color: #0090ff;
 }
