@@ -1,5 +1,5 @@
 <!--pages/components/component/orderPay/index.wxml-->
-<view class='task-orders1'>
+<view class='task-ordersPay'>
     <view class='top'>
       <view class='left'>
         <view class="image"></view>

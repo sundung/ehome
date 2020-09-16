@@ -1,6 +1,6 @@
 .task-orders-service {
   height: 420rpx;
-  padding: 30rpx;
+  padding: 30rpx 30rpx 20rpx 30rpx;
   background-color: #fff;
   margin-bottom: 20rpx;
   /* 订单中间部分 */

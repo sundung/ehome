@@ -75,13 +75,6 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "店家维修",
-					"pathName": "pages/components/jiadianweixiu/index",
-					"query": "",
-					"scene": null
-				},
-				{
 					"id": 2,
 					"name": "收费标准表格组件",
 					"pathName": "pages/components/component/orderDetailComponents/chargeStandard/index",
@@ -90,50 +83,9 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/components/reservation/index",
-					"pathName": "pages/components/reservation/index",
+					"name": "pages/components/component/orderPay/index",
+					"pathName": "pages/components/component/orderPay/index",
 					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "新增地址",
-					"pathName": "pages/components/newAddress/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "选择服务地址",
-					"pathName": "pages/components/selectAddress/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "我的页面",
-					"pathName": "pages/mine/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "服务保障页面",
-					"pathName": "pages/components/component/serviceAssurance/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "tans",
-					"pathName": "pages/components/component/tabs/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
-					"name": "pages/components/component/orderInService/index",
-					"pathName": "pages/components/component/orderInService/index",
 					"scene": null
 				}
 			]
