@@ -1,5 +1,5 @@
 <!--pages/components/component/orderService/index.wxml-->
-<view class='task-orders'>
+<view class='task-orders-service'>
     <view class='top'>
       <view class='left'>
         <view class="image"></view>
@@ -45,8 +45,8 @@
       <view class='address'>
         北京市朝阳区松江路20号马泉营一区
       </view>  
-      <view class="btn">
-        <button size='mini' class="buttonAll" plain="true" bindtap='goToMaintainList'>获取维修清单</button>
+      <view class="btn" bindtap='goToMaintainList'>
+      获取维修清单
       </view>
     </view>
 </view>

@@ -24,7 +24,7 @@
   height: 70rpx;
   width: 70rpx;
   border-radius: 50%;
-  /* 控制同意向与用户名的距离 */
+  /* 控制头像与用户名的距离 */
   margin-right: 20rpx;
   background-color: #1993fc;
 }
@@ -84,6 +84,8 @@
   color: #999;
 }
 .task-order .bottom .top {
+  /* 取消日期与服务地址的间距 */
+  margin-bottom: 0;
   display: flex;
   justify-content: flex-start;
 }

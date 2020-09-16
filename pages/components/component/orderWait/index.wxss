@@ -85,6 +85,8 @@
   color: #999;
 }
 .task-orders .bottom .top {
+  /* 取消日期与服务地址的间距 */
+  margin-bottom: 0;
   display: flex;
   justify-content: flex-start;
 }

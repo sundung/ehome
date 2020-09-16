@@ -129,6 +129,12 @@
 					"pathName": "pages/components/component/tabs/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/components/component/orderInService/index",
+					"pathName": "pages/components/component/orderInService/index",
+					"scene": null
 				}
 			]
 		}
