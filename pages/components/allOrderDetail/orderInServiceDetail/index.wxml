@@ -19,6 +19,6 @@
 <!-- 底部按钮区域开始 -->
 
 <view class="bottom">
-  <view class="left" bindtap='goToFinishedService'>结束服务</view>
-  <view class="right" bindtap="goToMaintainList">获取维修清单</view>
+  <view class="item" bindtap='goToFinishedService'>结束服务</view>
+  <view class="item" bindtap="goToMaintainList">获取维修清单</view>
 </view>

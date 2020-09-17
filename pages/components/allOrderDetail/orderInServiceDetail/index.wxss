@@ -1,28 +1,35 @@
 page {
   background-color: #f2f2f2;
+  padding-bottom: 158rpx;
 }
 .bottom {
-  height: 100rpx;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  display: flex;
-}
-.bottom .left {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-top: 158rpx;
+  height: 158rpx;
   background-color: #fff;
-  border: 1rpx solid #1c94fc;
-  color: #1c94fc;
-}
-.bottom .right {
-  flex: 1;
+  box-shadow: 0px 0px 20rpx 0px rgba(196, 196, 196, 0.3);
+  line-height: 158rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1c94fc;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /* 控制两个按钮的间距 */
+}
+.bottom .item {
+  /* 控制两个按钮的样式 */
+  height: 98rpx;
+  width: 336rpx;
+  font-size: 32rpx;
   color: #fff;
+  background-color: #0090ff;
+  text-align: center;
+  line-height: 98rpx;
+  border-radius: 8px;
+}
+.bottom view:nth-child(1) {
+  margin-right: 18rpx;
+  background: #00c3ff;
+  border: 0;
 }
