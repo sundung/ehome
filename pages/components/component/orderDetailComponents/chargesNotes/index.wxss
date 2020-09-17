@@ -1,22 +1,24 @@
 .charge-notes {
   background-color: #fff;
-  height: 380rpx;
-  padding: 0 18rpx;
+  height: 309rpx;
+  padding: 30rpx;
   /* 控制 收费说明文字 */
   /* 收费说明模块 button 按钮样式 */
 }
 .charge-notes .title {
-  padding-top: 14rpx;
-  font-weight: 700;
+  font-size: 28rpx;
 }
 .charge-notes .text {
-  text-indent: 400px;
+  color: #666;
   font-size: 24rpx;
 }
 .charge-notes .buttonAll {
-  font-size: 24rpx;
-  border-radius: 50rpx;
-  margin-top: 25rpx;
-  color: #1993fc;
-  border: 1px solid #1993fc;
+  margin-top: 30rpx;
+  width: 282rpx;
+  height: 64rpx;
+  background: #ffffff;
+  border-radius: 32rpx;
+  border: 1rpx solid #0090ff;
+  font-size: 22rpx;
+  color: #0090ff;
 }

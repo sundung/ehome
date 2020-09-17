@@ -3,8 +3,7 @@
 <view class="charge-notes">
   <view class='title'>收费说明</view>
   <text class="text" decode="{{true}}">
-     &emsp;&emsp;空调维修免费上门、免费检测，根据维修项目收费标准和配件收费标准进行费用收取，费用透明，拒绝乱收费。如遇师傅私自乱收费，可向平台进行举报，不满意可重新服务！<br />
-    维修总价=维修费+配件费（如有）+高空作业费（如有）
+     空调维修免费上门、免费检测，根据维修项目收费标准和配件收费标准进行费用收取，费用透明，拒绝乱收费。如遇师傅私自乱收费，可向平台进行举报，不满意可重新服务！
   </text>
   <button class="buttonAll" plain="true"  >点击查看全部说明 </button>
 </view>
