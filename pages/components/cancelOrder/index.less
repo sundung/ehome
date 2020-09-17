@@ -1,21 +1,44 @@
+page {
+  background-color: #f8f8f8;
+}
 .container {
   .title {
-    color: red;
-    font-size: 24rpx;
-    background-color: #fceaeb;
-    height: 80rpx;
-    padding: 0 20rpx;
+    width: 690rpx;
+    height: 56rpx;
+    font-size: 20rpx;
+    color: #ff3b30;
+    line-height: 28rpx;
+    padding: 20rpx 30rpx;
   }
   .item {
+    padding: 0 30rpx;
+    height: 88rpx;
+    line-height: 88rpx;
+    background-color: #fff;
+    font-size: 24rpx;
+    color: #333;
     display: flex;
     justify-content: space-between;
-    margin: 20rpx;
     .text {
       text-align: center;
     }
+    .radio {
+      transform: scale(0.5);
+    }
+  }
+  /* 具体信息 */
+  .info {
+    font-size: 24rpx;
+    padding: 30rpx;
+    width: 750rpx;
+    height: 260rpx;
+    background: #ffffff;
+    text {
+      margin-top: 120rpx;
+    }
   }
   .line {
-    border: 1rpx solid #ccc;
+    border: 1rpx solid #d7d7d7;
     width: 95%;
     margin: 0 auto;
   }
@@ -28,22 +51,36 @@
 
 // 底部按钮区域开始-----------------------------
 
-// 底部按钮区域
 .btn {
+  margin-top: 158rpx;
+  height: 158rpx;
+  background-color: #fff;
+  box-shadow: 0px 0px 20rpx 0px rgba(196, 196, 196, 0.3);
+  line-height: 158rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
   display: flex;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   .item {
-    flex: 1;
-    width: 50%;
-    height: 100rpx;
-    background-color: #fff;
+    /* 控制两个按钮的样式 */
+    height: 98rpx;
+    width: 336rpx;
+    font-size: 32rpx;
+    color: #fff;
+    background-color: #0090ff;
     text-align: center;
-    line-height: 100rpx;
+    line-height: 98rpx;
     border: 1px solid #1472fc;
-    color: #1472fc;
+    border-radius: 8px;
+  }
+  /* 控制两个按钮的间距 */
+  & view:nth-child(1) {
+    margin-right: 18rpx;
+    background: #ccc;
+    border: 0;
   }
 }
 
@@ -65,40 +102,59 @@
   z-index: 2;
   top: 0;
   left: 0;
-}
-.floatContent {
-  padding: 20rpx;
-  width: 80%;
-  height: 280rpx;
-  background: #fff;
-  margin: 40% auto;
-  border-radius: 20rpx;
-  .title {
-    text-align: center;
-    margin-top: 40rpx;
-  }
-  .line {
-    border: 1rpx solid #ccc;
-    margin-top: 80rpx;
-  }
-  .btn1 {
-    display: flex;
-    .button {
-      width: 50%;
-      text-align: center;
-      line-height: 100rpx;
-      color: red;
+  .floatContent {
+    width: 536rpx;
+    height: 527rpx;
+    background: #fff;
+    /* 控制弹出框在中间显示 */
+    margin: 40% auto;
+    border-radius: 10rpx;
+    /* 控制弹出框的标题 */
+    .title {
+      font-size: 36rpx;
+      color: #111;
+      padding: 68rpx 258rpx 30rpx 58rpx;
     }
-    .shortLine {
-      border-right: 1px solid #ccc;
+    /* 标题与正文之间的横线 */
+    .lineShort {
+      margin-left: 58rpx;
+      width: 47rpx;
+      height: 3rpx;
+      background: #111111;
+    }
+    .content {
+      height: 122rpx;
+      width: 420rpx;
+      font-size: 28rpx;
+      line-height: 40rpx;
+      color: #333;
+      padding: 32rpx 58rpx 109rpx;
+    }
+    /* 线段 */
+    .line {
+      border: 1rpx solid #d7d7d7;
+    }
+    .btn1 {
+      height: 87rpx;
+      line-height: 87rpx;
+      display: flex;
+      font-size: 32rpx;
+      color: #999;
+      .button {
+        width: 50%;
+        text-align: center;
+        // line-height: 100rpx;
+      }
+      .confirm {
+        color: #0090ff;
+      }
+      /* 按钮之间的横线 */
+      .shortLine {
+        margin-top: 32rpx;
+        width: 1rpx;
+        height: 38rpx;
+        background: #d7d7d7;
+      }
     }
   }
-}
-
-.ruleHide {
-  height: 60rpx !important;
-  width: 60rpx !important;
-  position: absolute;
-  top: -9rpx;
-  right: -9rpx;
 }

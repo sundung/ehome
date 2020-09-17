@@ -1,33 +1,34 @@
 <!--pages/components/cancelOrder/index.wxml-->
 <view class="container">
-  <view class="title">我们将会对订单进行实时跟踪，有效的保障您的合法权益，私下交易将无法享受到赔、财产安全保障、其他售后权益保障!</view>
+  <view class="title">
+  我们将会对订单进行实时跟踪，有效的保障您的合法权益，私下交易将无法享受到赔、财产安全保障、其他售后权益保障！
+  </view>
   <view class="item">
     <view class="text">问题已解决，不需要了</view>
-    <radio class="" value="" color=""></radio>   
+    <radio class="radio" value="" color="#0090ff"></radio>   
   </view>
   <view class="line"></view>
   <view class="item">
     <view class="text">下单地址有误</view>
-    <radio class="" value="" color=""></radio>   
+    <radio class="radio" value="" color="#0090ff"></radio>   
   </view>
   <view class="line"></view>
   <view class="item">
     <view class="text">下单时间有误</view>
-    <radio class="" value="" color=""></radio>   
+    <radio class="radio" value="" color="#0090ff"></radio>   
   </view>
   <view class="line"></view>
   <view class="item">
     <view class="text">无原因/其他</view>
-    <radio class="" value="" color=""></radio>   
+    <radio class="radio" value="" color="#0090ff"></radio>   
   </view>
   <view class="line"></view>
-  <view class="item">
-    <view class="text">可备注具体原因</view> 
-  </view>
-  <textarea class="textarea" value="" placeholder="请您描述取消原因（100字以内)" placeholder-style="" placeholder-class="textarea-placeholder" 
-      disabled="false" maxlength="140"  focus="true" 
-      bindinput="" bindfocus="" bindblur="" bindconfirm="" bindlinechange="%{15}">
+  <view class="info">
+    <view class="text">可备注具体原因:</view> 
+    <textarea class="textarea" value="" placeholder="请您描述取消原因（100字以内)" >
     </textarea>
+  </view>
+  
 </view>
   
  <!-- 底部按钮区域 -->
@@ -41,12 +42,18 @@
 
 <view class="float {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
   <view class='floatContent'>
-    <view class="title">确定要否取消订单!</view>
+    <view class="title">客户您好</view>
+    <view class="lineShort"></view>
+
+    <view class="content">
+      确定要取消订单吗？
+    </view>
     <view class="line"></view> 
+    
     <view class="btn1">
       <view class='button'  bindtap='closeMask'>再想想</view>
       <view class="shortLine"></view>
-      <view class='button' bindtap='goToOrder'>确定</view>
+      <view class='button confirm' bindtap='goToOrder'>确定</view>
     </view>
   </view>
 </view>
@@ -55,12 +62,14 @@
 
 <view class="float {{isRuleTrue1?'isRuleShow':'isRuleHide'}}">
   <view class='floatContent'>
-    <view class="title">确定要取消订单并重新预约吗？</view>
+    <view class="title">客户您好</view>
+    <view class="lineShort"></view>
+    <view class="content">确定要取消订单并重新预约吗？</view>
     <view class="line"></view> 
     <view class="btn1">
       <view class='button'  bindtap='closeMask1'>取消</view>
       <view class="shortLine"></view>
-      <view class='button' bindtap='goToJiaDianWeiXiu'>确定</view>
+      <view class='button confirm' bindtap='goToJiaDianWeiXiu'>确定</view>
     </view>
   </view>
 </view>
