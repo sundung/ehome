@@ -1,17 +1,47 @@
+page {
+  background-color: #f8f8f8;
+}
+.container {
+  background-color: #fff;
+  /* 具体信息 */
+}
 .container .title {
-  padding: 20rpx;
+  height: 40rpx;
+  width: 690rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  padding: 42rpx 30rpx 26rpx;
+  box-sizing: border-box;
 }
 .container .item {
+  padding: 0 30rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  background-color: #fff;
+  font-size: 24rpx;
+  color: #333;
   display: flex;
   justify-content: space-between;
-  margin: 20rpx;
 }
 .container .item .text {
   text-align: center;
 }
+.container .item .radio {
+  transform: scale(0.5);
+}
+.container .info {
+  font-size: 24rpx;
+  padding: 30rpx;
+  width: 750rpx;
+  height: 260rpx;
+  background: #ffffff;
+}
+.container .info text {
+  margin-top: 120rpx;
+}
 .container .line {
-  border: 1rpx solid #ccc;
-  width: 95%;
+  border: 1rpx solid #d7d7d7;
+  width: 90%;
   margin: 0 auto;
 }
 .container .textarea {
@@ -19,15 +49,25 @@
   font-size: 26rpx;
   padding: 0 20rpx;
 }
-.btn {
-  height: 80rpx;
+.wrap {
+  height: 158rpx;
+  line-height: 158rpx;
+  width: 100%;
+  padding: 30rpx;
+  box-sizing: border-box;
+  background: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgba(153, 153, 153, 0.2);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+.wrap .btn {
+  height: 98rpx;
+  line-height: 98rpx;
+  width: 690rpx;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  bottom: 0;
-  left: 50%;
-  transform: translate(-50%);
 }
 .isRuleShow {
   display: block;
@@ -44,38 +84,57 @@
   top: 0;
   left: 0;
 }
-.floatContent {
-  padding: 20rpx;
-  width: 80%;
-  height: 280rpx;
+.float .floatContent {
+  width: 536rpx;
+  height: 527rpx;
   background: #fff;
+  /* 控制弹出框在中间显示 */
   margin: 40% auto;
-  border-radius: 20rpx;
+  border-radius: 10rpx;
+  /* 控制弹出框的标题 */
+  /* 标题与正文之间的横线 */
+  /* 线段 */
 }
-.floatContent .title {
-  text-align: center;
-  margin-top: 40rpx;
+.float .floatContent .title {
+  font-size: 36rpx;
+  color: #111;
+  padding: 68rpx 258rpx 30rpx 58rpx;
 }
-.floatContent .line {
-  border: 1rpx solid #ccc;
-  margin-top: 80rpx;
+.float .floatContent .lineShort {
+  margin-left: 58rpx;
+  width: 47rpx;
+  height: 3rpx;
+  background: #111111;
 }
-.floatContent .btn1 {
+.float .floatContent .content {
+  height: 122rpx;
+  width: 420rpx;
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #333;
+  padding: 32rpx 58rpx 109rpx;
+}
+.float .floatContent .line {
+  border: 1rpx solid #d7d7d7;
+}
+.float .floatContent .btn1 {
+  height: 87rpx;
+  line-height: 87rpx;
   display: flex;
+  font-size: 32rpx;
+  color: #999;
+  /* 按钮之间的横线 */
 }
-.floatContent .btn1 .button {
+.float .floatContent .btn1 .button {
   width: 50%;
   text-align: center;
-  line-height: 100rpx;
-  color: red;
 }
-.floatContent .btn1 .shortLine {
-  border-right: 1px solid #ccc;
+.float .floatContent .btn1 .confirm {
+  color: #0090ff;
 }
-.ruleHide {
-  height: 60rpx !important;
-  width: 60rpx !important;
-  position: absolute;
-  top: -9rpx;
-  right: -9rpx;
+.float .floatContent .btn1 .shortLine {
+  margin-top: 32rpx;
+  width: 1rpx;
+  height: 38rpx;
+  background: #d7d7d7;
 }

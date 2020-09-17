@@ -129,6 +129,13 @@
 					"pathName": "pages/components/allOrderDetail/orderInServiceDetail/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "结束服务详情",
+					"pathName": "pages/components/finishedService/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}
