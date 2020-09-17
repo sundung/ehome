@@ -51,7 +51,7 @@ page {
   top: 0;
   left: 0;
 }
-.floatContent {
+.float .floatContent {
   width: 536rpx;
   height: 527rpx;
   background: #fff;
@@ -62,50 +62,43 @@ page {
   /* 标题与正文之间的横线 */
   /* 线段 */
 }
-.floatContent .title {
+.float .floatContent .title {
   font-size: 36rpx;
   color: #111;
   padding: 64rpx 58rpx 20rpx;
 }
-.floatContent .lineShort {
+.float .floatContent .lineShort {
   margin-left: 58rpx;
   width: 47rpx;
   height: 3rpx;
   background: #111111;
 }
-.floatContent .content {
+.float .floatContent .content {
   font-size: 28rpx;
   line-height: 40rpx;
   color: #333;
   padding: 32rpx 58rpx 44rpx;
 }
-.floatContent .line {
+.float .floatContent .line {
   border: 1rpx solid #d7d7d7;
 }
-.floatContent .btn1 {
+.float .floatContent .btn1 {
   display: flex;
   /* 按钮之间的横线 */
 }
-.floatContent .btn1 .button {
+.float .floatContent .btn1 .button {
   width: 50%;
   text-align: center;
   line-height: 100rpx;
   color: #0090ff;
 }
-.floatContent .btn1 .confirm {
+.float .floatContent .btn1 .confirm {
   color: #999;
   font-size: 32rpx;
 }
-.floatContent .btn1 .shortLine {
+.float .floatContent .btn1 .shortLine {
   margin-top: 32rpx;
   width: 1rpx;
   height: 38rpx;
   background: #d7d7d7;
-}
-.ruleHide {
-  height: 60rpx !important;
-  width: 60rpx !important;
-  position: absolute;
-  top: -9rpx;
-  right: -9rpx;
 }

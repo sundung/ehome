@@ -103,9 +103,23 @@
 					"scene": null
 				},
 				{
-					"id": -1,
-					"name": "pages/components/allOrderDetail/orderWaitHomeDetail/index",
+					"id": 5,
+					"name": "待上门订单详情",
 					"pathName": "pages/components/allOrderDetail/orderWaitHomeDetail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 6,
+					"name": "取消订单模块",
+					"pathName": "pages/components/modal/cancelOrderModal/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "取消订单详情",
+					"pathName": "pages/components/cancelOrder/index",
 					"query": "",
 					"scene": null
 				}

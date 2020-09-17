@@ -26,7 +26,7 @@
 <!--  -->
 <!-- 点击取消订单弹出的弹出框--------------------- -->
 <!-- {{isRuleTrue?'isRuleShow':'isRuleHide'}} -->
-<view class="float ">
+<view class="float {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
   <view class='floatContent'>
     <view class="title">请仔细阅读下方文字后再确定是否取消订单！</view>
     <view class="lineShort"></view>
