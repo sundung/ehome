@@ -1,22 +1,16 @@
 .header {
-  background-color: #1993fc;
+  background-color: #0090ff;
   height: 200rpx;
-  padding: 0 20rpx;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.header .left {
-  display: flex;
-  flex-direction: column;
+  padding: 30rpx;
 }
 .header .left .top {
   font-size: 40rpx;
   color: #fff;
-  font-weight: 700;
-  margin-bottom: 20rpx;
+  font-weight: 500;
+  margin-top: 18rpx;
+  margin-bottom: 8rpx;
 }
 .header .left .bottom {
-  font-size: 24rpx;
-  color: #fff;
+  font-size: 28rpx;
+  color: #ededed;
 }

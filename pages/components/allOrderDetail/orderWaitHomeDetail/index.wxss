@@ -1,21 +1,40 @@
 page {
   background-color: #f2f2f2;
+  padding-bottom: 158rpx;
 }
+/* 底部固定定位按钮 */
 .btn {
+  height: 158rpx;
+  line-height: 158rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+  box-shadow: 0 0 20rpx 0 rgba(153, 153, 153, 0.2);
   display: flex;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
+  background-color: #fff;
+  /* 控制三个按钮的间距 */
 }
 .btn .item {
-  flex: 1;
-  border: 1rpx solid #1472fc;
-  height: 100rpx;
+  height: 98rpx;
+  width: 218rpx;
   text-align: center;
-  line-height: 100rpx;
-  color: #1472fc;
-  background-color: #fff;
+  line-height: 98rpx;
+  font-size: 32rpx;
+  color: #fff;
+  border-radius: 8rpx;
+}
+.btn view:nth-child(1) {
+  background: #cccccc;
+}
+.btn view:nth-child(2) {
+  margin: 0 18rpx;
+  background-color: #00c3ff;
+}
+.btn view:nth-child(3) {
+  background-color: #0090ff;
 }
 .isRuleShow {
   display: block;
@@ -33,33 +52,55 @@ page {
   left: 0;
 }
 .floatContent {
-  padding: 20rpx;
-  width: 80%;
-  height: 400rpx;
+  width: 536rpx;
+  height: 527rpx;
   background: #fff;
+  /* 控制弹出框在中间显示 */
   margin: 40% auto;
-  border-radius: 20rpx;
+  border-radius: 10rpx;
+  /* 控制弹出框的标题 */
+  /* 标题与正文之间的横线 */
+  /* 线段 */
 }
 .floatContent .title {
-  font-size: 40rpx;
-  font-weight: 700;
-  text-align: center;
+  font-size: 36rpx;
+  color: #111;
+  padding: 64rpx 58rpx 20rpx;
 }
-.floatContent .content .item {
-  text-align: center;
+.floatContent .lineShort {
+  margin-left: 58rpx;
+  width: 47rpx;
+  height: 3rpx;
+  background: #111111;
+}
+.floatContent .content {
+  font-size: 28rpx;
+  line-height: 40rpx;
+  color: #333;
+  padding: 32rpx 58rpx 44rpx;
 }
 .floatContent .line {
-  border: 1rpx solid #ccc;
-  margin-top: 20rpx;
+  border: 1rpx solid #d7d7d7;
 }
 .floatContent .btn1 {
   display: flex;
+  /* 按钮之间的横线 */
 }
 .floatContent .btn1 .button {
   width: 50%;
   text-align: center;
   line-height: 100rpx;
-  color: red;
+  color: #0090ff;
+}
+.floatContent .btn1 .confirm {
+  color: #999;
+  font-size: 32rpx;
+}
+.floatContent .btn1 .shortLine {
+  margin-top: 32rpx;
+  width: 1rpx;
+  height: 38rpx;
+  background: #d7d7d7;
 }
 .ruleHide {
   height: 60rpx !important;

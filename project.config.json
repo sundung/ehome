@@ -101,6 +101,13 @@
 					"pathName": "pages/components/allOrderDetail/orderWaitDetail/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/components/allOrderDetail/orderWaitHomeDetail/index",
+					"pathName": "pages/components/allOrderDetail/orderWaitHomeDetail/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}
