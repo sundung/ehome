@@ -1,10 +1,14 @@
-<!--pages/components/component/orderDetail/orderInfo/index.wxml-->
-<view class="main">
-  <view class="title">
-    <image class="image" src="/assets/img/order-1.png" />
-    <view class="word">e到家</view>
-  </view>
-  <view class="content">
+<!--pages/components/component/orderWait/index.wxml-->
+<view class='task-orders'>
+    <view class='top'>
+      <view class='left'>
+        <view class="image"></view>
+        <view>
+          e到家
+        </view>  
+      </view>
+    </view>
+    <view class="content">
       <view class="left">
         <view class='image'></view>   
       </view>
@@ -29,14 +33,13 @@
           </view>
         </view>
       </view>
-  </view>  
-  <view class="bottom">
+    </view> 
+    <view class="bottom">
       <view class="title">
-          问题描述
+        问题描述
       </view>
-      <view class="content">
-        空调不制冷,需要加氟.........
-      </view>
+      <view class='content'>
+        空调不制冷，需要加氟…
+      </view>  
     </view>
 </view>
-  
