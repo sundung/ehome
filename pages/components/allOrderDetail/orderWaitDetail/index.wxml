@@ -13,7 +13,6 @@
 
 <!-- 订单联系人信息 -->
 <orderForm></orderForm>
-
 <!-- 底部按钮区域 -->
 <view class="btn">
   <view class="item" bindtap="cancelOrderMask">取消订单时间</view>

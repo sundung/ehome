@@ -1,23 +1,40 @@
 page {
-  background-color: #f2f2f2;
+  background-color: #f8f8f8;
+  /* 解决底部按钮固定定位遮挡内容的问题 */
+  padding-bottom: 158rpx;
 }
 
 // 底部按钮区域
 .btn {
+  margin-top: 158rpx;
+  height: 158rpx;
+  background-color: #fff;
+  box-shadow: 0px 0px 20rpx 0px rgba(196, 196, 196, 0.3);
+  line-height: 158rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
   display: flex;
   position: fixed;
   bottom: 0;
   left: 0;
   width: 100%;
   .item {
-    flex: 1;
-    width: 50%;
-    height: 100rpx;
-    background-color: #fff;
+    /* 控制两个按钮的样式 */
+    height: 98rpx;
+    width: 336rpx;
+    font-size: 32rpx;
+    color: #fff;
+    background-color: #0090ff;
     text-align: center;
-    line-height: 100rpx;
+    line-height: 98rpx;
     border: 1px solid #1472fc;
-    color: #1472fc;
+    border-radius: 8px;
+  }
+  /* 控制两个按钮的间距 */
+  & view:nth-child(1) {
+    margin-right: 18rpx;
+    background: #ccc;
+    border: 0;
   }
 }
 
