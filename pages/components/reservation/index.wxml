@@ -174,12 +174,20 @@
 
 
 <!-- 点击立即预约按钮弹出已经提交订单的弹出框------------------------------ -->
-
-<view class="float {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
+<!--  -->
+<view class="float {{isRuleTrue?'isRuleShow':'isRuleHide'}} ">
   <view class='floatContent'>
     <view class="title">订单已提交</view>
-    <view>请耐心等待师傅接单上门服务</view>
-    <button bindtap="goToOrder">知道了</button>
+    <view class="lineShort"></view>
+
+    <view class="content">
+      请耐心等待师傅接单上门维修！
+    </view>
+    <view class="line1"></view> 
+    
+    <view class="btn">
+      <view class='button1 confirm' bindtap='goToOrder'>我知道了</view>
+    </view>
   </view>
 </view>
 

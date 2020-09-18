@@ -246,7 +246,7 @@ page {
   }
 }
 
-/* 弹出框的样式 */
+/* 立即预约按钮弹出框的样式 */
 
 .isRuleShow {
   display: block;
@@ -264,26 +264,52 @@ page {
   z-index: 2;
   top: 0;
   left: 0;
-}
-
-.floatContent {
-  padding: 20rpx 0;
-  width: 80%;
-  height: 300rpx;
-  background: #fff;
-  margin: 40% auto;
-  border-radius: 20rpx;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  position: relative;
-}
-
-.ruleHide {
-  height: 60rpx !important;
-  width: 60rpx !important;
-  position: absolute;
-  top: -9rpx;
-  right: -9rpx;
+  .floatContent {
+    width: 536rpx;
+    height: 527rpx;
+    background: #fff;
+    /* 控制弹出框在中间显示 */
+    margin: 40% auto;
+    border-radius: 10rpx;
+    /* 控制弹出框的标题 */
+    .title {
+      font-size: 36rpx;
+      color: #111;
+      padding: 68rpx 258rpx 30rpx 58rpx;
+    }
+    /* 标题与正文之间的横线 */
+    .lineShort {
+      margin-left: 58rpx;
+      width: 47rpx;
+      height: 3rpx;
+      background: #111111;
+    }
+    .content {
+      height: 122rpx;
+      width: 420rpx;
+      font-size: 28rpx;
+      line-height: 40rpx;
+      color: #333;
+      padding: 32rpx 58rpx 109rpx;
+    }
+    /* 线段 */
+    .line1 {
+      border: 1rpx solid #d7d7d7;
+    }
+    .btn {
+      height: 87rpx;
+      line-height: 87rpx;
+      display: flex;
+      justify-content: center;
+      font-size: 32rpx;
+      color: #999;
+      .button1 {
+        width: 50%;
+        text-align: center;
+      }
+      .confirm {
+        color: #0090ff;
+      }
+    }
+  }
 }
