@@ -10,8 +10,11 @@
 <!-- 收费说明 -->
 <chargesNotes></chargesNotes>
 
-<!-- 收费标准 -- 表格 -->
-<!-- <chargeStandard></chargeStandard> -->
+<!-- 收费标准 -->
+<view class="standard">
+  <view class="title">收费标准</view>
+  <view class="info">查看收费标准 > </view>
+</view>
 
 <!-- 订单联系人信息 -->
 <orderForm></orderForm>

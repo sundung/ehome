@@ -1,3 +1,19 @@
 page {
-  background-color: #f2f2f2;
+  background-color: #f8f8f8;
+}
+.standard {
+  height: 88rpx;
+  line-height: 88rpx;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30rpx;
+  background-color: #fff;
+  margin: 20rpx 0;
+}
+.standard .title {
+  font-size: 28rpx;
+}
+.standard .info {
+  font-size: 24rpx;
+  color: #999;
 }
