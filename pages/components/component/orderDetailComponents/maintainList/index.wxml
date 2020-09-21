@@ -1,95 +1,29 @@
-<!--pages/components/component/orderDetailComponents/maintainList/index.wxml-->
-
+<!--pages/components/component/orderDetailComponents/payMaintainList/index.wxml-->
 <view class="main">
-<!-- 维修清单 -->
-    <view class="list">
-      <view class="title">维修清单</view>
-      <view class="line"></view>
-      <view class="content">
-        <view class="title">维修类型</view>
-        <view class="content">中修 / ¥ 60元 </view>
-      </view>
-      <view class="line"></view>
-      <view class="info">
-        <view class="title">维修说明</view>
-        <view class="con">需要更换电源线</view>
-      </view>
-      <view class="line"></view>
-      <view class="materials">
-        <view class="title">使用材料</view>
-        <view class="content">
-          <view class="title">电源线</view>
-          <view class="content1">
-            <view class="content">120元 / 根  x 1</view>
-          </view>
-        </view>
-      </view>
-      <view class="line"></view>
-      <!-- // 查看全部按钮 -->
-      <button class="allButton" size="mini" plain style='width:30%'>
-        查看全部
-      </button>
-        
+  <view class="title main-item">
+    <view class="title_item">维修清单</view>
+  </view>
+  <view class="line"></view>
+  <view class="type main-item">
+    <view class="left">维修类型</view>
+    <view class="right">中修 / 60元</view>
+  </view>
+  <view class="line"></view>
+  <view class="info main-item">
+    <view class="title">维修说明</view>
+    <view class="content">需要更换电源</view>
+  </view>
+  <view class="line"></view>
+  <view class="materials main-item">
+    <view class="title">使用材料</view>
+    <view class="con">
+      <view class="left">电源线</view>
+      <view class="right"> 120元 / 跟 x 1</view>
     </view>
-<!-- // 收费标准 -->
-    <view class="charging-standards">
-      <view class="text">收费标准</view>
-      <scroll-view scroll-x='true' class="scroll-class">
-        <view class="table">
-          <view class="table-tr bgc">
-            <view class="table-th"></view>
-            <view class="table-th public">维修费收费标准</view>
-            <view class="table-th"></view>
-            <view class="table-th"></view>
-          </view>
-          <view class="table-tr bgc">
-            <view class="table-th tableTh">收费类型</view>
-            <view class="table-th ">维修项目</view>
-            <view class="table-th">挂机</view>
-            <view class="table-th">柜机</view>
-          </view>
-          <view class="table-tr public ">
-            <view class="table-td tableTh second">简修</view>
-            <view class="table-td public second">
-              1.撒旦撒旦颠三倒四莱卡门开了顶什么考了多少分考虑到数据库是每次考虑大司马
-              2.是我殴打金佛IE王府井路口十分满分快乐十分马拉卡
-            </view>
-            <view class="table-td">60元</view>
-            <view class="table-td">80元</view>
-          </view>
-        </view>
-      </scroll-view>
-    </view>
-    <!-- 材料收费标准 -->
-    <view class="charging-standards">
-      <view class="text">材料收费标准</view>
-      <scroll-view scroll-x='true' class="scroll-class">
-        <view class="table">
-          <view class="table-tr bgc">
-            <view class="table-th"></view>
-            <view class="table-th public">维修材料费收费标准</view>
-            <view class="table-th"></view>
-            <view class="table-th"></view>
-            <view class="table-th"></view>
-          </view>
-          <view class="table-tr bgc">
-            <view class="table-th tableTh">序号</view>
-             <view class="table-td tableTh ">材料名称</view>
-            <view class="table-td tableTh ">挂机</view>
-            <view class="table-td tableTh ">柜机</view>
-            <view class="table-td tableTh ">其他说明</view>
-          </view>
-          <view class="table-tr">
-            <view class="table-td tableTh ">1</view>
-            <view class="table-td tableTh ">电源线</view>
-            <view class="table-td tableTh ">60</view>
-            <view class="table-td tableTh ">80</view>
-            <view class="table-td tableTh "></view>
-          </view>
-        </view>
-      </scroll-view>
-    </view>
-    <!-- 确认维修按钮 -->
-    <button class="confirm" plain>确认维修</button>
+    <view class="line"></view>
+  </view>
 </view>
-  
+
+<view class="btn">
+  <button class='submit'>确认并维修</button>
+</view>

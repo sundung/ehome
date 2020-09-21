@@ -1,5 +1,7 @@
 {
   "component": true,
   "usingComponents": {},
-  "navigationBarTitleText": "维修清单"
+  "navigationBarTitleText": "维修清单",
+  "navigationBarBackgroundColor": "#0090FF",
+  "navigationBarTextStyle": "white"
 }
