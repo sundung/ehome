@@ -83,13 +83,6 @@
 				},
 				{
 					"id": -1,
-					"name": "pages/components/component/orderPay/index",
-					"pathName": "pages/components/component/orderPay/index",
-					"query": "",
-					"scene": null
-				},
-				{
-					"id": -1,
 					"name": "维修清单",
 					"pathName": "pages/components/component/orderDetailComponents/maintainList/index",
 					"query": "",
@@ -162,6 +155,20 @@
 					"id": -1,
 					"name": "超时取消单",
 					"pathName": "pages/components/allOrderDetail/orderOverTimeDetail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "已支付订单详情",
+					"pathName": "pages/components/allOrderDetail/orderPaidDetail/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "已支付订单详情-师傅维修中",
+					"pathName": "pages/components/allOrderDetail/orderPaidDetail/index",
 					"query": "",
 					"scene": null
 				}

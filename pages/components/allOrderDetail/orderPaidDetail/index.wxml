@@ -38,16 +38,15 @@
 
 <view class="float {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
   <view class='floatContent'>
-    <view class="title">已确认师傅维修完成!</view>
+    <view class="title">已确认师傅维修完成！</view>
+    <view class="lineShort"></view>
     <view class="content">
-        <view class="item" >如师傅未完成维修</view>
-        <view class='item'>
-          付款造成金钱损失平台概不负责~
-        </view>
+        如师傅未完成维修，付款造成金钱损失平台概不负责~
     </view>
     <view class="line"></view> 
     <view class="btn1">
-    <view class='button' bindtap='closeMask'>取消</view>
+      <view class='button confirm' bindtap='closeMask'>取消</view>
+      <view class="shortLine"></view>
       <view class='button' bindtap='goToOrder'>结束</view>
     </view>
   </view>
