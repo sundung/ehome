@@ -1,11 +1,12 @@
 page {
-  background-color: #f2f2f2;
+  background-color: #f8f8f8;
+  padding-bottom: 208rpx;
 }
 //结束服务按钮
 
 .finish {
-  margin: 20rpx 0 240rpx 0;
-  height: 80rpx;
+  margin: 30rpx 0;
+  font-size: 32rpx;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,14 +14,16 @@ page {
 
 // 底部提示信息
 .tips {
-  height: 80rpx;
-  background-color: #d1e9fe;
+  height: 60rpx;
+  width: 100%;
+  background: #fdf1f1;
   position: fixed;
   left: 0;
-  bottom: 110rpx;
+  bottom: 148rpx;
   color: red;
-  font-size: 24rpx;
-  padding: 0 20rpx;
+  font-size: 20rpx;
+  padding: 16rpx 30rpx;
+  box-sizing: border-box;
 }
 
 // 底部按钮区域开始
@@ -29,8 +32,11 @@ page {
   position: fixed;
   left: 0;
   bottom: 0;
-  height: 110rpx;
+  height: 148rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
   background-color: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(153, 153, 153, 0.2);
   width: 100vw;
   .price {
     width: 50%;
@@ -38,15 +44,21 @@ page {
     text-align: center;
     margin-left: 12rpx;
     line-height: 40rpx;
-    font-size: 34rpx;
+    font-size: 24rpx;
     .text {
       color: red;
     }
   }
   .pay {
-    width: 50%;
+    width: 336rpx;
+    height: 88rpx;
+    // line-height: 88rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32rpx;
+    color: #fff;
     border: 0;
-    background-color: #1993fc;
-    line-height: 80rpx;
+    background-color: #0090ff;
   }
 }

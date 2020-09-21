@@ -20,12 +20,12 @@
 
 <!-- 结束按钮 -->
 
-  <button bindtap='goToFinishedService' class='finish' plain style='border:0;background-color:#1993fc;font-size:25rpx; color:#fff'>结束服务</button>
+  <button bindtap='goToFinishedService' class='finish' plain style='width:690rpx ;height:98rpx;color:#fff;border: 0;background-color: #0090ff'>结束服务</button>
 
   
 
 <!-- 底部提示信息 -->
-<view class="tips">在线支付的订单是处理退款、赔偿等问题的唯一凭据，私下交易权益保障!</view>
+<view class="tips">在线支付的订单是处理退款、赔偿等问题的唯一凭据，私下交易权益保障！</view>
 
 <!-- 底部按钮区域 -->
 

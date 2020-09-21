@@ -143,6 +143,13 @@
 					"pathName": "pages/components/reservation/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "待支付订单详情",
+					"pathName": "pages/components/allOrderDetail/orderPayDetail/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}
