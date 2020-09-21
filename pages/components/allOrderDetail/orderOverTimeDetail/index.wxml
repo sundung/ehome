@@ -26,11 +26,15 @@
 
 <view class="float {{isRuleTrue?'isRuleShow':'isRuleHide'}}">
   <view class='floatContent'>
-    <view class="title">确定要删除订单吗？</view>
+    <view class="title">客户您好！</view>
+    <view class="lineShort"></view>
+    <view class="content">
+        确定要删除订单吗？
+    </view>
     <view class="line"></view> 
     <view class="btn1">
-      <view class='button' bindtap='closeMask' >取消</view>
-      <view class="border"></view>
+      <view class='button confirm' bindtap='closeMask'>取消</view>
+      <view class="shortLine"></view>
       <view class='button' bindtap='goToOrder'>确定</view>
     </view>
   </view>

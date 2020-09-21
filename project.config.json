@@ -157,6 +157,13 @@
 					"pathName": "pages/components/allOrderDetail/orderFinishedDetail/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "超时取消单",
+					"pathName": "pages/components/allOrderDetail/orderOverTimeDetail/index",
+					"query": "",
+					"scene": null
 				}
 			]
 		}
