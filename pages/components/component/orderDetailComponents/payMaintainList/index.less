@@ -1,44 +1,61 @@
 .main {
-  height: 490rpx;
+  height: 568rpx;
   background-color: #fff;
-  padding: 20rpx;
-  margin-bottom: 10rpx;
+  padding: 30rpx;
+  margin-bottom: 20rpx;
+  font-size: 24rpx;
   .main-item {
     display: flex;
     justify-content: space-between;
-    margin: 30rpx 0;
+    // margin: 30rpx 0;
   }
   .title {
-    margin: 0;
+    height: 88rpx;
+    line-height: 88rpx;
     .get {
       color: #1993fc;
     }
+  }
+  .type {
+    height: 88rpx;
+    line-height: 88rpx;
   }
   // 线段
   .line {
     border: 1rpx solid #ccc;
   }
   .info {
+    height: 150rpx;
+    // line-height: 70rpx;
+    padding: 30rpx 0;
+    box-sizing: border-box;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     .content {
-      font-size: 24rpx;
       color: #666;
     }
   }
   .materials {
+    height: 88rpx;
+    line-height: 88rpx;
     display: flex;
     flex-direction: column;
     .con {
+      height: 62rpx;
       display: flex;
       justify-content: space-between;
-      margin-top: 20rpx;
+      align-items: flex-start;
+      color: #666;
     }
   }
+  /* 合计价格 */
   .price {
+    height: 88rpx;
+    line-height: 88rpx;
     display: flex;
     justify-content: flex-end;
     color: red;
-    margin-top: 20rpx;
+    margin-top: 80rpx;
   }
 }
