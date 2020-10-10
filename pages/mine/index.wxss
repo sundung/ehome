@@ -2,15 +2,18 @@
 page {
   background-color: #f8f8f8;
 }
-.title {
+.title .button {
   display: flex;
   align-items: center;
   padding: 0 30rpx;
   height: 216rpx;
   background: linear-gradient(314deg, #00c3ff 0%, #0090ff 100%);
+  width: 100%;
+  font-size: 28rpx;
+  color: #fff;
   /* 控制用户头像 */
 }
-.title .avator {
+.title .button .avator {
   height: 93rpx;
   width: 90rpx;
   background-color: #fff;

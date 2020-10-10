@@ -42,7 +42,8 @@
     "pages/components/component/orderHeader/orderCancelServiceHeader/index",
     "pages/components/allOrderDetail/orderCancelServiceDetail/index",
     "pages/components/component/orderFinished/index",
-    "pages/components/allOrderDetail/orderFinishedDetail/index"
+    "pages/components/allOrderDetail/orderFinishedDetail/index",
+    "pages/login/index"
   ],
   "window": {
     "backgroundTextStyle": "light",

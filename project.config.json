@@ -178,6 +178,19 @@
 					"pathName": "pages/components/component/orderDetailComponents/maintainList/index",
 					"query": "",
 					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "登录",
+					"pathName": "pages/login/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的",
+					"pathName": "pages/mine/index",
+					"scene": null
 				}
 			]
 		}
