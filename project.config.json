@@ -4,7 +4,7 @@
 		"ignore": []
 	},
 	"setting": {
-		"urlCheck": true,
+		"urlCheck": false,
 		"es6": true,
 		"enhance": false,
 		"postcss": true,
@@ -32,7 +32,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.12.1",
-	"appid": "wx6f95745abfbcb6a0",
+	"appid": "wx576a2f2416862a45",
 	"projectname": "ehome",
 	"cloudfunctionTemplateRoot": "",
 	"watchOptions": {

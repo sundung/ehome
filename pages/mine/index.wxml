@@ -36,9 +36,7 @@
     <view class='gl'> </view>
   </view>
 </view>
-
+<!-- <button bindtap="getcode" plain>获取code</button> -->
 <!-- 退出登录按钮------------------------------ -->
-<button class="btn" wx:if="{{nickName !=='立即登录'}}" bindtap="loginOut">退出登录</button>
-<!-- <navigator class="btn" target="miniProgram" open-type="exit">
-    退出登录
-</navigator> -->
+<button class="btn" wx:if="{{nickName !=='立即登录'}}" >退出登录</button>
+
