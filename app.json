@@ -4,7 +4,6 @@
     "pages/order/index",
     "pages/mine/index",
     "pages/components/jiadianweixiu/index",
-    "pages/components/jiadianqingxi/index",
     "pages/components/reservation/index",
     "pages/components/newAddress/index",
     "pages/components/selectAddress/index",

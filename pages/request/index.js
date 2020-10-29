@@ -2,7 +2,7 @@
 // 使用 promise 封装 request请求
 export const  request = (params)=>{
   // 定义公共的 url
-  const baseUrl = 'http://v2xtest.gz2vip.idcfengye.com/api'
+  const baseUrl = 'https://efuser.guorongrong.top/api/'
   return new Promise((resolve,reject)=>{
     // 发送网络请求
     wx.request({
